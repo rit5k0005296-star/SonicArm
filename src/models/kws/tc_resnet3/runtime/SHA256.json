@@ -1,0 +1,7 @@
+{
+  "model_weights.npz": "be25cea1359e83c6033ff0881c8b9d2f96fcd54609500e6fae91a71c036a770a",
+  "preprocess_config.json": "43983e015a3b98910b04a1e792ed13e6f8c45ff15c7c397c5aedc116526fd365",
+  "label_map.json": "130fa3079410a8f90957964f5bbbbd77186ff7f9e7d891356b66b5e5c46c6bff",
+  "decision_config.json": "aa38cfe501d735a79c1410d5c52d2374fb4faa0f2bfe9e91989c95362a3a1ac2",
+  "numpy_consistency.json": "e899c8d45002ea1ed722ec39d234b04b46e0e08fad1d33f27b31993ec3e4b9cb"
+}

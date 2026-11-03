@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "name": "conversion_report.json",
+      "bytes": 633,
+      "sha256": "d671be8307402ce7daf3966160961cf7987fa06577c75a7ca1b9754e1fafba01"
+    },
+    {
+      "name": "decision_config.json",
+      "bytes": 186,
+      "sha256": "a25e674a72920da28a478864a669d23cbeadba97785a16dbea9d1b76e61aa269"
+    },
+    {
+      "name": "label_map.json",
+      "bytes": 1101,
+      "sha256": "130fa3079410a8f90957964f5bbbbd77186ff7f9e7d891356b66b5e5c46c6bff"
+    },
+    {
+      "name": "preprocess_config.json",
+      "bytes": 669,
+      "sha256": "9d7edf2a9f3597abde3a9dc9638faab90c79d374598f13c192ab9634bb881b5a"
+    },
+    {
+      "name": "README.md",
+      "bytes": 724,
+      "sha256": "7d45bf98a1bc4739d9b3c8f93e75bea06f5b611493e49a65c8baaecaef831ea9"
+    },
+    {
+      "name": "selftest_vectors.npz",
+      "bytes": 575678,
+      "sha256": "2caf9f8e8646b054a5979e3df74a31563b03a3e8bda1e02254c51d8c0dd26bb1"
+    },
+    {
+      "name": "tc_resnet_frontend_numpy.py",
+      "bytes": 3704,
+      "sha256": "d58aa3daccbe6d7c16cf588081d8330970318acc56a5dd056b7d35045d7c8fa4"
+    },
+    {
+      "name": "tc_resnet_infer_wav.py",
+      "bytes": 1155,
+      "sha256": "63439cc8324852ef34a81150055ecc80cccec9ad7f238b01283ba9b3241d75fa"
+    },
+    {
+      "name": "tc_resnet_model_fp32.npz",
+      "bytes": 107468,
+      "sha256": "59237907e32f52cd32eb2c8f31c505e12f64e2daa1a94bcedded324f74ea9a04"
+    },
+    {
+      "name": "tc_resnet_runtime_numpy.py",
+      "bytes": 2640,
+      "sha256": "39dd172a1ecfa4bb68a24e89f6b042810a7f45cbdd61ac94a69036dd52181ebd"
+    },
+    {
+      "name": "tc_resnet_selftest.py",
+      "bytes": 1839,
+      "sha256": "54a29cd2b75f28403cf018f862ddcf16e62a061255a74798473e2c1682ba33f6"
+    },
+    {
+      "name": "v8_kws_adapter.py",
+      "bytes": 1449,
+      "sha256": "6b65210abebd01be8e7afa691400d9df8438ef1d67fa1cac243a528fd2f54e00"
+    }
+  ],
+  "execution_enabled": false,
+  "target": "PYNQ-Z2 PS NumPy-only TC-ResNet2 recognition test"
+}

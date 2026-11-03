@@ -1,0 +1,10 @@
+{
+  "pass_": true,
+  "actual_hardware": false,
+  "records": 6,
+  "summary_rows": 472,
+  "csv_exists": true,
+  "previous_vector_mismatch_rejected": true,
+  "scope": "Actual native CPU/subgraph runs and software integer callbacks; simulated chunk counts",
+  "package_sha256": "044e77a62348fef00f9f6b8700105552a753c4e89291ab389efb397cb076cfd5"
+}

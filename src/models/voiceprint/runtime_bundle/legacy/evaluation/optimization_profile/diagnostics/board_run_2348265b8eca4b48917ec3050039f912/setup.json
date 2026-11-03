@@ -1,0 +1,79 @@
+{
+  "identity": {
+    "test_manifest_sha256": "482199c064a76592d55dc376510820efed4cf75adb39f7497d5a71fbf7e5391d",
+    "comparison": {
+      "package_sha256": "3801e6e184e8843cec35c5cb7241653923279b85f2f1b817c45ce9c46d6e26fd",
+      "compatible_models_sha256": "646c2559cef02ede84501b326a757e24a1eecfe0b3d708b5ca5c962960ccc98e",
+      "v3_bit_sha256": "0bf2d499ee6a1c0e9de3f44865da9c1ba77702f8658c98e528ba3a1dec911dc0",
+      "v4_bit_sha256": "ef30d031c6ed427c7011189f3da2a7f4cf336f56db0415b1682a8365c9c478dc",
+      "backend": {
+        "backend": "ONNX Runtime native C API via ctypes",
+        "version": "1.17.1",
+        "api_version": 17,
+        "library": "/home/xilinx/jupyter_notebooks/SonicArm/full_model_test/_native_ort/libonnxruntime.so.1.17.1",
+        "library_sha256": "022f6a0ef2520ffcc90737f53f06ac9d4977c27d876765907a5ab54950cb5b45",
+        "provider": "CPUExecutionProvider",
+        "python_ORT_wheel_required": false,
+        "native_package": {
+          "version": "1.17.1",
+          "upstream_git_commit": "8f5c79cb63f09ef1302e85081093a3fe4da1bc7d",
+          "source_kind": "community precompiled shared library; not a Microsoft Python wheel",
+          "source_url": "https://github.com/csukuangfj/onnxruntime-libs/releases/download/v1.17.1/onnxruntime-linux-arm-1.17.1.zip",
+          "archive_sha256": "08eed09b35a015fbf3a068baf6388a3b447d24dec62b75cd591a01179d0bfe7b",
+          "official_header_url": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.17.1/include/onnxruntime/core/session/onnxruntime_c_api.h",
+          "architecture": {
+            "ELF": "ELF32 little endian ARM",
+            "ABI": "EABI5 hard-float",
+            "CPU": "ARMv7-A",
+            "floating_point": "VFPv3",
+            "SIMD": "NEONv1",
+            "max_required_glibc": "GLIBC_2.29"
+          },
+          "files": {
+            "api_indices.json": "ca7848bac3771c08f6ce138ffaf9cc8592e791f9f63319a8ab17bd8f48828a5e",
+            "GIT_COMMIT_ID": "a79aef06d28ff838483256e9503339e7e67f1c8839f159997495a6ff1f53bad7",
+            "libonnxruntime.so.1.17.1": "022f6a0ef2520ffcc90737f53f06ac9d4977c27d876765907a5ab54950cb5b45",
+            "LICENSE": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+            "onnxruntime_c_api.h": "7e47eb78563da119f740dc0ddfda96800e779e0bcbd169a9a49e9c10746c4cd5",
+            "ThirdPartyNotices.txt": "4f9e2bb7b4b407d710a68168615bbc6f70e3d7cc8ba9410fb6c65d92fa71accf",
+            "VERSION_NUMBER": "b1529c94047dde76b6f72d4c16618daae5a7b89be3b36604513c1ec4c5a24b8d"
+          },
+          "board_execution_by_agent": false,
+          "board_compatibility": "pending actual user execution"
+        }
+      }
+    }
+  },
+  "previous_run": "/home/xilinx/jupyter_notebooks/SonicArm/full_model_test/evaluation/benchmark_compare/results/run_c44659411d5d4285b8888dc237a52a67",
+  "prior_integration_sha256": "e5d1a0c160d02cb82c801d4c6022f5a8594170478b7b1601eb6a60bd47394ff4",
+  "prior_performance_sha256": "01d24da40fde77469b2588fe6c91a551f84d5e8dec0b7ee3fb36183445ce259a",
+  "feature_sha256": {
+    "speaker1_a_cn_16k.wav": "81776fbebbd2c556e62ab062440712e7fe88ae4078b98b78a5c148e79c3220f5",
+    "speaker1_b_cn_16k.wav": "4bf4e41fd636c31336dbe7901966821e9fcd7482c2e98ceb2e74001552602101",
+    "speaker2_a_cn_16k.wav": "22a778da752581b85c0497ba86edb0a28a76ab8ed8afae1c0ba38e9d78ee9854"
+  },
+  "prior_vector_sha256": {
+    "cpu_int8.speaker1_a_cn_16k.wav.npy": "1d68ae6daab7afe60741046614559492d36a663348ef5447edd33b2dbb149f4b",
+    "cpu_int8.speaker1_b_cn_16k.wav.npy": "336b6ba6f2393aa950379ab9ae9747a16c4f436690069da073bf0143e9bf92e4",
+    "cpu_int8.speaker2_a_cn_16k.wav.npy": "00c523d4d7d81077f4f766ef9f3c4daa970b50ddfb6f723a14ae40b0f04bec4f",
+    "v3.speaker1_a_cn_16k.wav.npy": "1aba9ed05ad5c3e21dfc902dfe4bd2d5118fdbede69add9ebde6dbf78c3dadd8",
+    "v3.speaker1_b_cn_16k.wav.npy": "4bec9f11a1ff32e2713478fbb77dacac9763c6457cd19bc1da04230b28cb55e3",
+    "v3.speaker2_a_cn_16k.wav.npy": "d4446cae53e75412a667a3e9eb6d2fe0d167a1e4b155511e858a0802b6b8ef27",
+    "v4.speaker1_a_cn_16k.wav.npy": "d37c6cff92f0db302a6b07c8684a5ddfef646afc6315a2333b4caae2f698d91f",
+    "v4.speaker1_b_cn_16k.wav.npy": "96bb163653996231facaea53c594bbd7f2fda118753e468efdb11af07ef4e5ad",
+    "v4.speaker2_a_cn_16k.wav.npy": "3012b8b200ca1ef6ed604e283b0a51b97934aef0f842b7ce9bd794b006dea4dc"
+  },
+  "modes": [
+    "cpu_int8",
+    "v3_off",
+    "v3_on",
+    "v4_off",
+    "v4_on"
+  ],
+  "threads": 1,
+  "scope": "frozen canonical Fbank -> full model -> L2 -> cosine",
+  "optimization": "OFF versus ORT_ENABLE_ALL for hybrid CPU sessions only; same bitstreams",
+  "authentication_threshold": null,
+  "accuracy_matched_speedup_claim": false,
+  "note": "Strict optimization drift and original QDQ drift are reported independently. Engineering timing requires matching current hardware/software integer outputs; it does not imply either numerical drift gate passed."
+}

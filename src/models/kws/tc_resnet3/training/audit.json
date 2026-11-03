@@ -1,0 +1,26 @@
+{
+  "archive": "C:\\Users\\caojing2024\\Desktop\\大连理工静园录音.zip",
+  "archive_sha256": "b6aa1d22c3404b48ef23b6656f5cc57a3b12aefde4ae907f7628b1b12a064e4a",
+  "raw_audio_count": 40,
+  "unique_new_train": 40,
+  "all_new_split": "train",
+  "counts": {
+    "抓取第一行第一列": 20,
+    "抓取第二行第一列": 20
+  },
+  "new_validation": 0,
+  "new_test": 0,
+  "durations_range": [
+    2.6453125,
+    3.4986875
+  ],
+  "active_seconds_range": [
+    1.62,
+    2.59
+  ],
+  "duplicate_files": 0,
+  "prior_overlap_count": 0,
+  "excluded_prior_holdouts": [],
+  "window_seconds": 5.2,
+  "recording_device": "Reported by user as board recordings; archive stores M4A, decoded via FFmpeg to 16k mono. Hardware provenance not independently verified."
+}

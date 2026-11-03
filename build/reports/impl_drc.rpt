@@ -1,0 +1,762 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Mon Nov  2 23:38:57 2026
+| Host         : LAPTOP-7NVKI3E9 running 64-bit major release  (build 9200)
+| Command      : report_drc -file S:/build/reports/impl_drc.rpt
+| Design       : system_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: impl_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 141
++-----------+----------+----------------------------+--------+
+| Rule      | Severity | Description                | Checks |
++-----------+----------+----------------------------+--------+
+| DPIP-1    | Warning  | Input pipelining           | 89     |
+| DPOP-1    | Warning  | PREG Output pipelining     | 8      |
+| DPOP-2    | Warning  | MREG Output pipelining     | 31     |
+| PDCN-1569 | Warning  | LUT equation term check    | 6      |
+| REQP-1839 | Warning  | RAMB36 async control check | 2      |
+| REQP-1840 | Warning  | RAMB18 async control check | 4      |
+| RTSTAT-10 | Warning  | No routable loads          | 1      |
++-----------+----------+----------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-1#1 Warning
+Input pipelining  
+DSP system_i/color_convert_0/inst/mac_muladd_10s_8ns_18s_19_4_1_U4/color_convert_mac_muladd_10s_8ns_18s_19_4_1_DSP48_0_U/p_reg_reg__0 input system_i/color_convert_0/inst/mac_muladd_10s_8ns_18s_19_4_1_U4/color_convert_mac_muladd_10s_8ns_18s_19_4_1_DSP48_0_U/p_reg_reg__0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP system_i/color_convert_0/inst/mac_muladd_10s_8ns_18s_19_4_1_U5/color_convert_mac_muladd_10s_8ns_18s_19_4_1_DSP48_0_U/p_reg_reg__0 input system_i/color_convert_0/inst/mac_muladd_10s_8ns_18s_19_4_1_U5/color_convert_mac_muladd_10s_8ns_18s_19_4_1_DSP48_0_U/p_reg_reg__0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP system_i/color_convert_0/inst/mac_muladd_10s_8ns_18s_19_4_1_U6/color_convert_mac_muladd_10s_8ns_18s_19_4_1_DSP48_0_U/p_reg_reg__0 input system_i/color_convert_0/inst/mac_muladd_10s_8ns_18s_19_4_1_U6/color_convert_mac_muladd_10s_8ns_18s_19_4_1_DSP48_0_U/p_reg_reg__0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP system_i/color_convert_0/inst/mac_muladd_10s_8ns_19s_20_4_1_U7/color_convert_mac_muladd_10s_8ns_19s_20_4_1_DSP48_0_U/p_reg_reg input system_i/color_convert_0/inst/mac_muladd_10s_8ns_19s_20_4_1_U7/color_convert_mac_muladd_10s_8ns_19s_20_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP system_i/color_convert_0/inst/mac_muladd_10s_8ns_19s_20_4_1_U8/color_convert_mac_muladd_10s_8ns_19s_20_4_1_DSP48_0_U/p_reg_reg input system_i/color_convert_0/inst/mac_muladd_10s_8ns_19s_20_4_1_U8/color_convert_mac_muladd_10s_8ns_19s_20_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP system_i/color_convert_0/inst/mac_muladd_10s_8ns_19s_20_4_1_U9/color_convert_mac_muladd_10s_8ns_19s_20_4_1_DSP48_0_U/p_reg_reg input system_i/color_convert_0/inst/mac_muladd_10s_8ns_19s_20_4_1_U9/color_convert_mac_muladd_10s_8ns_19s_20_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/bound_reg_5461_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/bound_reg_5461_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U164/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U164/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U165/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U165/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U166/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U166/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U166/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U166/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U167/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U167/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#13 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U168/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U168/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#14 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U169/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U169/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#15 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U170/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U170/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#16 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U171/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U171/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#17 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U172/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U172/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#18 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U173/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U173/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#19 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U173/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U173/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#20 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U174/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U174/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#21 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U175/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U175/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#22 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U176/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U176/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#23 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U177/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U177/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#24 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U178/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U178/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#25 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U179/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U179/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#26 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U180/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U180/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#27 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U181/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U181/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#28 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U182/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U182/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#29 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U183/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U183/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#30 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U184/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U184/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#31 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U185/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U185/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#32 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U186/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U186/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#33 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U187/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U187/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#34 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U188/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U188/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#35 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U189/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U189/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#36 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U190/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U190/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#37 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U191/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U191/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#38 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U192/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U192/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#39 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U193/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U193/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#40 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U194/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U194/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#41 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U195/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U195/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#42 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U196/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U196/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#43 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U197/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U197/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#44 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U198/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U198/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#45 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U199/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U199/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#46 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U200/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U200/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#47 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U201/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U201/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#48 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U202/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U202/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#49 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U203/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U203/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#50 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U204/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U204/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#51 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U205/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U205/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#52 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U206/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U206/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#53 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U206/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U206/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#54 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U207/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U207/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#55 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U208/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U208/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#56 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U209/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U209/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#57 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U210/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U210/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#58 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U211/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U211/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#59 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U212/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U212/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#60 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U213/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U213/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#61 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U214/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U214/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#62 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U214/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U214/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#63 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U215/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U215/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#64 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U216/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U216/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#65 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U217/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U217/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#66 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U218/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U218/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#67 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U219/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U219/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#68 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U220/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U220/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#69 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U221/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U221/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#70 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U222/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U222/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#71 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U222/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U222/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#72 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U223/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U223/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#73 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U224/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U224/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#74 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U225/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U225/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#75 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U226/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U226/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#76 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U227/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_shared_mac_fu_1419/mac_muladd_9s_8s_32s_32_4_1_U227/unified_v7_mac_muladd_9s_8s_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#77 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_ln96_1_reg_5492_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_ln96_1_reg_5492_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#78 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_ln96_reg_5486_reg input system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_ln96_reg_5486_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#79 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/grp_load_input_Pipeline_VITIS_LOOP_51_4_VITIS_LOOP_52_5_VITIS_LOOP_53_6_fu_289/mac_muladd_8ns_7ns_32s_32_4_1_U37/unified_v7_mac_muladd_8ns_7ns_32s_32_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/grp_load_input_Pipeline_VITIS_LOOP_51_4_VITIS_LOOP_52_5_VITIS_LOOP_53_6_fu_289/mac_muladd_8ns_7ns_32s_32_4_1_U37/unified_v7_mac_muladd_8ns_7ns_32s_32_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#80 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_ln50_1_reg_1021_reg input system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_ln50_1_reg_1021_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#81 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_ln50_reg_1015_reg input system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_ln50_reg_1015_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#82 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/am_addmul_9s_8ns_6ns_9_4_1_U934/unified_v7_am_addmul_9s_8ns_6ns_9_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/store_U0/am_addmul_9s_8ns_6ns_9_4_1_U934/unified_v7_am_addmul_9s_8ns_6ns_9_4_1_DSP48_0_U/p_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#83 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/ama_addmuladd_10s_8ns_6ns_8ns_10_4_1_U883/unified_v7_ama_addmuladd_10s_8ns_6ns_8ns_10_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/ama_addmuladd_10s_8ns_6ns_8ns_10_4_1_U883/unified_v7_ama_addmuladd_10s_8ns_6ns_8ns_10_4_1_DSP48_0_U/p_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#84 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/ama_addmuladd_9s_8ns_6ns_8ns_9_4_1_U882/unified_v7_ama_addmuladd_9s_8ns_6ns_8ns_9_4_1_DSP48_0_U/p_reg_reg input system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/ama_addmuladd_9s_8ns_6ns_8ns_9_4_1_U882/unified_v7_ama_addmuladd_9s_8ns_6ns_8ns_9_4_1_DSP48_0_U/p_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#85 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_32s_12ns_32_2_1_U926/buff0_reg input system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_32s_12ns_32_2_1_U926/buff0_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#86 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_32s_12ns_32_2_1_U926/tmp_product input system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_32s_12ns_32_2_1_U926/tmp_product/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#87 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_ln238_reg_2536_reg input system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_ln238_reg_2536_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#88 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/shl_ln_reg_2312_reg input system_i/unified_0/inst/grp_process_r_fu_601/store_U0/shl_ln_reg_2312_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#89 Warning
+Input pipelining  
+DSP system_i/unified_0/inst/mul_14s_14s_14_1_1_U994/tmp_product input system_i/unified_0/inst/mul_14s_14s_14_1_1_U994/tmp_product/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_VITIS_LOOP_144_17_fu_1720/mul_16ns_32s_32_2_1_U527/tmp_product output system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_VITIS_LOOP_144_17_fu_1720/mul_16ns_32s_32_2_1_U527/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_8ns_32s_32_2_1_U831/tmp_product output system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_8ns_32s_32_2_1_U831/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#3 Warning
+PREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/grp_load_input_Pipeline_VITIS_LOOP_51_4_VITIS_LOOP_52_5_VITIS_LOOP_53_6_fu_289/mul_32s_12ns_32_2_1_U36/tmp_product output system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/grp_load_input_Pipeline_VITIS_LOOP_51_4_VITIS_LOOP_52_5_VITIS_LOOP_53_6_fu_289/mul_32s_12ns_32_2_1_U36/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#4 Warning
+PREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_8ns_32s_32_2_1_U51/tmp_product output system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_8ns_32s_32_2_1_U51/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#5 Warning
+PREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/mul_32ns_32s_64_2_1_U878/tmp_product output system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/mul_32ns_32s_64_2_1_U878/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#6 Warning
+PREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/mul_32ns_32s_64_2_1_U878/tmp_product__0 output system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/mul_32ns_32s_64_2_1_U878/tmp_product__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#7 Warning
+PREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_32s_12ns_32_2_1_U926/tmp_product output system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_32s_12ns_32_2_1_U926/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#8 Warning
+PREG Output pipelining  
+DSP system_i/unified_0/inst/mul_14s_14s_14_1_1_U994/tmp_product output system_i/unified_0/inst/mul_14s_14s_14_1_1_U994/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP system_i/color_convert_0/inst/mul_ln32_1_reg_1036_reg multiplier stage system_i/color_convert_0/inst/mul_ln32_1_reg_1036_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP system_i/color_convert_0/inst/mul_ln33_1_reg_1053_reg multiplier stage system_i/color_convert_0/inst/mul_ln33_1_reg_1053_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP system_i/color_convert_0/inst/mul_ln34_1_reg_1063_reg multiplier stage system_i/color_convert_0/inst/mul_ln34_1_reg_1063_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#4 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/bound_reg_5461_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/bound_reg_5461_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#5 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_VITIS_LOOP_144_17_fu_1720/mul_16ns_32s_32_2_1_U527/buff0_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_VITIS_LOOP_144_17_fu_1720/mul_16ns_32s_32_2_1_U527/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#6 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_VITIS_LOOP_144_17_fu_1720/mul_16ns_32s_32_2_1_U527/tmp_product multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_VITIS_LOOP_144_17_fu_1720/mul_16ns_32s_32_2_1_U527/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#7 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_VITIS_LOOP_144_17_fu_1720/mul_32s_12ns_32_2_1_U528/buff0_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/grp_compute_Pipeline_VITIS_LOOP_144_17_fu_1720/mul_32s_12ns_32_2_1_U528/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#8 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_8ns_32s_32_2_1_U831/buff0_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_8ns_32s_32_2_1_U831/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#9 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_8ns_32s_32_2_1_U831/tmp_product multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_8ns_32s_32_2_1_U831/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#10 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_ln135_reg_5524_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_ln135_reg_5524_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#11 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_ln96_1_reg_5492_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_ln96_1_reg_5492_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#12 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_ln96_reg_5486_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/compute_U0/mul_ln96_reg_5486_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#13 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/grp_load_input_Pipeline_VITIS_LOOP_51_4_VITIS_LOOP_52_5_VITIS_LOOP_53_6_fu_289/mul_32s_12ns_32_2_1_U36/buff0_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/grp_load_input_Pipeline_VITIS_LOOP_51_4_VITIS_LOOP_52_5_VITIS_LOOP_53_6_fu_289/mul_32s_12ns_32_2_1_U36/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#14 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/grp_load_input_Pipeline_VITIS_LOOP_51_4_VITIS_LOOP_52_5_VITIS_LOOP_53_6_fu_289/mul_32s_12ns_32_2_1_U36/tmp_product multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/grp_load_input_Pipeline_VITIS_LOOP_51_4_VITIS_LOOP_52_5_VITIS_LOOP_53_6_fu_289/mul_32s_12ns_32_2_1_U36/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#15 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_8ns_32s_32_2_1_U51/buff0_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_8ns_32s_32_2_1_U51/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#16 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_8ns_32s_32_2_1_U51/tmp_product multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_8ns_32s_32_2_1_U51/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#17 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_ln50_1_reg_1021_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_ln50_1_reg_1021_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#18 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_ln50_reg_1015_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/load_input_U0/mul_ln50_reg_1015_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#19 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/ama_addmuladd_10s_8ns_6ns_8ns_10_4_1_U883/unified_v7_ama_addmuladd_10s_8ns_6ns_8ns_10_4_1_DSP48_0_U/ad_reg_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/ama_addmuladd_10s_8ns_6ns_8ns_10_4_1_U883/unified_v7_ama_addmuladd_10s_8ns_6ns_8ns_10_4_1_DSP48_0_U/ad_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#20 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/ama_addmuladd_9s_8ns_6ns_8ns_9_4_1_U882/unified_v7_ama_addmuladd_9s_8ns_6ns_8ns_9_4_1_DSP48_0_U/ad_reg_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/ama_addmuladd_9s_8ns_6ns_8ns_9_4_1_U882/unified_v7_ama_addmuladd_9s_8ns_6ns_8ns_9_4_1_DSP48_0_U/ad_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#21 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/mul_32ns_32s_64_2_1_U878/buff0_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/mul_32ns_32s_64_2_1_U878/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#22 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/mul_32ns_32s_64_2_1_U878/buff0_reg__0 multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/mul_32ns_32s_64_2_1_U878/buff0_reg__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#23 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/mul_32ns_32s_64_2_1_U878/tmp_product multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/mul_32ns_32s_64_2_1_U878/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#24 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/mul_32ns_32s_64_2_1_U878/tmp_product__0 multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/store_U0/grp_store_Pipeline_requantize_tile_fu_584/mul_32ns_32s_64_2_1_U878/tmp_product__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#25 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_32s_12ns_32_2_1_U926/buff0_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_32s_12ns_32_2_1_U926/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#26 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_32s_12ns_32_2_1_U926/tmp_product multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_32s_12ns_32_2_1_U926/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#27 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_ln177_1_reg_2297_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_ln177_1_reg_2297_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#28 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_ln238_reg_2536_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/store_U0/mul_ln238_reg_2536_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#29 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/grp_process_r_fu_601/store_U0/shl_ln_reg_2312_reg multiplier stage system_i/unified_0/inst/grp_process_r_fu_601/store_U0/shl_ln_reg_2312_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#30 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/mul_14s_14s_14_1_1_U994/tmp_product multiplier stage system_i/unified_0/inst/mul_14s_14s_14_1_1_U994/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#31 Warning
+MREG Output pipelining  
+DSP system_i/unified_0/inst/mul_ln325_reg_1929_reg multiplier stage system_i/unified_0/inst/mul_ln325_reg_1929_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+PDCN-1569#1 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A3)+((~A3)*(~A2)*A6)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#2 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell system_i/video_hp3/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin system_i/video_hp3/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A2)+((~A2)*(~A5)*A1)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#3 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell system_i/mem_hp0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin system_i/mem_hp0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A4)+((~A4)*(~A6)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#4 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell system_i/mem_hp1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin system_i/mem_hp1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A6)+((~A6)*(~A1)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#5 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A6)+((~A6)*(~A2)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#6 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A2)+((~A2)*(~A6)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+REQP-1839#1 Warning
+RAMB36 async control check  
+The RAMB36E1 system_i/unified_0/inst/gmem_output_m_axi_U/store_unit_0/buff_wdata/U_fifo_mem/mem_reg has an input control pin system_i/unified_0/inst/gmem_output_m_axi_U/store_unit_0/buff_wdata/U_fifo_mem/mem_reg/ENARDEN (net: system_i/unified_0/inst/gmem_output_m_axi_U/store_unit_0/buff_wdata/U_fifo_mem/mem_reg_0) which is driven by a register (system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#2 Warning
+RAMB36 async control check  
+The RAMB36E1 system_i/unified_0/inst/gmem_output_m_axi_U/store_unit_0/buff_wdata/U_fifo_mem/mem_reg has an input control pin system_i/unified_0/inst/gmem_output_m_axi_U/store_unit_0/buff_wdata/U_fifo_mem/mem_reg/RSTREGARSTREG (net: system_i/unified_0/inst/gmem_output_m_axi_U/store_unit_0/buff_wdata/U_fifo_mem/mem_reg_2) which is driven by a register (system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#1 Warning
+RAMB18 async control check  
+The RAMB18E1 system_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin system_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/WEBWE[0] (net: system_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/wea[0]) which is driven by a register (system_i/video_hp3/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#2 Warning
+RAMB18 async control check  
+The RAMB18E1 system_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin system_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/WEBWE[1] (net: system_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/wea[0]) which is driven by a register (system_i/video_hp3/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#3 Warning
+RAMB18 async control check  
+The RAMB18E1 system_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin system_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/WEBWE[2] (net: system_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/wea[0]) which is driven by a register (system_i/video_hp3/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#4 Warning
+RAMB18 async control check  
+The RAMB18E1 system_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin system_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/WEBWE[3] (net: system_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/wea[0]) which is driven by a register (system_i/video_hp3/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+90 net(s) have no routable loads. The problem bus(es) and/or net(s) are system_i/mem_hp0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i,
+system_i/mem_hp0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0],
+system_i/mem_hp1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i,
+system_i/mem_hp1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0],
+system_i/mem_hp1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0],
+system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i,
+system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0],
+system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i,
+system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0],
+system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i,
+system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0],
+system_i/mem_hp2/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0],
+system_i/video_hp3/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i,
+system_i/video_hp3/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0],
+system_i/video_hp3/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0]
+ (the first 15 of 55 listed).
+Related violations: <none>
+
+

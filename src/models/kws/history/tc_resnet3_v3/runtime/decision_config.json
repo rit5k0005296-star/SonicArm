@@ -1,0 +1,5 @@
+{
+  "execution_enabled": false,
+  "threshold": null,
+  "reason": "No board noncommand validation; classification only"
+}

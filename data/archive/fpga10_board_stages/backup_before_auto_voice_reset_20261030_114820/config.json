@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "target": {
+    "board": "PYNQ-Z2",
+    "device": "xc7z020clg400-1",
+    "pl_clock_mhz": 100.0
+  },
+  "paths": {
+    "overlay_dir": "/home/xilinx/jupyter_notebooks/SonicArm/test_1/fpga_10",
+    "v8_dir": "/home/xilinx/jupyter_notebooks/SonicArm/test_1/fpga_v8",
+    "bit": "fpga10_audio_hdmi.bit",
+    "hwh": "fpga10_audio_hdmi.hwh",
+    "voiceprint_runtime": "v8_runtime.py",
+    "voiceprint_profile": "data/enrollment_profile_v8_3utt.npy",
+    "frontend_constants": "/home/xilinx/jupyter_notebooks/SonicArm/test_1/ui_audio_voiceprint/assets/frontend_constants.npz",
+    "kws_dir": "tc_resnet3_ps",
+    "results_dir": "results"
+  },
+  "expected_sha256": {
+    "bit": "82ff1d058923f019236a10a13650cd1c4c6a1915ae747c2ebb121e9cdc67054d",
+    "hwh": "af4d2dfbae3e69125c608378fbe07323fe5f43551ee74b3c3ed8ba95e95f6681"
+  },
+  "audio": {
+    "quiet_seconds": 2.0,
+    "speech_seconds": 3.0,
+    "quiet_reference_max_age_seconds": 300.0,
+    "maximum_capture_attempts": 3,
+    "minimum_speech_over_quiet_db": 6.0,
+    "minimum_speech_rms_dbfs": -55.0,
+    "maximum_clip_percent": 2.0
+  },
+  "decision": {
+    "identity_threshold": 0.67,
+    "identity_threshold_calibrated": false,
+    "kws_threshold": 0.8,
+    "kws_command_thresholds": {
+      "松开": 0.7,
+      "复位": 0.7
+    },
+    "kws_threshold_calibrated": false,
+    "kws_execution_enabled": true,
+    "dry_run": false,
+    "reject_labels": [
+      "unknown",
+      "silence"
+    ]
+  },
+  "arm": {
+    "transport": "USB CH340 115200 8N1",
+    "execution_enabled": true,
+    "auto_reset_on_startup": true,
+    "voice_reset_enabled": true,
+    "verified_module_path": "/home/xilinx/jupyter_notebooks/SonicArm/test_1/fpga_10/arm_control/verified_arm_control.py",
+    "motion_groups_owned_by_controller": true,
+    "automatic_retry": false,
+    "place_timeout_min_seconds": 25.0
+  },
+  "ui": {
+    "base_url": "http://127.0.0.1:8080",
+    "timeout_seconds": 2.0
+  },
+  "display": {
+    "final_required": true,
+    "video_transport": "PYNQ HDMI OUT through FPGA-10 HDMI/VDMA",
+    "touch_transport": "PYNQ USB-A host through USB hub as Linux HID",
+    "touch_device": "/dev/input/event0",
+    "touch_max_x": 4096,
+    "touch_max_y": 4096,
+    "logical_width": 800,
+    "logical_height": 480,
+    "hdmi_width": 1280,
+    "hdmi_height": 720,
+    "default_enrollment_name": "现场用户",
+    "default_enrollment_id_prefix": "SA",
+    "physical_display_verified": false,
+    "computer_browser_is_final_evidence": false
+  }
+}

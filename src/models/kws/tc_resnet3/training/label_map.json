@@ -1,0 +1,62 @@
+{
+  "0": {
+    "name": "抓取第一行第一列",
+    "folder": "pick_r1_c1"
+  },
+  "1": {
+    "name": "抓取第一行第二列",
+    "folder": "pick_r1_c2"
+  },
+  "2": {
+    "name": "抓取第一行第三列",
+    "folder": "pick_r1_c3"
+  },
+  "3": {
+    "name": "抓取第二行第一列",
+    "folder": "pick_r2_c1"
+  },
+  "4": {
+    "name": "抓取第二行第二列",
+    "folder": "pick_r2_c2"
+  },
+  "5": {
+    "name": "抓取第二行第三列",
+    "folder": "pick_r2_c3"
+  },
+  "6": {
+    "name": "抓取第三行第一列",
+    "folder": "pick_r3_c1"
+  },
+  "7": {
+    "name": "抓取第三行第二列",
+    "folder": "pick_r3_c2"
+  },
+  "8": {
+    "name": "抓取第三行第三列",
+    "folder": "pick_r3_c3"
+  },
+  "9": {
+    "name": "抓握",
+    "folder": "grasp"
+  },
+  "10": {
+    "name": "松开",
+    "folder": "release"
+  },
+  "11": {
+    "name": "急停",
+    "folder": "emergency_stop"
+  },
+  "12": {
+    "name": "复位",
+    "folder": "reset"
+  },
+  "13": {
+    "name": "unknown",
+    "folder": "unknown"
+  },
+  "14": {
+    "name": "silence",
+    "folder": "silence"
+  }
+}

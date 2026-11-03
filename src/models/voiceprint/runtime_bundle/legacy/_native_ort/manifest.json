@@ -1,0 +1,27 @@
+{
+  "version": "1.17.1",
+  "upstream_git_commit": "8f5c79cb63f09ef1302e85081093a3fe4da1bc7d",
+  "source_kind": "community precompiled shared library; not a Microsoft Python wheel",
+  "source_url": "https://github.com/csukuangfj/onnxruntime-libs/releases/download/v1.17.1/onnxruntime-linux-arm-1.17.1.zip",
+  "archive_sha256": "08eed09b35a015fbf3a068baf6388a3b447d24dec62b75cd591a01179d0bfe7b",
+  "official_header_url": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.17.1/include/onnxruntime/core/session/onnxruntime_c_api.h",
+  "architecture": {
+    "ELF": "ELF32 little endian ARM",
+    "ABI": "EABI5 hard-float",
+    "CPU": "ARMv7-A",
+    "floating_point": "VFPv3",
+    "SIMD": "NEONv1",
+    "max_required_glibc": "GLIBC_2.29"
+  },
+  "files": {
+    "api_indices.json": "ca7848bac3771c08f6ce138ffaf9cc8592e791f9f63319a8ab17bd8f48828a5e",
+    "GIT_COMMIT_ID": "a79aef06d28ff838483256e9503339e7e67f1c8839f159997495a6ff1f53bad7",
+    "libonnxruntime.so.1.17.1": "022f6a0ef2520ffcc90737f53f06ac9d4977c27d876765907a5ab54950cb5b45",
+    "LICENSE": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+    "onnxruntime_c_api.h": "7e47eb78563da119f740dc0ddfda96800e779e0bcbd169a9a49e9c10746c4cd5",
+    "ThirdPartyNotices.txt": "4f9e2bb7b4b407d710a68168615bbc6f70e3d7cc8ba9410fb6c65d92fa71accf",
+    "VERSION_NUMBER": "b1529c94047dde76b6f72d4c16618daae5a7b89be3b36604513c1ec4c5a24b8d"
+  },
+  "board_execution_by_agent": false,
+  "board_compatibility": "pending actual user execution"
+}

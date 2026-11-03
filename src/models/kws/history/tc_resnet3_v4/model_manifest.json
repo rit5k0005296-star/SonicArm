@@ -1,0 +1,9 @@
+{
+  "version": "all_real_v4_20261024",
+  "parameters": 17151,
+  "weights_sha256": "5912af2b98411a1748755f9a672cc170a15dea661159cf151ce9bde2c7938267",
+  "baseline_weights_sha256": "4e4841379c687af54e4f35d740a395c2e0a2b701e5af614f9c798af1c20ca84e",
+  "input_seconds": 5.2,
+  "classes": 15,
+  "torch_numpy_test_cases": 149
+}

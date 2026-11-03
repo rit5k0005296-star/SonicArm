@@ -1,0 +1,14 @@
+{
+  "package": "SonicArm TC-ResNet3 PS runtime",
+  "source": "TCResNet_Jingyuan_v5_20261026",
+  "version": "Jingyuan_v5_20261026",
+  "model_format": "NumPy FP32",
+  "sample_rate": 16000,
+  "model_window_seconds": 5.2,
+  "capture_window_seconds_active": 3.0,
+  "capture_window_seconds_supported": [3.0, 4.0, 5.0],
+  "execution_enabled": false,
+  "threshold_calibrated": false,
+  "board_validation": false,
+  "note": "The active 3-second capture is trimmed, peak-normalized and center-padded to the 5.2-second model input. Classification remains separate from the system execution gate."
+}

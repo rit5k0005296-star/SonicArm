@@ -1,0 +1,262 @@
+{
+  "pass_": true,
+  "actual_hardware": false,
+  "backend": "Windows native ORT CAPI 1.17.1",
+  "scope": "Original full Fbank, OFF/ALL policies on every V3/V4 CPU session; profiler vectors exact; real compiled FCM versus independent INT64 with live OFF/ALL inputs. No ARM/PL timing proof.",
+  "quality_vs_original_cpu": {
+    "cpu_reference": {
+      "speaker1_a_cn_16k.wav": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "max_relative_element": 0.0,
+        "relative_l2": 0.0,
+        "cosine": 1.0000000000000002,
+        "pass_": true
+      },
+      "speaker1_b_cn_16k.wav": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "max_relative_element": 0.0,
+        "relative_l2": 0.0,
+        "cosine": 0.9999999999999998,
+        "pass_": true
+      },
+      "speaker2_a_cn_16k.wav": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "max_relative_element": 0.0,
+        "relative_l2": 0.0,
+        "cosine": 1.0000000000000002,
+        "pass_": true
+      }
+    },
+    "cpu_int8": {
+      "speaker1_a_cn_16k.wav": {
+        "max_abs": 0.2801758050918579,
+        "mean_abs": 0.07630332530243322,
+        "max_relative_element": 69.76339917730479,
+        "relative_l2": 0.09301363675117756,
+        "cosine": 0.9957967845964498,
+        "pass_": false
+      },
+      "speaker1_b_cn_16k.wav": {
+        "max_abs": 0.24104618653655052,
+        "mean_abs": 0.0616041431009459,
+        "max_relative_element": 21.18796131993701,
+        "relative_l2": 0.0980840229722886,
+        "cosine": 0.9952669865521347,
+        "pass_": false
+      },
+      "speaker2_a_cn_16k.wav": {
+        "max_abs": 0.21290987730026245,
+        "mean_abs": 0.06003864233692487,
+        "max_relative_element": 12.453224166107926,
+        "relative_l2": 0.07976518114671069,
+        "cosine": 0.9969433731280952,
+        "pass_": false
+      }
+    },
+    "v3_off": {
+      "speaker1_a_cn_16k.wav": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "max_relative_element": 0.0,
+        "relative_l2": 0.0,
+        "cosine": 1.0000000000000002,
+        "pass_": true
+      },
+      "speaker1_b_cn_16k.wav": {
+        "max_abs": 0.1374272108078003,
+        "mean_abs": 0.03403310671759149,
+        "max_relative_element": 4.637474341127926,
+        "relative_l2": 0.054308233346932744,
+        "cosine": 0.9985248278310856,
+        "pass_": false
+      },
+      "speaker2_a_cn_16k.wav": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "max_relative_element": 0.0,
+        "relative_l2": 0.0,
+        "cosine": 1.0000000000000002,
+        "pass_": true
+      }
+    },
+    "v3_on": {
+      "speaker1_a_cn_16k.wav": {
+        "max_abs": 0.2801758050918579,
+        "mean_abs": 0.07397832857289662,
+        "max_relative_element": 69.76339917730479,
+        "relative_l2": 0.09075732285718104,
+        "cosine": 0.995962208193312,
+        "pass_": false
+      },
+      "speaker1_b_cn_16k.wav": {
+        "max_abs": 0.23225069046020508,
+        "mean_abs": 0.06185475055826828,
+        "max_relative_element": 16.91654252698925,
+        "relative_l2": 0.09874472238419371,
+        "cosine": 0.9951656477158239,
+        "pass_": false
+      },
+      "speaker2_a_cn_16k.wav": {
+        "max_abs": 0.20043736696243286,
+        "mean_abs": 0.06060333484007666,
+        "max_relative_element": 8.30214944407195,
+        "relative_l2": 0.08114465134102967,
+        "cosine": 0.996826255675681,
+        "pass_": false
+      }
+    },
+    "v4_off": {
+      "speaker1_a_cn_16k.wav": {
+        "max_abs": 0.17654919624328613,
+        "mean_abs": 0.047960042216194175,
+        "max_relative_element": 13.952679835460959,
+        "relative_l2": 0.0607236767342743,
+        "cosine": 0.9982203073643334,
+        "pass_": false
+      },
+      "speaker1_b_cn_16k.wav": {
+        "max_abs": 0.14087796211242676,
+        "mean_abs": 0.03234470346554493,
+        "max_relative_element": 13.912423023383777,
+        "relative_l2": 0.053921171878440165,
+        "cosine": 0.9985463401350138,
+        "pass_": false
+      },
+      "speaker2_a_cn_16k.wav": {
+        "max_abs": 0.13732916116714478,
+        "mean_abs": 0.03517521174702173,
+        "max_relative_element": 11.795385611175085,
+        "relative_l2": 0.05131233407483668,
+        "cosine": 0.9987037747284061,
+        "pass_": false
+      }
+    },
+    "v4_on": {
+      "speaker1_a_cn_16k.wav": {
+        "max_abs": 0.16454553604125977,
+        "mean_abs": 0.03976527490885928,
+        "max_relative_element": 27.905359670921918,
+        "relative_l2": 0.04915413435133808,
+        "cosine": 0.998799751796826,
+        "pass_": false
+      },
+      "speaker1_b_cn_16k.wav": {
+        "max_abs": 0.1687605381011963,
+        "mean_abs": 0.03664021756655226,
+        "max_relative_element": 6.766619384781563,
+        "relative_l2": 0.062256298321649514,
+        "cosine": 0.9980614322604391,
+        "pass_": false
+      },
+      "speaker2_a_cn_16k.wav": {
+        "max_abs": 0.1416250467300415,
+        "mean_abs": 0.035494543883639075,
+        "max_relative_element": 11.795385611175085,
+        "relative_l2": 0.04933211439597037,
+        "cosine": 0.9987938713461654,
+        "pass_": false
+      }
+    }
+  },
+  "profile_checks": [
+    {
+      "mode": "cpu_int8",
+      "audio": "speaker1_b_cn_16k.wav",
+      "cpu_sessions": 1,
+      "embedding_exact": true
+    },
+    {
+      "mode": "cpu_int8",
+      "audio": "speaker2_a_cn_16k.wav",
+      "cpu_sessions": 1,
+      "embedding_exact": true
+    },
+    {
+      "mode": "v3_off",
+      "audio": "speaker1_b_cn_16k.wav",
+      "cpu_sessions": 56,
+      "embedding_exact": true
+    },
+    {
+      "mode": "v3_off",
+      "audio": "speaker2_a_cn_16k.wav",
+      "cpu_sessions": 56,
+      "embedding_exact": true
+    },
+    {
+      "mode": "v3_on",
+      "audio": "speaker1_b_cn_16k.wav",
+      "cpu_sessions": 56,
+      "embedding_exact": true
+    },
+    {
+      "mode": "v3_on",
+      "audio": "speaker2_a_cn_16k.wav",
+      "cpu_sessions": 56,
+      "embedding_exact": true
+    },
+    {
+      "mode": "v4_off",
+      "audio": "speaker1_b_cn_16k.wav",
+      "cpu_sessions": 57,
+      "embedding_exact": true
+    },
+    {
+      "mode": "v4_off",
+      "audio": "speaker2_a_cn_16k.wav",
+      "cpu_sessions": 57,
+      "embedding_exact": true
+    },
+    {
+      "mode": "v4_on",
+      "audio": "speaker1_b_cn_16k.wav",
+      "cpu_sessions": 57,
+      "embedding_exact": true
+    },
+    {
+      "mode": "v4_on",
+      "audio": "speaker2_a_cn_16k.wav",
+      "cpu_sessions": 57,
+      "embedding_exact": true
+    }
+  ],
+  "native_fcm_checks": [
+    {
+      "mode": "v4_off",
+      "audio": "speaker1_a_cn_16k.wav",
+      "exact": true
+    },
+    {
+      "mode": "v4_off",
+      "audio": "speaker1_b_cn_16k.wav",
+      "exact": true
+    },
+    {
+      "mode": "v4_off",
+      "audio": "speaker2_a_cn_16k.wav",
+      "exact": true
+    },
+    {
+      "mode": "v4_on",
+      "audio": "speaker1_a_cn_16k.wav",
+      "exact": true
+    },
+    {
+      "mode": "v4_on",
+      "audio": "speaker1_b_cn_16k.wav",
+      "exact": true
+    },
+    {
+      "mode": "v4_on",
+      "audio": "speaker2_a_cn_16k.wav",
+      "exact": true
+    }
+  ],
+  "session_factory_restoration": true,
+  "original_root_manifest_sha256": "ee033cc03f1ba178bfac5e6e5385152a10da5578f11aa98ffec0af1939acfbaa",
+  "archive_sha256": "044e77a62348fef00f9f6b8700105552a753c4e89291ab389efb397cb076cfd5",
+  "elapsed_seconds": 108.29012920000241
+}

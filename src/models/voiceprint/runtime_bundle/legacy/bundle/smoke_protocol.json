@@ -1,0 +1,42 @@
+{
+  "label_source": "campplus_cn_common/README.md ModelScope examples",
+  "scope": "2 illustrative labeled trials; not accuracy or EER evidence",
+  "audio": [
+    {
+      "id": "speaker1_a_cn_16k.wav",
+      "path": "audio/speaker1_a_cn_16k.wav",
+      "features": "audio/speaker1_a_cn_16k.wav.fbank.npy",
+      "sha256": "5f20ce0ddc378ca3239d3ce864b1142726a46a1221ae553912e4e142045df58b",
+      "frames": 370
+    },
+    {
+      "id": "speaker1_b_cn_16k.wav",
+      "path": "audio/speaker1_b_cn_16k.wav",
+      "features": "audio/speaker1_b_cn_16k.wav.fbank.npy",
+      "sha256": "20745dc08a4281894d146140b99b9ef7417ac681119b7f7202f553cdf1a85f65",
+      "frames": 489
+    },
+    {
+      "id": "speaker2_a_cn_16k.wav",
+      "path": "audio/speaker2_a_cn_16k.wav",
+      "features": "audio/speaker2_a_cn_16k.wav.fbank.npy",
+      "sha256": "8a6cffa452df32ef10503f7992f22ffcdd7f16c4e0273d13311bc5cdcb13abf4",
+      "frames": 529
+    }
+  ],
+  "enroll": {
+    "speaker1": "speaker1_a_cn_16k.wav"
+  },
+  "trials": [
+    {
+      "speaker": "speaker1",
+      "audio": "speaker1_b_cn_16k.wav",
+      "label": 1
+    },
+    {
+      "speaker": "speaker1",
+      "audio": "speaker2_a_cn_16k.wav",
+      "label": 0
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "name": "lr0.0003_freezeBNTrue",
+  "learning_rate": 0.0003,
+  "freeze_bn": true,
+  "best_epoch": 17,
+  "rank": [
+    175,
+    -0.41990023478865623
+  ],
+  "validation": {
+    "board": {
+      "samples": 26,
+      "correct": 26,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "loss": 0.12046238034963608,
+      "mean_true_score": 0.8991695642471313,
+      "mean_max_score": 0.8991695642471313,
+      "ece_10bins": 0.10083046182990074,
+      "wrong_high_confidence_08": 0,
+      "noncommand_false_accept": 0,
+      "per_class": {
+        "抓取第一行第一列": {
+          "samples": 3,
+          "correct": 3,
+          "mean_true_score": 0.9759591221809387,
+          "mean_max_score": 0.9759591221809387
+        },
+        "抓取第一行第二列": {
+          "samples": 3,
+          "correct": 3,
+          "mean_true_score": 0.9463842511177063,
+          "mean_max_score": 0.9463842511177063
+        },
+        "抓取第二行第一列": {
+          "samples": 3,
+          "correct": 3,
+          "mean_true_score": 0.9699984192848206,
+          "mean_max_score": 0.9699984192848206
+        },
+        "抓取第二行第二列": {
+          "samples": 4,
+          "correct": 4,
+          "mean_true_score": 0.9822766780853271,
+          "mean_max_score": 0.9822766780853271
+        },
+        "抓取第三行第一列": {
+          "samples": 1,
+          "correct": 1,
+          "mean_true_score": 0.6845988631248474,
+          "mean_max_score": 0.6845988631248474
+        },
+        "抓握": {
+          "samples": 2,
+          "correct": 2,
+          "mean_true_score": 0.8903416395187378,
+          "mean_max_score": 0.8903416395187378
+        },
+        "松开": {
+          "samples": 3,
+          "correct": 3,
+          "mean_true_score": 0.7403251528739929,
+          "mean_max_score": 0.7403251528739929
+        },
+        "复位": {
+          "samples": 7,
+          "correct": 7,
+          "mean_true_score": 0.8694313764572144,
+          "mean_max_score": 0.8694313764572144
+        }
+      }
+    },
+    "phone_new": {
+      "samples": 45,
+      "correct": 45,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "loss": 0.03290983662009239,
+      "mean_true_score": 0.9700524210929871,
+      "mean_max_score": 0.9700524210929871,
+      "ece_10bins": 0.029947650618851185,
+      "wrong_high_confidence_08": 0,
+      "noncommand_false_accept": 0,
+      "per_class": {
+        "抓取第一行第一列": {
+          "samples": 4,
+          "correct": 4,
+          "mean_true_score": 0.9973674416542053,
+          "mean_max_score": 0.9973674416542053
+        },
+        "抓取第一行第二列": {
+          "samples": 4,
+          "correct": 4,
+          "mean_true_score": 0.9890869855880737,
+          "mean_max_score": 0.9890869855880737
+        },
+        "抓取第一行第三列": {
+          "samples": 4,
+          "correct": 4,
+          "mean_true_score": 0.9784559011459351,
+          "mean_max_score": 0.9784559011459351
+        },
+        "抓取第二行第一列": {
+          "samples": 4,
+          "correct": 4,
+          "mean_true_score": 0.9898067116737366,
+          "mean_max_score": 0.9898067116737366
+        },
+        "抓取第二行第二列": {
+          "samples": 3,
+          "correct": 3,
+          "mean_true_score": 0.9785597920417786,
+          "mean_max_score": 0.9785597920417786
+        },
+        "抓取第二行第三列": {
+          "samples": 3,
+          "correct": 3,
+          "mean_true_score": 0.9639654755592346,
+          "mean_max_score": 0.9639654755592346
+        },
+        "抓取第三行第一列": {
+          "samples": 3,
+          "correct": 3,
+          "mean_true_score": 0.992185115814209,
+          "mean_max_score": 0.992185115814209
+        },
+        "抓取第三行第二列": {
+          "samples": 3,
+          "correct": 3,
+          "mean_true_score": 0.8648274540901184,
+          "mean_max_score": 0.8648274540901184
+        },
+        "抓取第三行第三列": {
+          "samples": 3,
+          "correct": 3,
+          "mean_true_score": 0.9906938672065735,
+          "mean_max_score": 0.9906938672065735
+        },
+        "抓握": {
+          "samples": 4,
+          "correct": 4,
+          "mean_true_score": 0.9880900979042053,
+          "mean_max_score": 0.9880900979042053
+        },
+        "松开": {
+          "samples": 4,
+          "correct": 4,
+          "mean_true_score": 0.9070715308189392,
+          "mean_max_score": 0.9070715308189392
+        },
+        "急停": {
+          "samples": 2,
+          "correct": 2,
+          "mean_true_score": 0.9625509977340698,
+          "mean_max_score": 0.9625509977340698
+        },
+        "复位": {
+          "samples": 4,
+          "correct": 4,
+          "mean_true_score": 0.9892609119415283,
+          "mean_max_score": 0.9892609119415283
+        }
+      }
+    },
+    "old_real": {
+      "samples": 78,
+      "correct": 78,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "loss": 0.07855073362588882,
+      "mean_true_score": 0.9340301752090454,
+      "mean_max_score": 0.9340301752090454,
+      "ece_10bins": 0.06596975936554372,
+      "wrong_high_confidence_08": 0,
+      "noncommand_false_accept": 0,
+      "per_class": {
+        "抓取第一行第一列": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.9959638714790344,
+          "mean_max_score": 0.9959638714790344
+        },
+        "抓取第一行第二列": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.928508460521698,
+          "mean_max_score": 0.928508460521698
+        },
+        "抓取第一行第三列": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.9748587012290955,
+          "mean_max_score": 0.9748587012290955
+        },
+        "抓取第二行第一列": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.9102950096130371,
+          "mean_max_score": 0.9102950096130371
+        },
+        "抓取第二行第二列": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.9689324498176575,
+          "mean_max_score": 0.9689324498176575
+        },
+        "抓取第二行第三列": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.8238346576690674,
+          "mean_max_score": 0.8238346576690674
+        },
+        "抓取第三行第一列": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.9222773909568787,
+          "mean_max_score": 0.9222773909568787
+        },
+        "抓取第三行第二列": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.8760876059532166,
+          "mean_max_score": 0.8760876059532166
+        },
+        "抓取第三行第三列": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.9834066033363342,
+          "mean_max_score": 0.9834066033363342
+        },
+        "抓握": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.8620176911354065,
+          "mean_max_score": 0.8620176911354065
+        },
+        "松开": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.9443714618682861,
+          "mean_max_score": 0.9443714618682861
+        },
+        "急停": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.9542831778526306,
+          "mean_max_score": 0.9542831778526306
+        },
+        "复位": {
+          "samples": 6,
+          "correct": 6,
+          "mean_true_score": 0.9975560307502747,
+          "mean_max_score": 0.9975560307502747
+        }
+      }
+    },
+    "synthetic": {
+      "samples": 66,
+      "correct": 56,
+      "accuracy": 0.8484848737716675,
+      "macro_f1": 0.7656565656565656,
+      "loss": 0.37827828526496887,
+      "mean_true_score": 0.7592814564704895,
+      "mean_max_score": 0.802605390548706,
+      "ece_10bins": 0.07716381037607789,
+      "wrong_high_confidence_08": 0,
+      "noncommand_false_accept": 2,
+      "per_class": {
+        "抓取第一行第一列": {
+          "samples": 2,
+          "correct": 2,
+          "mean_true_score": 0.8586477041244507,
+          "mean_max_score": 0.8586477041244507
+        },
+        "抓取第一行第二列": {
+          "samples": 2,
+          "correct": 2,
+          "mean_true_score": 0.6355403661727905,
+          "mean_max_score": 0.6355403661727905
+        },
+        "抓取第一行第三列": {
+          "samples": 2,
+          "correct": 2,
+          "mean_true_score": 0.8360230922698975,
+          "mean_max_score": 0.8360230922698975
+        },
+        "抓取第二行第一列": {
+          "samples": 2,
+          "correct": 1,
+          "mean_true_score": 0.550188422203064,
+          "mean_max_score": 0.7226309776306152
+        },
+        "抓取第二行第二列": {
+          "samples": 2,
+          "correct": 1,
+          "mean_true_score": 0.5146815776824951,
+          "mean_max_score": 0.6007059216499329
+        },
+        "抓取第二行第三列": {
+          "samples": 2,
+          "correct": 1,
+          "mean_true_score": 0.3242138922214508,
+          "mean_max_score": 0.4538111686706543
+        },
+        "抓取第三行第一列": {
+          "samples": 2,
+          "correct": 1,
+          "mean_true_score": 0.4701075255870819,
+          "mean_max_score": 0.5600584149360657
+        },
+        "抓取第三行第二列": {
+          "samples": 2,
+          "correct": 1,
+          "mean_true_score": 0.3841363191604614,
+          "mean_max_score": 0.6443437933921814
+        },
+        "抓取第三行第三列": {
+          "samples": 2,
+          "correct": 2,
+          "mean_true_score": 0.917091965675354,
+          "mean_max_score": 0.917091965675354
+        },
+        "抓握": {
+          "samples": 2,
+          "correct": 1,
+          "mean_true_score": 0.48736315965652466,
+          "mean_max_score": 0.5567796230316162
+        },
+        "松开": {
+          "samples": 2,
+          "correct": 1,
+          "mean_true_score": 0.3354382812976837,
+          "mean_max_score": 0.5676143765449524
+        },
+        "急停": {
+          "samples": 2,
+          "correct": 2,
+          "mean_true_score": 0.8930262327194214,
+          "mean_max_score": 0.8930262327194214
+        },
+        "复位": {
+          "samples": 2,
+          "correct": 1,
+          "mean_true_score": 0.418946772813797,
+          "mean_max_score": 0.5873758792877197
+        },
+        "unknown": {
+          "samples": 20,
+          "correct": 18,
+          "mean_true_score": 0.7468133568763733,
+          "mean_max_score": 0.7689579725265503
+        },
+        "silence": {
+          "samples": 20,
+          "correct": 20,
+          "mean_true_score": 0.9962749481201172,
+          "mean_max_score": 0.9962749481201172
+        }
+      }
+    }
+  }
+}

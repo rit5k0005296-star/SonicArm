@@ -1,0 +1,37 @@
+[
+  {
+    "layer": 1,
+    "INT8_exact": true,
+    "INT32_exact": true,
+    "old_reference_ms": 6.284860999926423,
+    "block_reference_ms": 10.905777999937527
+  },
+  {
+    "layer": 2,
+    "INT8_exact": true,
+    "INT32_exact": true,
+    "old_reference_ms": 7.044812000003731,
+    "block_reference_ms": 4.090658999984953
+  },
+  {
+    "layer": 27,
+    "INT8_exact": true,
+    "INT32_exact": true,
+    "old_reference_ms": 32.89379700004247,
+    "block_reference_ms": 8.713181999951303
+  },
+  {
+    "layer": 52,
+    "INT8_exact": true,
+    "INT32_exact": true,
+    "old_reference_ms": 51.29478200001358,
+    "block_reference_ms": 10.975015999974858
+  },
+  {
+    "layer": 55,
+    "INT8_exact": true,
+    "INT32_exact": true,
+    "old_reference_ms": 238.5503879999078,
+    "block_reference_ms": 33.79142199992202
+  }
+]

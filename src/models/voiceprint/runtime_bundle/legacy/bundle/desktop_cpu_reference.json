@@ -1,0 +1,28 @@
+{
+  "model_sha256": "c0c4103c23301e26aa58e106933bbeaefbfdc7d0708052729b3155f7f824560f",
+  "backend": "Windows Python ONNX Runtime CPUExecutionProvider",
+  "ORT_version": "1.31.0",
+  "threads": 1,
+  "graph_optimization": "ORT_DISABLE_ALL",
+  "scope": "desktop numeric reference, not board CPU timing",
+  "records": [
+    {
+      "audio": "speaker1_a_cn_16k.wav",
+      "features_sha256": "81776fbebbd2c556e62ab062440712e7fe88ae4078b98b78a5c148e79c3220f5",
+      "embedding_file": "audio/speaker1_a_cn_16k.wav.desktop_qdq_embedding.npy",
+      "embedding_sha256": "a1cf72945cd85f6553b7357d2e4a2d3831c3c8e73a257c6774a59024d71ecb31"
+    },
+    {
+      "audio": "speaker1_b_cn_16k.wav",
+      "features_sha256": "4bf4e41fd636c31336dbe7901966821e9fcd7482c2e98ceb2e74001552602101",
+      "embedding_file": "audio/speaker1_b_cn_16k.wav.desktop_qdq_embedding.npy",
+      "embedding_sha256": "9a66926824ce0d65019bb1594c12779de6e6119a61bb2527fa506e562b0bdc3e"
+    },
+    {
+      "audio": "speaker2_a_cn_16k.wav",
+      "features_sha256": "22a778da752581b85c0497ba86edb0a28a76ab8ed8afae1c0ba38e9d78ee9854",
+      "embedding_file": "audio/speaker2_a_cn_16k.wav.desktop_qdq_embedding.npy",
+      "embedding_sha256": "7cca85c6872176916feb5edd2a5a7502873049dfb2a208c091de14cf4fafc19f"
+    }
+  ]
+}

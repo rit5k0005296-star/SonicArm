@@ -1,0 +1,7 @@
+project=S://build/vivado/fpga10_audio_hdmi/fpga10_audio_hdmi.xpr
+part=xc7z020clg400-1
+tool=2025.2
+validated=true
+synthesis_started=false
+implementation_started=false
+bitstream_generated=false

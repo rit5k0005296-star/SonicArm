@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Runtime data and private biometric records
+results/
+_test_tmp/
+src/ps/ui/web/assets/users/*
+!src/ps/ui/web/assets/users/README.md
+*.wav
+*.pcm
+*.m4a
+*.npy
+!src/models/**/*.npy
+
+# Vivado/Vitis generated state
+.Xil/
+*.jou
+*.log
+*.str
+*.wdb
+*.xpr.user
+*.cache/
+*.gen/
+*.runs/
+*.sim/
+ip_user_files/
+
+# Board binaries are published as GitHub Release assets
+board/artifacts/*.bit
+board/artifacts/*.hwh
+
+# Generated deployment packages
+board/generated/
+*.zip
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

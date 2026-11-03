@@ -1,0 +1,24 @@
+{
+  "seed": 20261024,
+  "runs": 4,
+  "learning_rates": [
+    0.0001,
+    0.0003
+  ],
+  "batch_size": 32,
+  "epochs_max": 80,
+  "early_stop": 18,
+  "sampled_per_epoch": 1280,
+  "domain_sampling_mass_before_absent_domain_normalization": {
+    "board": 0.35,
+    "phone_new": 0.25,
+    "old_real": 0.2,
+    "phone_extra": 0.02,
+    "synthetic": 0.18
+  },
+  "distillation_weight": 0.1,
+  "distillation_temperature_train_only": 2,
+  "inference_temperature": 1,
+  "validation_ranking": "2*board_correct+phone_correct+oldreal_correct - 2*increase_in_synthetic_noncommand_false_accept; tie: weighted validation CE",
+  "historical_tests_never_used_for_selection": true
+}

@@ -1,0 +1,1325 @@
+[
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\1-2-1.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 4.76837158203125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\1-2-12.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\1-2-6.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\3-1-1.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\v8_test_20221023_001313_raw24.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\v8_test_20221023_001706_16k_mono.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 8.58306884765625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\v8_test_20221023_002154_16k_mono.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 3.337860107421875e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\v8_test_20221023_002317_16k_mono.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 4.76837158203125e-06,
+    "score_abs_error": 4.76837158203125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\复位15.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 7.152557373046875e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\复位6.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\抓握2.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\松开3.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\松开5.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 1.049041748046875e-05,
+    "score_abs_error": 1.7881393432617188e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\1-1-1.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 3.632158041000366e-08
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\1-1-16.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\1-1-3.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-1-1.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 5.364418029785156e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-1-11.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 8.58306884765625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-1-15.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-2-18.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 1.33514404296875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-2-19.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-2-2.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 3.814697265625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-2-20.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\复位4.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 4.291534423828125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\复位6.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 4.76837158203125e-06,
+    "score_abs_error": 5.960464477539063e-08
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\复位8.wav",
+    "set": "board",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\1-1-6.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 2.384185791015625e-05,
+    "score_abs_error": 4.76837158203125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\1-1-7.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\1-2-8.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 1.52587890625e-05,
+    "score_abs_error": 1.2516975402832031e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\1-2.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 3.337860107421875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\1-3-3.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 1.71661376953125e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\1-3-5.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 2.288818359375e-05,
+    "score_abs_error": 2.3245811462402344e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\2-1-2.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 2.288818359375e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\2-1-5.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 1.0967254638671875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\2-2-1.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 3.814697265625e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\2-3-3.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 2.288818359375e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\3-1.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 4.76837158203125e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\3-2.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 7.2479248046875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\3-3.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 4.76837158203125e-05,
+    "score_abs_error": 5.364418029785156e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\复位5.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 5.53131103515625e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\复位6.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 0.00013589859008789062,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\抓握2.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 3.528594970703125e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\抓握8.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 8.58306884765625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\松开10.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 0.0003719329833984375,
+    "score_abs_error": 4.76837158203125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声1\\松开3.m4a",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 1.239776611328125e-05,
+    "score_abs_error": 3.5762786865234375e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\1-1-3(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\1-1-5(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\1-2-4(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\1-2-8(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 1.33514404296875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\1-3-2(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\1-3-4(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\2--1-5(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\2-1-4(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\2-2-1(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 7.3909759521484375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\2-2-7(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 1.52587890625e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\2-3-4(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\2-3-8(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\3-1-8(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\3-1-9(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 8.58306884765625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\3-2-10(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\3-2-3(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\3-3-5(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\3-3-8(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\复位1(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 7.3909759521484375e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\复位6(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 1.049041748046875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\急停3(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 4.76837158203125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\急停9(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 7.152557373046875e-06,
+    "score_abs_error": 5.960464477539063e-08
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\抓握3(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\抓握9(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\松开10(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 5.960464477539063e-08
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\女声2\\松开3(1).mp3",
+    "set": "phone_new",
+    "top1_match": true,
+    "logit_max_abs": 4.291534423828125e-06,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\1-1\\1-1.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音\\1-1\\1-7.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音\\1-2\\2-1.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 3.5762786865234375e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\1-2\\2-8.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.049041748046875e-05,
+    "score_abs_error": 1.1920928955078125e-06
+  },
+  {
+    "file": "D:\\AudioData\\录音\\1-3\\3-2.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\1-3\\3-5.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.239776611328125e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音\\2-1\\4-3.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.049041748046875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\2-1\\4-8.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音\\2-2\\大连理工大学(凌水校区)-静园 5.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\2-2\\大连理工大学(凌水校区)-静园 8.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.33514404296875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音\\2-3\\大连理工大学(凌水校区)-静园 14.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音\\2-3\\大连理工大学(凌水校区)-静园 20.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\3-1\\大连理工大学(凌水校区)-静园 27.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 3.814697265625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\3-1\\大连理工大学(凌水校区)-静园 30.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\3-2\\大连理工大学(凌水校区)-静园 31.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\3-2\\大连理工大学(凌水校区)-静园 32.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.71661376953125e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\3-3\\大连理工大学(凌水校区)-静园 42.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音\\3-3\\大连理工大学(凌水校区)-静园 49.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\复位\\大连理工大学(凌水校区)-静园 82.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.430511474609375e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音\\复位\\大连理工大学(凌水校区)-静园 90.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\急停\\大连理工大学(凌水校区)-静园 73.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 3.5762786865234375e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\急停\\大连理工大学(凌水校区)-静园 74.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音\\抓握\\大连理工大学(凌水校区)-静园 53.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音\\抓握\\大连理工大学(凌水校区)-静园 60.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 4.76837158203125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音\\松开\\大连理工大学(凌水校区)-静园 64.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 3.337860107421875e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音\\松开\\大连理工大学(凌水校区)-静园 66.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 3.337860107421875e-06,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\1-1-10.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1920928955078125e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\1-1-4.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\1-2-1.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 4.1961669921875e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\1-2-7.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.239776611328125e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\1-3-3.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 2.09808349609375e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\1-3-6.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\2-1-10.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 6.198883056640625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\2-1-2.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\2-2-10.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\2-2-9.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\2-3-3.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.049041748046875e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\2-3-6.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\3-1-1.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.049041748046875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\3-1-10.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\3-2-10.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.52587890625e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\3-2-8.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.33514404296875e-05,
+    "score_abs_error": 5.960464477539063e-08
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\3-3-2.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.9073486328125e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\3-3-5.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.33514404296875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\复位10.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\复位6.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\急停10.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.152557373046875e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\急停6.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\抓握6.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 4.76837158203125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\抓握8.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\松开3.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.430511474609375e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\录音女\\松开9.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.52587890625e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\01-1-3.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.239776611328125e-05,
+    "score_abs_error": 4.172325134277344e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\01-1-7.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 1.7881393432617188e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\01-2-10.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.239776611328125e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\01-2-7.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.8596649169921875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\01-3-10.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.9073486328125e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\01-3-4.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\02-1-4.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 4.172325134277344e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\02-1-5.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 4.76837158203125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\02-2-3.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.239776611328125e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\02-2-8.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\02-3-3.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\02-3-5.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\03-1-10.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 4.76837158203125e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\03-1-5.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\03-2-2.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\03-2-9.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 1.33514404296875e-05,
+    "score_abs_error": 7.748603820800781e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\03-3-4.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\03-3-9.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 1.7881393432617188e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\0复位10.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\0复位8.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\0急停5.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06,
+    "score_abs_error": 3.5762786865234375e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\0急停7.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 5.245208740234375e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\0抓握3.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 6.198883056640625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\0抓握6.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 2.980232238769531e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\0松开4.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 6.198883056640625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "D:\\AudioData\\声音男\\0松开7.m4a",
+    "set": "old_real",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 100.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 101.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 3.5762786865234375e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 102.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.049041748046875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 103.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 104.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 105.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 5.4836273193359375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 106.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 4.76837158203125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 107.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.71661376953125e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 108.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 109.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 110.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.52587890625e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 91.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.52587890625e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 92.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 93.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 94.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 95.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 96.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 97.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.33514404296875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 98.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\1-1\\大连理工大学(凌水校区)-静园 99.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 111.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 8.58306884765625e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 112.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 113.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 114.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 8.58306884765625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 115.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.52587890625e-05,
+    "score_abs_error": 1.430511474609375e-06
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 116.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 5.364418029785156e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 117.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.52587890625e-05,
+    "score_abs_error": 1.341104507446289e-06
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 118.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 119.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 120.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.52587890625e-05,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 121.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05,
+    "score_abs_error": 2.384185791015625e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 122.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 123.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 4.76837158203125e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 124.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 125.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 126.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 127.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 1.1920928955078125e-07
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 128.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 129.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06,
+    "score_abs_error": 0.0
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\jingyuan_v5_20261026\\audio\\大连理工静园录音\\2-1\\大连理工大学(凌水校区)-静园 130.m4a",
+    "set": "new_TRAIN",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06,
+    "score_abs_error": 2.384185791015625e-07
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "pass_": true,
+  "actual_hardware": false,
+  "reproduced_board_blank_line_error": true,
+  "formatting_and_numeric_tuning_accepted": true,
+  "changed_execution_rejected": true,
+  "invalid_configuration_rejected": true,
+  "source_sha256": "45e2726b29d9156ddf22fc4164033ff81ba8d1cec83afb5829f81b6471aa3795",
+  "package_sha256": "6fa104bcb50743831539451cb8459f576663897b374e198e16c83b6cbc67752e"
+}

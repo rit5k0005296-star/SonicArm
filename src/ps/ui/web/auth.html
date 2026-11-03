@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>SonicArm 身份认证</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-phase="idle">
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">S</span><div><strong>SonicArm</strong><span>身份识别与机械臂控制</span></div></div>
+      <div class="system-line"><span class="system-dot" aria-hidden="true"></span><span id="system-status-text">系统就绪</span><span class="mode-label" id="mode-label">联调模式</span></div>
+    </header>
+
+    <main class="result-grid" aria-live="polite">
+      <section class="result-panel identity-panel" aria-labelledby="identity-heading">
+        <div class="panel-head"><h1 id="identity-heading">身份识别结果</h1></div>
+        <div class="identity-result">
+          <div class="photo-box">
+            <img id="identity-photo" alt="匹配到的注册人员照片" hidden>
+            <div class="photo-placeholder" id="portrait-placeholder"><span class="person-shape" aria-hidden="true"></span><span id="placeholder-text">等待识别</span></div>
+          </div>
+          <div class="identity-text"><div class="person-name" id="person-name">尚未确认身份</div><div class="person-id" id="person-id">用户编号：—</div></div>
+          <div class="voiceprint-banner" id="voiceprint-banner" role="status">等待声纹识别程序返回结果</div>
+          <div class="score-block">
+            <div class="score-row"><span>声纹匹配程度</span><strong id="score-number">—</strong></div>
+            <div class="score-track" role="progressbar" aria-label="声纹匹配分数" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="score-track"><div class="score-fill" id="score-fill"></div></div>
+            <div class="verification-state" id="verification-state">等待声纹输入</div>
+            <div class="threshold-control">
+              <label for="threshold-slider">识别阈值</label>
+              <input id="threshold-slider" type="range" min="0" max="100" step="1" value="67" aria-label="声纹识别阈值">
+              <output id="threshold-number" for="threshold-slider">67%</output>
+            </div>
+          </div>
+        </div>
+        <div class="recognition-actions" aria-label="识别页面操作">
+          <a class="recognition-button secondary" href="index.html">注册用户</a>
+          <button class="recognition-button primary" id="start-recognition" type="button">开始识别</button>
+        </div>
+      </section>
+
+      <div class="status-column">
+        <section class="result-panel command-panel" aria-labelledby="command-heading">
+          <div class="panel-head"><h2 id="command-heading">命令识别结果</h2></div>
+          <div class="single-result"><div class="single-value" id="command-value">等待命令</div></div>
+        </section>
+        <section class="result-panel arm-panel" aria-labelledby="arm-heading">
+          <div class="panel-head"><h2 id="arm-heading">机械臂运动状态</h2></div>
+          <div class="single-result arm-result"><div class="arm-value" id="arm-state">待机</div><div class="arm-message" id="task-message">等待任务</div></div>
+          <div class="safety-message" id="safety-banner" role="status">机械臂运动中，请勿进入工作区</div>
+        </section>
+      </div>
+    </main>
+    <footer><time id="updated-time">--:--:--</time></footer>
+  </div>
+  <div class="offline-notice" id="offline-notice" role="alert" hidden>UI 服务连接中断</div>
+  <noscript>此界面需要启用 JavaScript。</noscript>
+  <script src="app.js" defer></script>
+</body>
+</html>

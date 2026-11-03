@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>SonicArm 身份注册</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/register.css">
+</head>
+<body>
+  <main class="enroll-screen">
+    <section class="profile-panel" aria-labelledby="profile-title">
+      <header class="section-head">
+        <h1 id="profile-title">注册身份</h1>
+        <a class="text-link" href="/auth.html">进入识别</a>
+      </header>
+
+      <div class="profile-body">
+        <label class="photo-picker" for="photo-input">
+          <img id="photo-preview" alt="待注册人员照片" hidden>
+          <span class="avatar-placeholder" id="avatar-placeholder" aria-hidden="true"></span>
+          <strong>选择照片</strong>
+        </label>
+        <input id="photo-input" type="file" accept="image/*" hidden>
+
+        <label class="field">
+          <span>姓名</span>
+          <input id="person-name-input" type="text" maxlength="24" autocomplete="off" placeholder="请输入姓名">
+        </label>
+        <label class="field">
+          <span>用户编号</span>
+          <input id="person-id-input" type="text" maxlength="24" autocomplete="off" placeholder="例如 SA-002">
+        </label>
+        <a class="manage-button" href="/users.html">前往用户管理</a>
+      </div>
+    </section>
+
+    <section class="voice-panel" aria-labelledby="voice-title">
+      <header class="section-head">
+        <h2 id="voice-title">声纹录入</h2>
+        <strong class="sample-count"><span id="sample-count">0</span> / 3</strong>
+      </header>
+
+      <div class="voice-body">
+        <div class="prompt-block">
+          <span>请自然说出</span>
+          <strong>“确认身份，执行任务”</strong>
+        </div>
+
+        <div class="sample-list" aria-label="声纹样本进度">
+          <div class="sample-item" data-sample="1"><b>1</b><span>未录入</span></div>
+          <div class="sample-item" data-sample="2"><b>2</b><span>未录入</span></div>
+          <div class="sample-item" data-sample="3"><b>3</b><span>未录入</span></div>
+        </div>
+
+        <div class="capture-status" id="capture-status" role="status">填写人员信息后开始录入</div>
+
+        <div class="voice-actions">
+          <button class="primary-button" id="start-enrollment" type="button" disabled>开始录入</button>
+          <a class="finish-button" id="finish-enrollment" href="/auth.html" aria-disabled="true">完成并进入识别</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="offline-notice" id="enrollment-offline" role="alert" hidden>注册服务连接中断</div>
+  <script src="/register.js" defer></script>
+</body>
+</html>

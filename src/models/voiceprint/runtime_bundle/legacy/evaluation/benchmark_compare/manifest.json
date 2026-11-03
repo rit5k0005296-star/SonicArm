@@ -1,0 +1,17 @@
+{
+  "version": "four_way_model_latency_1",
+  "files": {
+    "06_cpu_v3_v4_compare.ipynb": "372345671396ae6bb7d3a8759df1f1e6bdda78c7f20ad7784dfb4b7db4a47fbc",
+    "assets/camplus_fp32_pool_compatible.onnx": "ab347a9c35697ed56c723b9d9d9ca38bace9986a03a77459f1c955bde7757b90",
+    "assets/cpu000_after_fcm.onnx": "80729e994b664cfb4fdf61a523b0073cb95bfb6b6068aceb3cc92d3b6e893aea",
+    "assets/fcm_input.onnx": "c59db672d827013d993380a02ff1371ef5c420024d3a200a3933297265ceabaa",
+    "assets/fcm_original.onnx": "6cdbce081614f33a829e3f99af08bcce4ea53fcc1c94ad44e9415b12382eb4f9",
+    "assets/provenance.json": "98060676d91fad9a4d23abb2ca2461b9daa95f4161e399d917ca150f81b49d58",
+    "compare_benchmark.py": "7d70e09bd9c2d8a2f2135fadf0a6e2c2719441038610facc8398b99a53a53749",
+    "compare_runtime.py": "64365275b2db4185f8f6fe2454241487812b076edb50000c5abd65320c5dab79",
+    "README.md": "1f12f8280f88c2dea5d1262151bc3e75790c52cca46de9f590ccf0538add739b"
+  },
+  "hardware_manifest_sha256": "c4f58f044ba270bd202b7acdef48a4f37d8fbc9970494dba9f99c64ebc7b9967",
+  "root_manifest_sha256": "ee033cc03f1ba178bfac5e6e5385152a10da5578f11aa98ffec0af1939acfbaa",
+  "actual_board_tested": false
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\1-1-1.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\1-1-16.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 5.7220458984375e-06
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\1-1-3.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-1-1.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 6.198883056640625e-06
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-1-11.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-1-15.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-2-18.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-2-19.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 8.106231689453125e-06
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-2-2.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\2-2-20.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 1.5974044799804688e-05
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\复位4.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\复位6.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 6.198883056640625e-06
+  },
+  {
+    "file": "C:\\Users\\caojing2024\\Documents\\ChatGPT\\111\\grid_adapt_v3_20261023\\audio\\复位8.wav",
+    "set": "new_board",
+    "top1_match": true,
+    "logit_max_abs": 8.58306884765625e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\1-2-1.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\1-2-12.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\1-2-6.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\3-1-1.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 1.1444091796875e-05
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\v8_test_20221023_001313_raw24.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 5.245208740234375e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\v8_test_20221023_001706_16k_mono.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\v8_test_20221023_002154_16k_mono.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 5.245208740234375e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\v8_test_20221023_002317_16k_mono.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\复位15.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 6.67572021484375e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\复位6.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 6.9141387939453125e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\抓握2.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 8.106231689453125e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\松开3.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 7.62939453125e-06
+  },
+  {
+    "file": "D:\\AAAFPGA设计实验\\语音\\松开5.wav",
+    "set": "prior_board",
+    "top1_match": true,
+    "logit_max_abs": 9.5367431640625e-06
+  }
+]

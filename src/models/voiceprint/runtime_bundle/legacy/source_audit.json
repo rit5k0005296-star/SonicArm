@@ -1,0 +1,17 @@
+{
+  "model_sha256": "c0c4103c23301e26aa58e106933bbeaefbfdc7d0708052729b3155f7f824560f",
+  "layers": 55,
+  "case_inputs_read": false,
+  "sources": {
+    "CAM-pretrained_models\\consistency-test\\codex\\common.py": "5738410f594273146c3e59bb13232488ee449c984e7bab2b47412d4a856ff9f0",
+    "CAM-pretrained_models\\consistency-test\\codex\\export_camplus_onnx.py": "c2bb94ca9f26bdd8895e2f75ffd1756ca5b4b021860dca69636a85ea4d44f704",
+    "CAM-pretrained_models\\consistency-test\\codex\\evaluate_camplus_onnx_cnceleb.py": "caefd1773fbd1e92547782151bfc000ae6a6a6ca0b8394458ffe9f4a8060dedb",
+    "CAM-pretrained_models\\consistency-test\\codex\\quantize_camplus_int8.py": "8212e31def8603a989946751c14e511889826483532bceedac80245caec79601",
+    "CAM-pretrained_models\\FPGA-3\\pointwise_engine\\prepare_pointwise.py": "06be834c5093a5fbb7733ca5912a12b884cd99af38bc8a781f3fa80b65eccc13",
+    "CAM-pretrained_models\\FPGA-3\\pointwise_engine\\deploy\\pointwise_board.py": "874a7ce36e333908d07fd0c4a24418ef341a24f6d4efa43a32d3b65164f7b9ff",
+    "CAM-pretrained_models\\FPGA-3\\pointwise_engine\\analysis\\run_db2b6b2792c9\\RESULT_ANALYSIS.md": "71c1ef3609fdb1e8cb0599875fd6d4d8c1d9f38cb6bdc4bf8601b1fa0efa3bb6",
+    "evaluate_cnceleb.py": "587c8f5185aa0170e8af798f38b1c09a72dd94786c24049f9bb2fe0d94ae8468"
+  },
+  "CPU_backend_board": "unconfirmed; manual probe required",
+  "hardware_regenerated": false
+}

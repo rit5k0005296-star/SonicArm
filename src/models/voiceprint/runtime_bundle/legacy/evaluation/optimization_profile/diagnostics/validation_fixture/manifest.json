@@ -1,0 +1,19 @@
+{
+  "version": "optimization_profile_2",
+  "files": {
+    "optimization_profile.py": "45e2726b29d9156ddf22fc4164033ff81ba8d1cec83afb5829f81b6471aa3795",
+    "README.md": "3ec5a934135b6d7ddcb90609c72405c83e2a638d9cb6701c174f2c342bbfadcd",
+    "07_cpu_graph_optimization_profile.ipynb": "2abc9ee4dc2b7023d3e75fed863d673cc6e4b3002641832ce7f88ab80e85a671"
+  },
+  "notebook_cells": {
+    "07_cpu_graph_optimization_profile.ipynb": [
+      "from pathlib import Path\nimport sys, uuid\nsys.dont_write_bytecode=True\nWORK=Path.cwd().resolve()\nassert WORK.name=='optimization_profile' and (WORK/'optimization_profile.py').is_file(), '\u8bf7\u5728evaluation/optimization_profile\u4e2d\u6253\u5f00\u672cNotebook'\nsys.path.insert(0,str(WORK))\nfrom optimization_profile import setup, correctness, profile, benchmark\nPREVIOUS_RUN=WORK.parent/'benchmark_compare/results/run_c44659411d5d4285b8888dc237a52a67'\nRUN=WORK/'results'/('run_'+uuid.uuid4().hex)\nPROFILE_REPEATS=3\nREPEATS=10  # \u6b63\u5f0f\u6d4b\u91cf\u603b\u6b21\u6570/\u6a21\u5f0f/\u67e5\u8be2\uff1b\u53ef\u653920\uff0c\u5fc5\u987b\u4e3a\u5076\u6570\nWARMUP=2\nsetup_report=setup(RUN,PREVIOUS_RUN)\nprint('\u672c\u6b21\u7ed3\u679c\u76ee\u5f55\uff1a',RUN)\n",
+      "baseline_profile=profile(RUN,repeats=PROFILE_REPEATS,warmup=1,baseline_only=True)\n",
+      "correctness_report=correctness(RUN)\n",
+      "profile_report=profile(RUN,repeats=PROFILE_REPEATS,warmup=1)\n",
+      "performance_report=benchmark(RUN,repeats=REPEATS,warmup=WARMUP)\n"
+    ]
+  },
+  "comparison_manifest_sha256": "3801e6e184e8843cec35c5cb7241653923279b85f2f1b817c45ce9c46d6e26fd",
+  "actual_board_tested": false
+}

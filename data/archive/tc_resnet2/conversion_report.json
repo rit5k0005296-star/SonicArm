@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source_checkpoint": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\TC_ResNet2\\best_model_package\\best_model.pth",
+  "source_checkpoint_sha256": "81db04037a359d8ffcaa76d3b0909079fbe54f0265d1129d3d552603f1a45535",
+  "parameter_count": 17151,
+  "feature_shape": [
+    1,
+    40,
+    398
+  ],
+  "pytorch_numpy_max_abs_logit_error": 5.7220458984375e-06,
+  "pytorch_numpy_max_abs_frontend_error": 2.384185791015625e-07,
+  "weights_sha256": "59237907e32f52cd32eb2c8f31c505e12f64e2daa1a94bcedded324f74ea9a04",
+  "boundary": "PC functional equivalence only; no PYNQ latency or live-microphone validation."
+}

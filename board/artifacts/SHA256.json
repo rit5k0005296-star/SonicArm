@@ -1,0 +1,12 @@
+[
+  {
+    "file": "fpga10_audio_hdmi.bit",
+    "bytes": 4045690,
+    "sha256": "82ff1d058923f019236a10a13650cd1c4c6a1915ae747c2ebb121e9cdc67054d"
+  },
+  {
+    "file": "fpga10_audio_hdmi.hwh",
+    "bytes": 748645,
+    "sha256": "af4d2dfbae3e69125c608378fbe07323fe5f43551ee74b3c3ed8ba95e95f6681"
+  }
+]

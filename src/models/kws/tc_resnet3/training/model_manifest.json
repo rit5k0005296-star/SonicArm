@@ -1,0 +1,11 @@
+{
+  "version": "Jingyuan_v5_20261026",
+  "parameters": 17151,
+  "weights_sha256": "4a286ab10df4ab55443c97ed034417c4be7919bbee6af5a87daf00414950a950",
+  "baseline_weights_sha256": "5912af2b98411a1748755f9a672cc170a15dea661159cf151ce9bde2c7938267",
+  "new_train_recordings": 40,
+  "new_validation_recordings": 0,
+  "new_test_recordings": 0,
+  "input_seconds": 5.2,
+  "torch_numpy_cases": 189
+}

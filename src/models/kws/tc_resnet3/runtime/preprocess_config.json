@@ -1,0 +1,31 @@
+{
+  "sample_rate": 16000,
+  "window_seconds": 5.2,
+  "num_samples": 83200,
+  "n_fft": 400,
+  "win_length": 400,
+  "hop_length": 160,
+  "n_mels": 40,
+  "center": false,
+  "mel_scale": "htk",
+  "mel_norm": null,
+  "f_min": 0.0,
+  "f_max": 8000.0,
+  "power": 2.0,
+  "log_base": "e",
+  "log_epsilon": 1e-10,
+  "hann_periodic": true,
+  "vad_margin_seconds": 0.05,
+  "mean": -15.66264514897002,
+  "std": 10.323614603920412,
+  "statistics_source": "mixed_train_only",
+  "statistics_values": 36679680,
+  "feature_shape": [
+    1,
+    40,
+    518
+  ],
+  "alignment": "active_trim_center_v1",
+  "trim_margin_seconds": 0.05,
+  "peak_normalize": 0.8
+}

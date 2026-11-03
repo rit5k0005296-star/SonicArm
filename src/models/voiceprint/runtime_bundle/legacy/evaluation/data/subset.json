@@ -1,0 +1,185 @@
+{
+  "selection": "first 4 official enroll identities; first 2 target test recordings per identity in official test.lst order; include ALL original trials for those identities/recordings",
+  "source_eval_root": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\eval",
+  "source_lists": {
+    "enroll.lst": "7b2efffce7aa26b00e82f0e66e83206ebecb2ad019c89f6b43f8d0de8bae7caa",
+    "test.lst": "cd2c4cfec99f231ac4f3296e3ebd47ee7904f7a997df869f026297116c03c573",
+    "trials.lst": "3e0df69abc09f86aad1e70d689f25a8fffa05229a32bf8e1eb7a1519afd42338"
+  },
+  "source_trials": 3484292,
+  "enrollment": {
+    "id00800-enroll": "enroll/id00800-enroll.wav",
+    "id00801-enroll": "enroll/id00801-enroll.wav",
+    "id00802-enroll": "enroll/id00802-enroll.wav",
+    "id00803-enroll": "enroll/id00803-enroll.wav"
+  },
+  "tests": [
+    "test/id00800-singing-01-001.wav",
+    "test/id00800-singing-01-002.wav",
+    "test/id00801-drama-01-001.wav",
+    "test/id00801-drama-02-001.wav",
+    "test/id00802-drama-02-001.wav",
+    "test/id00802-drama-02-002.wav",
+    "test/id00803-entertainment-01-002.wav",
+    "test/id00803-entertainment-01-003.wav"
+  ],
+  "target_trials": 8,
+  "non_target_trials": 24,
+  "recordings": [
+    {
+      "protocol_name": "enroll/id00800-enroll.wav",
+      "file": "data/eval/enroll/id00800-enroll.flac",
+      "sha256": "3c94e03c2b1830f27c70247a30f7c81dc5c5aa7735570843825bf68641417109",
+      "sample_rate": 16000,
+      "frames": 753072,
+      "audio_seconds": 47.067,
+      "channels": 1,
+      "features": "data/features/cbfc5bd2a21f810d8162aa94b8f665265aafaa888e5e11b2f5ea216e4ad405d7.npy",
+      "features_sha256": "7a2ce20055579da0a2f6a7ee885e2c36f1af19c0882b06bdb20007f0f77484a9",
+      "feature_frames": 4705
+    },
+    {
+      "protocol_name": "enroll/id00801-enroll.wav",
+      "file": "data/eval/enroll/id00801-enroll.flac",
+      "sha256": "9c20f14db302a3f0455242b2748cf54cd8e8378c320e0e59a5faf6a4722d2abd",
+      "sample_rate": 16000,
+      "frames": 839264,
+      "audio_seconds": 52.454,
+      "channels": 1,
+      "features": "data/features/d85fb30f4de6b533f87941e185abeacda1adf070a4d7fb8c576ac8d25c419812.npy",
+      "features_sha256": "c73bef529e9a82ebc2c337a54b383f1051508a146edc47fd2c66664fa84dff1b",
+      "feature_frames": 5243
+    },
+    {
+      "protocol_name": "enroll/id00802-enroll.wav",
+      "file": "data/eval/enroll/id00802-enroll.flac",
+      "sha256": "cb4ce095c6ef752f7fd9ef9b7579507b7c660255a33905cf085b8c17eedf9ddd",
+      "sample_rate": 16000,
+      "frames": 393439,
+      "audio_seconds": 24.5899375,
+      "channels": 1,
+      "features": "data/features/524377fc4424b429a68f56a032ddf3b874bd9c0fddd3c38d8afae1a2624131c8.npy",
+      "features_sha256": "6e0673ba0f44d3c75568ba2aed5ff07ec895f099c9f45a7272c7d824e9b69c8f",
+      "feature_frames": 2457
+    },
+    {
+      "protocol_name": "enroll/id00803-enroll.wav",
+      "file": "data/eval/enroll/id00803-enroll.flac",
+      "sha256": "11881c3a45ee8d7634cf6c0cae3635e5c8891d8cd29abbe2d69dbb07dc9c9ee3",
+      "sample_rate": 16000,
+      "frames": 667624,
+      "audio_seconds": 41.7265,
+      "channels": 1,
+      "features": "data/features/6f9ddb7a8f16112a9074477948a3952d9da89da8996c97deebc46b81ddeb9bd9.npy",
+      "features_sha256": "714518bb173146b6e9e297c3138cf2035b09d9907ce1ecf6f49af58ae7c5107b",
+      "feature_frames": 4171
+    },
+    {
+      "protocol_name": "test/id00800-singing-01-001.wav",
+      "file": "data/eval/test/id00800-singing-01-001.flac",
+      "sha256": "eee55a7827f107b90ea009b47fdbf6460914d9597bd4e21a8cf54397aa2fdc5a",
+      "sample_rate": 16000,
+      "frames": 334739,
+      "audio_seconds": 20.9211875,
+      "channels": 1,
+      "features": "data/features/2f69a04ba7349748b04f37109196876aa95c836dfa6ccd4c65ae4b01bc1b10d8.npy",
+      "features_sha256": "2a8673db1185363bcb7abb18a64adf6ec549ee3815ad5e3e605a99b5e9579c0a",
+      "feature_frames": 2090
+    },
+    {
+      "protocol_name": "test/id00800-singing-01-002.wav",
+      "file": "data/eval/test/id00800-singing-01-002.flac",
+      "sha256": "af574e5e4a9b28013b5754722e958899bfb1eeaefad5bd0ad351624e8c432f86",
+      "sample_rate": 16000,
+      "frames": 173500,
+      "audio_seconds": 10.84375,
+      "channels": 1,
+      "features": "data/features/245e4f503fbc239409bf06aeb50a937f0c248f66f5e704041c9e94a3c77ff7a3.npy",
+      "features_sha256": "fe822a57b142f4bef3a136e0061ff82b7c3710f72e8cc6c0b0249d22ae969f5c",
+      "feature_frames": 1082
+    },
+    {
+      "protocol_name": "test/id00801-drama-01-001.wav",
+      "file": "data/eval/test/id00801-drama-01-001.flac",
+      "sha256": "bb56ecb92ea697e000b0a7ee7a088222c431aab4af631cd970f2c6949fd2f5e5",
+      "sample_rate": 16000,
+      "frames": 45325,
+      "audio_seconds": 2.8328125,
+      "channels": 1,
+      "features": "data/features/d23224da9c3849b4bf5a8fff7ac3a4a515d95ff79f10db12cc6ba3c2fda8141d.npy",
+      "features_sha256": "a943fea3d5ce7afbb7d9e2584c09642f9a3e67811139fecf986a670a06da182d",
+      "feature_frames": 281
+    },
+    {
+      "protocol_name": "test/id00801-drama-02-001.wav",
+      "file": "data/eval/test/id00801-drama-02-001.flac",
+      "sha256": "2c05b8f2c91249dec36917c258158102ebc387f81086c0f0149e585dc83cff5c",
+      "sample_rate": 16000,
+      "frames": 77277,
+      "audio_seconds": 4.8298125,
+      "channels": 1,
+      "features": "data/features/20e173a98e74172ba47b74faa62d38a6715adff5be3e6d235efb8fd1d935f9a5.npy",
+      "features_sha256": "692928b0b658956813962e80310a8acdcd4ab2b6bb3d891e0b24654b6948567f",
+      "feature_frames": 481
+    },
+    {
+      "protocol_name": "test/id00802-drama-02-001.wav",
+      "file": "data/eval/test/id00802-drama-02-001.flac",
+      "sha256": "51ec549dc40215b62d426b2fc08796cdd1fa4c0d7856419cd6b498934b97781f",
+      "sample_rate": 16000,
+      "frames": 155296,
+      "audio_seconds": 9.706,
+      "channels": 1,
+      "features": "data/features/cdb7fa8dbf0cf72198854b807bcf8f4dc8f77860256fabd2c8d362e1c5d4453f.npy",
+      "features_sha256": "b3c7eed6c6f21cccbc28c732f179fc780fe1a53120b69aa0ba7d5b5aa7e301a1",
+      "feature_frames": 969
+    },
+    {
+      "protocol_name": "test/id00802-drama-02-002.wav",
+      "file": "data/eval/test/id00802-drama-02-002.flac",
+      "sha256": "24e619a7760a5143bf4c711efa94a78cdca8a66a4031b1099ff354e423f6b2df",
+      "sample_rate": 16000,
+      "frames": 53128,
+      "audio_seconds": 3.3205,
+      "channels": 1,
+      "features": "data/features/2fb76fcef44d4b5c99af9623d6032876dbbef083a37d3e6f6b8a4dd9e5f85817.npy",
+      "features_sha256": "c64852e71ba658b9556d260ea9671b8100498c0333d494bb2ccd4a4dcf83967f",
+      "feature_frames": 330
+    },
+    {
+      "protocol_name": "test/id00803-entertainment-01-002.wav",
+      "file": "data/eval/test/id00803-entertainment-01-002.flac",
+      "sha256": "a03bc34459de42de29f0411f684995fe276600b44e86daca82f7a92a8026de6a",
+      "sample_rate": 16000,
+      "frames": 59444,
+      "audio_seconds": 3.71525,
+      "channels": 1,
+      "features": "data/features/f47197ee34fb6d51b3df1f0d1c57bc5571423e2814212835c55c9da51249209f.npy",
+      "features_sha256": "4c99f02d0adeaf8f44169e13e0762ac22fe5f85e41dfed92a9beb16cbc8d0c11",
+      "feature_frames": 370
+    },
+    {
+      "protocol_name": "test/id00803-entertainment-01-003.wav",
+      "file": "data/eval/test/id00803-entertainment-01-003.flac",
+      "sha256": "7530db350b1a6911a1da36fdbf6d8c3c93c565d3db6dc13e921851d5fb53ce26",
+      "sample_rate": 16000,
+      "frames": 53128,
+      "audio_seconds": 3.3205,
+      "channels": 1,
+      "features": "data/features/8a8dee2ddc69a5e2e77e163d297e89c47e33164538e4efb4c46467e604332318.npy",
+      "features_sha256": "dffc494e3bf0a2fcb98981db9191996f236a09e0304d45fb6b753d6b31aa6e63",
+      "feature_frames": 330
+    }
+  ],
+  "audio_unchanged": true,
+  "cropping_VAD_chunk_averaging": false,
+  "subset_pilot_only": true,
+  "threshold_calibrated": false,
+  "canonical_frontend": {
+    "torch": "2.13.0+cu130",
+    "torchaudio": "2.11.0+cu130",
+    "config_sha256": "e6f0fc4e59585e59abb10c53cb30ed86c98495df96f4fc37ec289f64b7d4dd10",
+    "implementation_sha256": "27d807e3ed54e8e2d92c750fdf9bd598dc822d59ec3277f88bc5fc95d4703bdc",
+    "scope": "Original canonical frontend on complete original recordings; fixed identical Fbank supplied to both board models; no board frontend accuracy claim"
+  }
+}

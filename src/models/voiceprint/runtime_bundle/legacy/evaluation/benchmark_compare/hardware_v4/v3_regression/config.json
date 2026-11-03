@@ -1,0 +1,31 @@
+{
+  "index": 1,
+  "name": "/xvector/block1/tdnnd1/linear1/Conv",
+  "cin": 128,
+  "cout": 128,
+  "input_zp": -128,
+  "output_zp": -15,
+  "requant_shift": 40,
+  "input_tensor": "/xvector/block1/tdnnd1/nonlinear1/relu/Relu_output_0_QuantizeLinear_Output",
+  "output_tensor": "/xvector/block1/tdnnd1/linear1/Conv_output_0_QuantizeLinear_Output",
+  "bound": 1456329,
+  "frames": 150,
+  "flags": 2,
+  "case": "audio01_layer01",
+  "audio_name": "interview-01-001.flac",
+  "audio_sha256": "0d2e92f84dc1fedd8c8d4876ac2366ceb2563b7a573ce9e27c229a537e700b94",
+  "model_sha256": "c0c4103c23301e26aa58e106933bbeaefbfdc7d0708052729b3155f7f824560f",
+  "onnx_mismatches": 0,
+  "onnx_max_lsb": 0,
+  "fp64_mismatches": 0,
+  "files_sha256": {
+    "input_int8.bin": "9904d7263df105565c2c9f5e651705e85b9d091fa9d37514db07695c6049cf6d",
+    "weights_int8.bin": "25b8574ddedd937d5b84e4714018e1f25aa2dae5b974be2d185e805fcb777ad6",
+    "bias_int32.bin": "25b25e5761180386e9237698b51b2e3021c01d7a9f97fe968fcaf5c7e7f4bcbe",
+    "multiplier_uint32.bin": "15cbb6edf736cbab73793917511c1a0abebc5962ad4ec41a85bcb87725ff5dc7",
+    "post_lut_int8.bin": "2bae3a9530e35152c19d73f13f6c0e22cb92f22ce8aa895796711f52b8f7f516",
+    "reference_accum_int32.bin": "4db7184e689c4e838392444e7883e76dceb96587d0ab89e433b738f64a847493",
+    "reference_output_int8.bin": "4db4d25a739a902da1054fa16c62e8f2878ba6df662c2a71dc5e4796f1edee19",
+    "onnx_output_int8.bin": "4db4d25a739a902da1054fa16c62e8f2878ba6df662c2a71dc5e4796f1edee19"
+  }
+}

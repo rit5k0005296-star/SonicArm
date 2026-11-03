@@ -1,0 +1,962 @@
+{
+  "weight_path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\CAM-pretrained_models\\campplus_cn_common\\campplus_cn_common.bin",
+  "weight_sha256": "3388cf5fd3493c9ac9c69851d8e7a8badcfb4f3dc631020c4961371646d5ada8",
+  "onnx_sha256": "c0c4103c23301e26aa58e106933bbeaefbfdc7d0708052729b3155f7f824560f",
+  "source_dir": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\CAM-pretrained_models\\3D-Speaker-main",
+  "source_sha256": {
+    "DTDNN.py": "52272359361ef9f03a8b4198f50139301ce712833e777396940a5b437177cd34",
+    "layers.py": "b3d28ad94d14b30fcd20c96d1d83516d4e44de733959460b358e90d97476adb8"
+  },
+  "input": "float32 [1,T,80] official mean-normalized Kaldi Fbank",
+  "output": "float32 [1,192] raw embedding, no L2 normalization",
+  "dynamic_frames": true,
+  "export_frames": 300,
+  "opset": 17,
+  "parameters": 6848544,
+  "operators": {
+    "Transpose": 1,
+    "Constant": 950,
+    "Unsqueeze": 369,
+    "Conv": 225,
+    "Relu": 171,
+    "Add": 56,
+    "Shape": 265,
+    "Gather": 213,
+    "Mul": 107,
+    "Concat": 158,
+    "Reshape": 105,
+    "BatchNormalization": 56,
+    "ReduceMean": 55,
+    "AveragePool": 52,
+    "ConstantOfShape": 52,
+    "Equal": 52,
+    "Where": 52,
+    "Expand": 52,
+    "Slice": 52,
+    "Sigmoid": 52,
+    "ReduceProd": 1,
+    "Sub": 2,
+    "Cast": 1,
+    "Div": 1,
+    "Sqrt": 1,
+    "Squeeze": 1
+  },
+  "packages": {
+    "torch": "2.13.0+cu130",
+    "onnx": "1.23.2"
+  },
+  "scope": "ONNX intermediate model; not TFLite or an FPGA bitstream",
+  "parent_fp32_sha256": "18df404e890310a2017d2ad8db0dcc9a4a45b27f4a03b4810950103f6453bf37",
+  "quantization": {
+    "method": "static PTQ QDQ",
+    "calibration": "minmax",
+    "weight": "INT8 symmetric per-output-channel",
+    "activation": "INT8 asymmetric per-tensor",
+    "operators": [
+      "Conv"
+    ],
+    "remaining_operators": "FP32/shape; this is mixed precision, not full integer FPGA inference",
+    "sample_count": 128,
+    "seed": 20261010,
+    "crop_seconds": 0.0
+  },
+  "calibration_records": [
+    {
+      "speaker": "id00799",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00799\\interview-05-046.flac",
+      "audio_sha256": "6573e27650a544c48b0170968f0f346aa586922da946148da595c04ca3fcd1af",
+      "full_frames": 650,
+      "calibration_frames": 650
+    },
+    {
+      "speaker": "id00172",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00172\\interview-04-017.flac",
+      "audio_sha256": "9ba5928736b9dff86a186bd8a8856c4056a9058726eec71b5a299597f0871dc6",
+      "full_frames": 82,
+      "calibration_frames": 82
+    },
+    {
+      "speaker": "id00780",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00780\\entertainment-01-010.flac",
+      "audio_sha256": "578229d6f43ce73375ead585e4ba0326c01b1c372d9b4c41435b0a1c7445b064",
+      "full_frames": 130,
+      "calibration_frames": 130
+    },
+    {
+      "speaker": "id00640",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00640\\entertainment-03-001.flac",
+      "audio_sha256": "35a06e548cfa07fdf71ecec830ec1d90f48953bf3ad9b1d7033ac6a805f3e25b",
+      "full_frames": 1050,
+      "calibration_frames": 1050
+    },
+    {
+      "speaker": "id00204",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00204\\interview-06-019.flac",
+      "audio_sha256": "5371851f90aaff142f6e3dda7c376235078c64257624ec1db996ad8759a6e22d",
+      "full_frames": 149,
+      "calibration_frames": 149
+    },
+    {
+      "speaker": "id00369",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00369\\interview-01-027.flac",
+      "audio_sha256": "c9247ef5d5aefe99befee61021c5d811210b8a87fd2d8d90bad267e868921e3f",
+      "full_frames": 880,
+      "calibration_frames": 880
+    },
+    {
+      "speaker": "id00643",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00643\\interview-02-016.flac",
+      "audio_sha256": "baa97f558ae229db972f610f8ba15e5347d54e6183be7ee4cb0d745a559fdfff",
+      "full_frames": 2640,
+      "calibration_frames": 2640
+    },
+    {
+      "speaker": "id00150",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00150\\interview-01-001.flac",
+      "audio_sha256": "55f3a6978f0f48d41700eb6c17b41638b898b7af66867f241468a8a2b25d2930",
+      "full_frames": 230,
+      "calibration_frames": 230
+    },
+    {
+      "speaker": "id00096",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00096\\interview-01-042.flac",
+      "audio_sha256": "cc0216c348de6235f88edd7a499ac553f5d938f8aadd1fe157bac799609fb07e",
+      "full_frames": 1370,
+      "calibration_frames": 1370
+    },
+    {
+      "speaker": "id00356",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00356\\interview-02-007.flac",
+      "audio_sha256": "0e127ef081a6fbbf6ffaedab176c520d0f8d3c44e32f7eb3b5b38df8e0a9d7bb",
+      "full_frames": 130,
+      "calibration_frames": 130
+    },
+    {
+      "speaker": "id00013",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00013\\interview-01-035.flac",
+      "audio_sha256": "a8c59ef11409797c2d5e30f01b2f682ab0fefd833b114dac69efb5acb72608f9",
+      "full_frames": 370,
+      "calibration_frames": 370
+    },
+    {
+      "speaker": "id00515",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00515\\live_broadcast-03-004.flac",
+      "audio_sha256": "2df16148eda62607ec8e2c5cdef7e078bfc85de8c527ac40fd13885a0d00bac6",
+      "full_frames": 170,
+      "calibration_frames": 170
+    },
+    {
+      "speaker": "id00430",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00430\\interview-01-005.flac",
+      "audio_sha256": "0be81bac19f5c25f2d9a4fdccb9e4b4f121a494633a896e514bdfd542fa67186",
+      "full_frames": 330,
+      "calibration_frames": 330
+    },
+    {
+      "speaker": "id00192",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00192\\interview-01-033.flac",
+      "audio_sha256": "e262e74548bfc04d66403abf07e85f875ce997b6a9ec7d70d6c50919fbcb8f4f",
+      "full_frames": 249,
+      "calibration_frames": 249
+    },
+    {
+      "speaker": "id00683",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00683\\interview-01-025.flac",
+      "audio_sha256": "e458c09c405e8cab9f9d1dc1bbe4884fb1029998ea4e58035b24c54eadd620cc",
+      "full_frames": 3889,
+      "calibration_frames": 3889
+    },
+    {
+      "speaker": "id00762",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00762\\play-01-010.flac",
+      "audio_sha256": "04b31e611f40236cd15ebd35d6ba4eb01ff1c5bddc0d91e40bd81ec9b3b1a3d0",
+      "full_frames": 530,
+      "calibration_frames": 530
+    },
+    {
+      "speaker": "id00230",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00230\\speech-02-001.flac",
+      "audio_sha256": "bc67170251e26f2aa6b80e7811d56c9a828cd876bc59a1d6d7c30a185834ba12",
+      "full_frames": 181,
+      "calibration_frames": 181
+    },
+    {
+      "speaker": "id00603",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00603\\interview-01-041.flac",
+      "audio_sha256": "d5c2d277cc3452b4e6c376e9454783e6ad4a34c626ffb8dd5148109fe770a7bb",
+      "full_frames": 750,
+      "calibration_frames": 750
+    },
+    {
+      "speaker": "id00169",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00169\\interview-04-171.flac",
+      "audio_sha256": "2aa1cb7ba8cda67e038d863a205309ac4304e08a4b510fe3d597b63a62279b6d",
+      "full_frames": 54,
+      "calibration_frames": 54
+    },
+    {
+      "speaker": "id00652",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00652\\interview-05-001.flac",
+      "audio_sha256": "7939a4a5aa8dfa2b582a6526ba344d837264a2d69a6ab33c581d12f605fa54e7",
+      "full_frames": 730,
+      "calibration_frames": 730
+    },
+    {
+      "speaker": "id00106",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00106\\interview-02-001.flac",
+      "audio_sha256": "787b4f41ce3635319a2d3cd9af2134336f46ec9091b6038d22d816a1e75b0bf8",
+      "full_frames": 1482,
+      "calibration_frames": 1482
+    },
+    {
+      "speaker": "id00079",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00079\\interview-03-056.flac",
+      "audio_sha256": "f58a795f0c08bdadb3b022d58cef554d6f17349c9cda6e99c3001a0975c7e89f",
+      "full_frames": 370,
+      "calibration_frames": 370
+    },
+    {
+      "speaker": "id00279",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00279\\interview-01-298.flac",
+      "audio_sha256": "c494a3be9ce7eb7a6b60e27eae5ec19e1d8ffa4e0aa6bd01c612362371189b39",
+      "full_frames": 177,
+      "calibration_frames": 177
+    },
+    {
+      "speaker": "id00042",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00042\\interview-02-112.flac",
+      "audio_sha256": "d4aec989923547b9126eefe6bfc18794a94650f435374a79e7a97904a027b478",
+      "full_frames": 89,
+      "calibration_frames": 89
+    },
+    {
+      "speaker": "id00417",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00417\\interview-03-024.flac",
+      "audio_sha256": "40504e1207c1d4574616dd0dfc1d2dc7ea9580afffd4448a9129e158f71f4bb6",
+      "full_frames": 729,
+      "calibration_frames": 729
+    },
+    {
+      "speaker": "id00766",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00766\\interview-02-002.flac",
+      "audio_sha256": "dca1e41c90ea235bc445dbc5135bf945c5a0d2f69b13212f0d9241ed15e06486",
+      "full_frames": 82,
+      "calibration_frames": 82
+    },
+    {
+      "speaker": "id00072",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00072\\interview-06-005.flac",
+      "audio_sha256": "bd82f5726203cae5b8b0a27cb15f9081786169222bb47eedf098f3f39da16d80",
+      "full_frames": 2650,
+      "calibration_frames": 2650
+    },
+    {
+      "speaker": "id00629",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00629\\speech-03-018.flac",
+      "audio_sha256": "ca0357800a2081b78fc81539b5f281b125d3818137954402730e21f9cb0ebbf9",
+      "full_frames": 2650,
+      "calibration_frames": 2650
+    },
+    {
+      "speaker": "id00415",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00415\\interview-04-009.flac",
+      "audio_sha256": "6641e76eb41be3efe3ac40e41a98d4f66b6b8d0c8a71b5698e245940bbdc7d94",
+      "full_frames": 969,
+      "calibration_frames": 969
+    },
+    {
+      "speaker": "id00572",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00572\\interview-03-001.flac",
+      "audio_sha256": "608d509819c4fd3e68bccbe2223cdc9fdf78f76be377e58e6348fe2eb7587d2c",
+      "full_frames": 769,
+      "calibration_frames": 769
+    },
+    {
+      "speaker": "id00575",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00575\\interview-03-078.flac",
+      "audio_sha256": "dc5c0802767a4d2f0e0a060c1a4657d58268824a4a443004497051abeeb7ea78",
+      "full_frames": 130,
+      "calibration_frames": 130
+    },
+    {
+      "speaker": "id00382",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00382\\interview-09-012.flac",
+      "audio_sha256": "469ca9ce70e691548d3c213c85d3c182646a4d627a9beda5ab2e0bbd4fbccc27",
+      "full_frames": 82,
+      "calibration_frames": 82
+    },
+    {
+      "speaker": "id00061",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00061\\singing-03-017.flac",
+      "audio_sha256": "c989922465e9c654b4503a5b659d7df289889b82da12faf6e3c4b73dd9f24643",
+      "full_frames": 82,
+      "calibration_frames": 82
+    },
+    {
+      "speaker": "id00261",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00261\\drama-01-014.flac",
+      "audio_sha256": "10c0e029bff6bab6d0931db400683b1e9d843b8e7d651446aefa618306b9dfdd",
+      "full_frames": 130,
+      "calibration_frames": 130
+    },
+    {
+      "speaker": "id00784",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00784\\interview-03-129.flac",
+      "audio_sha256": "cefbc9117f256f7500bf224baef5154d1275921e588f16e70dab981c7a3b2317",
+      "full_frames": 6281,
+      "calibration_frames": 6281
+    },
+    {
+      "speaker": "id00665",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00665\\entertainment-01-002.flac",
+      "audio_sha256": "8a6512d770312997d1a7778c90c9ad4d3f1092479885f7a245b6bd02427f8a02",
+      "full_frames": 481,
+      "calibration_frames": 481
+    },
+    {
+      "speaker": "id00571",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00571\\interview-02-009.flac",
+      "audio_sha256": "8821d126b09d9b6fa3b0ce8114ba13d18952faad5da6d6e4994a4b8a27751f10",
+      "full_frames": 480,
+      "calibration_frames": 480
+    },
+    {
+      "speaker": "id00021",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00021\\live_broadcast-01-085.flac",
+      "audio_sha256": "9ed7947bce51c03dd4ba6646c8fe74591dbb483c6b46999ec9ec712f1a1ac64e",
+      "full_frames": 481,
+      "calibration_frames": 481
+    },
+    {
+      "speaker": "id00385",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00385\\entertainment-01-009.flac",
+      "audio_sha256": "a0e6d2fb85e20e1d9b320bc6db8f4532bc918e567ef0f0c38ee29c9046cd8b5c",
+      "full_frames": 330,
+      "calibration_frames": 330
+    },
+    {
+      "speaker": "id00131",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00131\\live_broadcast-01-017.flac",
+      "audio_sha256": "8b928cdb3034112f3e67999a8fb45b0a4421a10ff2869e2842a50344dd61aed5",
+      "full_frames": 530,
+      "calibration_frames": 530
+    },
+    {
+      "speaker": "id00191",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00191\\live_broadcast-04-005.flac",
+      "audio_sha256": "1b890828ea15ebc4059c719eec7737683415155cd64c38baa54fae4b8e752636",
+      "full_frames": 249,
+      "calibration_frames": 249
+    },
+    {
+      "speaker": "id00469",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00469\\entertainment-02-003.flac",
+      "audio_sha256": "aaeceb3ed6a33e762db69fc2d185ee1e07a2b9fec116ca4949219a3bd6185450",
+      "full_frames": 690,
+      "calibration_frames": 690
+    },
+    {
+      "speaker": "id00409",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00409\\play-01-003.flac",
+      "audio_sha256": "77b6c3d00437912f309df239a867e4551681dec39b34042586d2dc4576395ee3",
+      "full_frames": 170,
+      "calibration_frames": 170
+    },
+    {
+      "speaker": "id00763",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00763\\singing-04-034.flac",
+      "audio_sha256": "c7640df86540d8f5fa8aa3afb01086d772805471903a9d18ae5047eb4e4af60e",
+      "full_frames": 569,
+      "calibration_frames": 569
+    },
+    {
+      "speaker": "id00490",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00490\\interview-02-005.flac",
+      "audio_sha256": "f2f9e06a500579c8ad8936bb915971ff2356bb98dd28d223780bbc2b4d3cd0ba",
+      "full_frames": 2249,
+      "calibration_frames": 2249
+    },
+    {
+      "speaker": "id00672",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00672\\drama-01-014.flac",
+      "audio_sha256": "48b659031b092f2d0920deef5b0cac91c78f3e2810124e701a72673a1c263872",
+      "full_frames": 130,
+      "calibration_frames": 130
+    },
+    {
+      "speaker": "id00134",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00134\\interview-01-020.flac",
+      "audio_sha256": "e33463dd3471452d3a4b90a02b6f4b801adb5723d9b48dbf7f1a66b7c4fde067",
+      "full_frames": 530,
+      "calibration_frames": 530
+    },
+    {
+      "speaker": "id00108",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00108\\interview-01-005.flac",
+      "audio_sha256": "5a2bb8d9677c5f1e831f01d76513b5c9d280d0e19b1032fe86100387d5513993",
+      "full_frames": 291,
+      "calibration_frames": 291
+    },
+    {
+      "speaker": "id00264",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00264\\interview-04-002.flac",
+      "audio_sha256": "7d0d862ff4e650d4b117d7818dbc1023cc2836a5064918e13467d2b6c5ae3b0d",
+      "full_frames": 1482,
+      "calibration_frames": 1482
+    },
+    {
+      "speaker": "id00596",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00596\\singing-03-004.flac",
+      "audio_sha256": "f4120ed297e5a11376541cdfe4ecf266a3a248a01489ad99224790f920b1b2b2",
+      "full_frames": 349,
+      "calibration_frames": 349
+    },
+    {
+      "speaker": "id00670",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00670\\interview-02-007.flac",
+      "audio_sha256": "51ea492d38203c5b343f65781a2bd81874e480c942e9ab02de9cd424c0956cc0",
+      "full_frames": 149,
+      "calibration_frames": 149
+    },
+    {
+      "speaker": "id00482",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00482\\interview-01-003.flac",
+      "audio_sha256": "7fd3c4f94ee634c6b8114e03c34521cfe80c0fe15921a3b2fcfe1cb00216ae1d",
+      "full_frames": 81,
+      "calibration_frames": 81
+    },
+    {
+      "speaker": "id00798",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00798\\singing-02-005.flac",
+      "audio_sha256": "c30c1323741b3712b0aa1283c253859f2dd846100b2a7b8b70ce5aa9b99637ba",
+      "full_frames": 769,
+      "calibration_frames": 769
+    },
+    {
+      "speaker": "id00420",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00420\\entertainment-02-031.flac",
+      "audio_sha256": "e4d519a90c46795a86cfcf487594bc8ae3bd4d8771277755bf0122346e66e045",
+      "full_frames": 89,
+      "calibration_frames": 89
+    },
+    {
+      "speaker": "id00351",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00351\\singing-01-001.flac",
+      "audio_sha256": "4dda57fd5d9d9cb6c851b98f149975b360a14700460ee361ff890eb1f36159e2",
+      "full_frames": 82,
+      "calibration_frames": 82
+    },
+    {
+      "speaker": "id00282",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00282\\live_broadcast-01-009.flac",
+      "audio_sha256": "ff4d0f58425485983104ac64c52d939e621898f89e569b8a28a5a53fba2c5180",
+      "full_frames": 181,
+      "calibration_frames": 181
+    },
+    {
+      "speaker": "id00551",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00551\\movie-01-007.flac",
+      "audio_sha256": "49225f8ad62dde45a777bfe5bee79e94638c5a295003ce817f4992e3f0070ac2",
+      "full_frames": 551,
+      "calibration_frames": 551
+    },
+    {
+      "speaker": "id00650",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00650\\interview-01-030.flac",
+      "audio_sha256": "0616a8a94deaaa4ab92e795a58935f153fc9aaab97aaa0264999b8e12125db9d",
+      "full_frames": 969,
+      "calibration_frames": 969
+    },
+    {
+      "speaker": "id00444",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00444\\interview-04-005.flac",
+      "audio_sha256": "620441a640374730612444b2349da4ceafc7cb89dc9016f44c0151cf52d75760",
+      "full_frames": 448,
+      "calibration_frames": 448
+    },
+    {
+      "speaker": "id00489",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00489\\entertainment-02-002.flac",
+      "audio_sha256": "2188b3d1b9dbd0b7e914f06ec9ba26ce595241c14781541f85e11b2078ec44c9",
+      "full_frames": 82,
+      "calibration_frames": 82
+    },
+    {
+      "speaker": "id00779",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00779\\interview-04-065.flac",
+      "audio_sha256": "417fc38a03d195050f2e0a06243aec5d2eea2e4dba4424b098a4a8297d491389",
+      "full_frames": 330,
+      "calibration_frames": 330
+    },
+    {
+      "speaker": "id00463",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00463\\interview-01-023.flac",
+      "audio_sha256": "4d2d936d9ff9269ff61e3cccb123fab4b1b6d11bcafe4c3a969879965564667d",
+      "full_frames": 1082,
+      "calibration_frames": 1082
+    },
+    {
+      "speaker": "id00536",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00536\\interview-05-010.flac",
+      "audio_sha256": "1d2770be52eccd0503e2e72d08d0152a7608370144395b57a2d83727b87a5528",
+      "full_frames": 1349,
+      "calibration_frames": 1349
+    },
+    {
+      "speaker": "id00291",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00291\\play-01-027.flac",
+      "audio_sha256": "44b627943a1b72c37af08bf7e908de675edc893e373df24bf7015bdf99ea3de9",
+      "full_frames": 690,
+      "calibration_frames": 690
+    },
+    {
+      "speaker": "id00708",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00708\\interview-01-047.flac",
+      "audio_sha256": "2e667579434739842eeb1354bb8816dc3a9ac34ddb4526c8e709c4583e9dbf6b",
+      "full_frames": 170,
+      "calibration_frames": 170
+    },
+    {
+      "speaker": "id00118",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00118\\advertisement-01-002.flac",
+      "audio_sha256": "0cf30ca5566abe47899b265798e859640a4782ebcb60c4406aac159cb38e0554",
+      "full_frames": 530,
+      "calibration_frames": 530
+    },
+    {
+      "speaker": "id00278",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00278\\interview-03-004.flac",
+      "audio_sha256": "1ab75322f459b7afaba07cda1d75434050a8f75b0fb026b1a5b84f912e3362e2",
+      "full_frames": 7226,
+      "calibration_frames": 7226
+    },
+    {
+      "speaker": "id00608",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00608\\interview-04-064.flac",
+      "audio_sha256": "9c97d66a749e310a097503e9493d33bd067642651b8246f56252e8963dcf4447",
+      "full_frames": 548,
+      "calibration_frames": 548
+    },
+    {
+      "speaker": "id00777",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00777\\interview-01-081.flac",
+      "audio_sha256": "a6aa3397a63cdc707c703e5263604bee6f65c3dbb60594b238f6a3c0b4727d65",
+      "full_frames": 769,
+      "calibration_frames": 769
+    },
+    {
+      "speaker": "id00494",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00494\\interview-03-022.flac",
+      "audio_sha256": "d0230c64a62abf71b5d3afc97e6b6bf51366895851c15c4b167b29c059d6cf54",
+      "full_frames": 89,
+      "calibration_frames": 89
+    },
+    {
+      "speaker": "id00023",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00023\\singing-01-016.flac",
+      "audio_sha256": "f197653212927fd30e43e54df9fc1bb53dd36e85c436ad8f74b353c55fd03060",
+      "full_frames": 130,
+      "calibration_frames": 130
+    },
+    {
+      "speaker": "id00721",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00721\\speech-01-129.flac",
+      "audio_sha256": "da17fcadb3e6d7963e34c5688167678e3663d9d819bc769749941c806b19f2aa",
+      "full_frames": 1681,
+      "calibration_frames": 1681
+    },
+    {
+      "speaker": "id00719",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00719\\entertainment-01-063.flac",
+      "audio_sha256": "da2a812dfe228c60209c63cc74290861edd421e1361e129f40defc6fa85e9018",
+      "full_frames": 82,
+      "calibration_frames": 82
+    },
+    {
+      "speaker": "id00166",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00166\\interview-03-001.flac",
+      "audio_sha256": "d9b82ee9de7e7a96eb8fabf5264bedd337e9d45cf66de5436aa5e1fc654812f7",
+      "full_frames": 725,
+      "calibration_frames": 725
+    },
+    {
+      "speaker": "id00447",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00447\\interview-04-005.flac",
+      "audio_sha256": "d71a7287881cb13c5e8579321be8d1866199789351725ab946c1af795a6dff47",
+      "full_frames": 448,
+      "calibration_frames": 448
+    },
+    {
+      "speaker": "id00163",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00163\\interview-01-001.flac",
+      "audio_sha256": "d4d91f451616d41b2426577e06ad52ea624d698ac8e7fcbcd56eaf1177e9e59a",
+      "full_frames": 45,
+      "calibration_frames": 45
+    },
+    {
+      "speaker": "id00051",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00051\\interview-01-051.flac",
+      "audio_sha256": "718e8125eaf6dd2eb5af7ba3d00fcfbbde1546500e0e2f4c2e4d20936271b70a",
+      "full_frames": 130,
+      "calibration_frames": 130
+    },
+    {
+      "speaker": "id00495",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00495\\entertainment-03-048.flac",
+      "audio_sha256": "1bda3e5ce4a6c80d7603d3266a2ad58014ee8f0df6a5b00aea8a65f48f861c91",
+      "full_frames": 81,
+      "calibration_frames": 81
+    },
+    {
+      "speaker": "id00124",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00124\\interview-01-011.flac",
+      "audio_sha256": "899c7fe86c106d88bdb68feb0de8873c83c927221984c5c32116c1dbfaee9277",
+      "full_frames": 142,
+      "calibration_frames": 142
+    },
+    {
+      "speaker": "id00044",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00044\\drama-01-004.flac",
+      "audio_sha256": "baf3ca1860ac27a146f87d93d434d9b29542c1da040df126c802cac1dd928a16",
+      "full_frames": 291,
+      "calibration_frames": 291
+    },
+    {
+      "speaker": "id00171",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00171\\entertainment-02-134.flac",
+      "audio_sha256": "3020f73e80c243af14d063d71135f17bf3c39ce58ba8205c6a02837341a35310",
+      "full_frames": 82,
+      "calibration_frames": 82
+    },
+    {
+      "speaker": "id00704",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00704\\interview-11-042.flac",
+      "audio_sha256": "fa1218dbc38b606586d8ab065fb2ddf901e2085031a5eae3060062207e45934a",
+      "full_frames": 1129,
+      "calibration_frames": 1129
+    },
+    {
+      "speaker": "id00422",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00422\\interview-02-002.flac",
+      "audio_sha256": "56dd2afe99d0be8905febe41b85b71b442b7fe8583030e1015988faa3262ace1",
+      "full_frames": 330,
+      "calibration_frames": 330
+    },
+    {
+      "speaker": "id00262",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00262\\drama-02-007.flac",
+      "audio_sha256": "00df7cb860c6109b2803093df3de464ed43f5a1a37f86329d53df64550d938c4",
+      "full_frames": 82,
+      "calibration_frames": 82
+    },
+    {
+      "speaker": "id00167",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00167\\interview-19-003.flac",
+      "audio_sha256": "6aa15eb3b00fea51dc1d7d2176b7d2f6f90a5ca2e345ed08e622e1905aace58a",
+      "full_frames": 1981,
+      "calibration_frames": 1981
+    },
+    {
+      "speaker": "id00664",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00664\\speech-01-018.flac",
+      "audio_sha256": "ffbeac32e8f67f144ccce25a281ca8e339350f22ff0f26428119fdafe49e04c2",
+      "full_frames": 1649,
+      "calibration_frames": 1649
+    },
+    {
+      "speaker": "id00765",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00765\\singing-02-002.flac",
+      "audio_sha256": "722a12b82e93ce63f5939832f5d333853fc88d9854d1d78a2f4db0e142e5b179",
+      "full_frames": 4171,
+      "calibration_frames": 4171
+    },
+    {
+      "speaker": "id00026",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00026\\singing-02-002.flac",
+      "audio_sha256": "bf088ed574703bd43ba079ba08fe44f1d14b41e1f7191947579565b94ddc2c7a",
+      "full_frames": 1449,
+      "calibration_frames": 1449
+    },
+    {
+      "speaker": "id00133",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00133\\interview-01-112.flac",
+      "audio_sha256": "ff5125336cb839c9f7ec0644907b78ae1cb8294e0eaf07f1294f148898352a1c",
+      "full_frames": 288,
+      "calibration_frames": 288
+    },
+    {
+      "speaker": "id00589",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00589\\play-01-031.flac",
+      "audio_sha256": "29bae98fdf5335d8581b3783dee2d493c5bba64ba66c16a5432f0f84598923cc",
+      "full_frames": 370,
+      "calibration_frames": 370
+    },
+    {
+      "speaker": "id00456",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00456\\drama-02-016.flac",
+      "audio_sha256": "e7ce21c7a80f62863cee03c851846f7d384f65b01ac05e843a5383d06db04182",
+      "full_frames": 530,
+      "calibration_frames": 530
+    },
+    {
+      "speaker": "id00426",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00426\\drama-01-004.flac",
+      "audio_sha256": "9b1d1bd479e3ae19dc26d76403489841d019e5bcde24afe573d91af67d9dd735",
+      "full_frames": 1171,
+      "calibration_frames": 1171
+    },
+    {
+      "speaker": "id00063",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00063\\interview-02-021.flac",
+      "audio_sha256": "c262c8d250d1771023b7c8adee8c5c13c92658dac830108d9bb099d0bd73ef1b",
+      "full_frames": 681,
+      "calibration_frames": 681
+    },
+    {
+      "speaker": "id00343",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00343\\play-01-020.flac",
+      "audio_sha256": "55d42130f98c997ba3549cecd0305ae901953c1ca4c9d34e94b8e08a8dd5f518",
+      "full_frames": 448,
+      "calibration_frames": 448
+    },
+    {
+      "speaker": "id00345",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00345\\interview-01-010.flac",
+      "audio_sha256": "7f15142e7288f90847b45f08337211043ca7bb347271b40b95737cb7bd7a610c",
+      "full_frames": 130,
+      "calibration_frames": 130
+    },
+    {
+      "speaker": "id00475",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00475\\live_broadcast-02-082.flac",
+      "audio_sha256": "3d11e2928d8b0728213e2aecc868c0163fff57fafee7509c9b3d0244e635d875",
+      "full_frames": 291,
+      "calibration_frames": 291
+    },
+    {
+      "speaker": "id00477",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00477\\speech-01-054.flac",
+      "audio_sha256": "718ad5b92d2d1e10e189950a1193c20b5fc7547c65f277a8013115fd589efff5",
+      "full_frames": 1881,
+      "calibration_frames": 1881
+    },
+    {
+      "speaker": "id00609",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00609\\play-02-002.flac",
+      "audio_sha256": "8f93329051c377c9c4e359812e92500bc27cdeeec97bbd6e3690e1be362fc0bf",
+      "full_frames": 170,
+      "calibration_frames": 170
+    },
+    {
+      "speaker": "id00093",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00093\\interview-01-027.flac",
+      "audio_sha256": "4a519bc71b3fa359733c8d9b5319ed8578d00fbad946d73f826b73704956eedb",
+      "full_frames": 89,
+      "calibration_frames": 89
+    },
+    {
+      "speaker": "id00099",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00099\\interview-01-004.flac",
+      "audio_sha256": "d85f8ab0add7461443cc08e49f253d93744df1641d93b2bc7b7bfd7c75330873",
+      "full_frames": 3490,
+      "calibration_frames": 3490
+    },
+    {
+      "speaker": "id00617",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00617\\interview-01-001.flac",
+      "audio_sha256": "f3782cc73f57ae1ddb900f0570962caef7cdbec889776700ad358d4081ef1dc0",
+      "full_frames": 3349,
+      "calibration_frames": 3349
+    },
+    {
+      "speaker": "id00362",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00362\\interview-02-033.flac",
+      "audio_sha256": "4542a42b68af46b0f93eb55fe50af94da54d58551868f8ed282db35e5626ff6f",
+      "full_frames": 2090,
+      "calibration_frames": 2090
+    },
+    {
+      "speaker": "id00271",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00271\\interview-02-025.flac",
+      "audio_sha256": "25447f0981fa0c4d14ce61fa0f0c27888c1ea6c8086a1e72df0493c1d4a24c95",
+      "full_frames": 89,
+      "calibration_frames": 89
+    },
+    {
+      "speaker": "id00329",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00329\\interview-04-030.flac",
+      "audio_sha256": "d37db617690132247dcd07ce3eaea3a5c16af742566fe79d9a60b6f204b143e0",
+      "full_frames": 448,
+      "calibration_frames": 448
+    },
+    {
+      "speaker": "id00197",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00197\\interview-03-012.flac",
+      "audio_sha256": "71e6a1bf9f78b073ecaa1d6d497578ac00697190dc89b3d14481ee2933862c18",
+      "full_frames": 928,
+      "calibration_frames": 928
+    },
+    {
+      "speaker": "id00298",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00298\\live_broadcast-01-041.flac",
+      "audio_sha256": "f3a0f7f5bb404db2fa4a32e40149d10cab2328343e39608c1791db770cac8120",
+      "full_frames": 481,
+      "calibration_frames": 481
+    },
+    {
+      "speaker": "id00127",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00127\\entertainment-01-001.flac",
+      "audio_sha256": "8c181a02baf42f41dcc55084ca2d8ac1093ab39c374d78dc0488390bf7479f14",
+      "full_frames": 291,
+      "calibration_frames": 291
+    },
+    {
+      "speaker": "id00381",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00381\\interview-03-006.flac",
+      "audio_sha256": "c44ff3a121b731bec0ff3f5a906b47aa02819c0c677e576e5ff84a3d5a695768",
+      "full_frames": 969,
+      "calibration_frames": 969
+    },
+    {
+      "speaker": "id00408",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00408\\singing-18-005.flac",
+      "audio_sha256": "456478c67014a04ab2c2fbea5b41551833be322ebb59719dc70edaded5b368e1",
+      "full_frames": 2682,
+      "calibration_frames": 2682
+    },
+    {
+      "speaker": "id00123",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00123\\interview-03-002.flac",
+      "audio_sha256": "7c80738c2f9fedf5a35d7726e7f668765f7808191b9678e1a629bf9d365b9e8f",
+      "full_frames": 346,
+      "calibration_frames": 346
+    },
+    {
+      "speaker": "id00648",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00648\\interview-01-018.flac",
+      "audio_sha256": "ac2b43b9bdd9c209ee286ac96018bd01fe45bcc5b0338e8226824bcde4293738",
+      "full_frames": 82,
+      "calibration_frames": 82
+    },
+    {
+      "speaker": "id00645",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00645\\interview-05-024.flac",
+      "audio_sha256": "da5661018c50bbb3fb8638aa5489248f3712529c408c9686dd4490e0648a332a",
+      "full_frames": 44,
+      "calibration_frames": 44
+    },
+    {
+      "speaker": "id00052",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00052\\play-01-013.flac",
+      "audio_sha256": "20b966604d5579d0583188031876174b89a581f17aa1167be11d1284126b4426",
+      "full_frames": 89,
+      "calibration_frames": 89
+    },
+    {
+      "speaker": "id00507",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00507\\interview-02-018.flac",
+      "audio_sha256": "b6792ebfa6182a6c37d72d326b8d3198f70c600af115c7a695a6d1632f6a4c19",
+      "full_frames": 1969,
+      "calibration_frames": 1969
+    },
+    {
+      "speaker": "id00622",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00622\\interview-02-047.flac",
+      "audio_sha256": "d4c1445540d93461c75a0797f540802c1fbd1ccf6f50c5f4cf69a25f8324e8f6",
+      "full_frames": 928,
+      "calibration_frames": 928
+    },
+    {
+      "speaker": "id00314",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00314\\entertainment-02-012.flac",
+      "audio_sha256": "58d0ad6ffd423fdb8140eb4b30a518edd88d25cf70256335fdb556d11a8e6026",
+      "full_frames": 650,
+      "calibration_frames": 650
+    },
+    {
+      "speaker": "id00445",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00445\\interview-02-005.flac",
+      "audio_sha256": "36091423831e773c5d1ae6971235b1562627378586615a93146f3c8a8212e597",
+      "full_frames": 249,
+      "calibration_frames": 249
+    },
+    {
+      "speaker": "id00526",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00526\\interview-01-007.flac",
+      "audio_sha256": "d5fe91730c853d9857bfbdfdb03f6a66846ce407cbb7a0bdc766819cec07c8e9",
+      "full_frames": 690,
+      "calibration_frames": 690
+    },
+    {
+      "speaker": "id00246",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00246\\interview-01-021.flac",
+      "audio_sha256": "64046c72df465d67934907027ce41c14999b9335d30bbb70763934824b08f379",
+      "full_frames": 165,
+      "calibration_frames": 165
+    },
+    {
+      "speaker": "id00649",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00649\\interview-03-007.flac",
+      "audio_sha256": "be72a3207cba33e8a07a5543d73533a4086ad54b42a09c63e935c9ebb20e6829",
+      "full_frames": 4370,
+      "calibration_frames": 4370
+    },
+    {
+      "speaker": "id00377",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00377\\entertainment-01-049.flac",
+      "audio_sha256": "86c409daea78f5b1d0bf9cc46b336b8b8ad4b1e9d27e17894b0ccceb7ef064f6",
+      "full_frames": 2629,
+      "calibration_frames": 2629
+    },
+    {
+      "speaker": "id00017",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00017\\entertainment-02-062.flac",
+      "audio_sha256": "1c1862470facb6f6dff6083e8c764c3966c95bf697c148a3a78527654f5d3267",
+      "full_frames": 880,
+      "calibration_frames": 880
+    },
+    {
+      "speaker": "id00158",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00158\\entertainment-01-011.flac",
+      "audio_sha256": "593449f4269d32f5125ec20668fe873ef57f52ef3ab68a23595cce1b0bb85799",
+      "full_frames": 149,
+      "calibration_frames": 149
+    },
+    {
+      "speaker": "id00567",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00567\\singing-01-016.flac",
+      "audio_sha256": "b399d37374ab71f37f90748625890ca37a7ba7fabe6f716e0eb2049f68bb0427",
+      "full_frames": 170,
+      "calibration_frames": 170
+    },
+    {
+      "speaker": "id00255",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00255\\interview-01-006.flac",
+      "audio_sha256": "caa6693f828145a05420ce321d063120391102585f31e88803d4df252d6e207b",
+      "full_frames": 49,
+      "calibration_frames": 49
+    },
+    {
+      "speaker": "id00318",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00318\\interview-03-021.flac",
+      "audio_sha256": "d68ccd34eb5fa9d6822904f5f5c4445fb5f7ad502c617dfa6143bba0bae4f849",
+      "full_frames": 281,
+      "calibration_frames": 281
+    },
+    {
+      "speaker": "id00695",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00695\\entertainment-03-002.flac",
+      "audio_sha256": "c5e4d046dae0a4d573b1da337bdb7290c62e1abdd726efad8e265cbc86e34d32",
+      "full_frames": 181,
+      "calibration_frames": 181
+    },
+    {
+      "speaker": "id00103",
+      "path": "C:\\Users\\Lenovo\\Desktop\\SonicArm\\pynq_voiceprint\\data\\cn-celeb_v2\\CN-Celeb_flac\\data\\id00103\\interview-01-021.flac",
+      "audio_sha256": "cfee7fa3971fb7c5b1e4fc8549795e0c603e68d4739dd273a1b53510f6dcbb6f",
+      "full_frames": 149,
+      "calibration_frames": 149
+    }
+  ],
+  "quantizer_version": "1.31.0"
+}

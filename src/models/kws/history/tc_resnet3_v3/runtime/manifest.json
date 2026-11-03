@@ -1,0 +1,12 @@
+{
+  "package": "SonicArm TC-ResNet3 PS runtime",
+  "source": "TC_ResNet3",
+  "model_format": "NumPy FP32",
+  "sample_rate": 16000,
+  "model_window_seconds": 5.2,
+  "capture_window_seconds_supported": 4.0,
+  "execution_enabled": false,
+  "threshold_calibrated": false,
+  "board_validation": false,
+  "note": "The 4-second capture is active-trimmed and center-padded to the 5.2-second model input."
+}

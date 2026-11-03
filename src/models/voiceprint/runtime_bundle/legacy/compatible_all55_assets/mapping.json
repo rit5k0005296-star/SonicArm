@@ -1,0 +1,477 @@
+{
+  "bundle/camplus_int8_qdq.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_0.onnx",
+    "original_sha256": "c0c4103c23301e26aa58e106933bbeaefbfdc7d0708052729b3155f7f824560f",
+    "compatible_sha256": "0793f41b2951ca05f56e2dd33bb48578a4a6f8ec044d1d47ed40d0d4eeb702b7",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd1/cam_layer/AveragePool",
+      "/xvector/block1/tdnnd2/cam_layer/AveragePool",
+      "/xvector/block1/tdnnd3/cam_layer/AveragePool",
+      "/xvector/block1/tdnnd4/cam_layer/AveragePool",
+      "/xvector/block1/tdnnd5/cam_layer/AveragePool",
+      "/xvector/block1/tdnnd6/cam_layer/AveragePool",
+      "/xvector/block1/tdnnd7/cam_layer/AveragePool",
+      "/xvector/block1/tdnnd8/cam_layer/AveragePool",
+      "/xvector/block1/tdnnd9/cam_layer/AveragePool",
+      "/xvector/block1/tdnnd10/cam_layer/AveragePool",
+      "/xvector/block1/tdnnd11/cam_layer/AveragePool",
+      "/xvector/block1/tdnnd12/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd1/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd2/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd3/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd4/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd5/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd6/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd7/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd8/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd9/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd10/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd11/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd12/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd13/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd14/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd15/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd16/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd17/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd18/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd19/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd20/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd21/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd22/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd23/cam_layer/AveragePool",
+      "/xvector/block2/tdnnd24/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd1/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd2/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd3/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd4/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd5/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd6/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd7/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd8/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd9/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd10/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd11/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd12/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd13/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd14/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd15/cam_layer/AveragePool",
+      "/xvector/block3/tdnnd16/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_002.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_2.onnx",
+    "original_sha256": "0a579fcdc4ac81d8ad80c62a975dff8f9587cc75958fa16d1aeb295d9ed9becd",
+    "compatible_sha256": "b125b0365b42a588b0e18b08a078d5fe196ca2ed87ca8682e9362d506343e95d",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd1/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_004.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_3.onnx",
+    "original_sha256": "2d262b3f066271cdca44596824add7336cfdf0d0e4ed230bddad95347f4c8fca",
+    "compatible_sha256": "25d01c6ac1e22c4ab3fd98073d9b8ada3d699220f1c9e55beb9ea8f5e9dfa056",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd2/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_006.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_4.onnx",
+    "original_sha256": "7779526dff0d352c2558bd6149692db1d30b317802f42954815e99ec30410ea2",
+    "compatible_sha256": "b9c0711439e135408908fbdded61628364785093a34129d7255012297e2750ac",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd3/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_008.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_5.onnx",
+    "original_sha256": "4919e161885790d5bc9860621a643415a77d4e023873a1515d6f4059213563bc",
+    "compatible_sha256": "83c57f91e42a9c9f54c6b570b2e661023332c94ec6c55f2e048531b1db12034c",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd4/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_010.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_6.onnx",
+    "original_sha256": "3b8bb2a0b6f16180a7b82c22fc9adf41a335824c07825690f4814208317d3289",
+    "compatible_sha256": "7b2f5351c7bad24ddaacb3138ae003a3172a81fed9e6ca1effd19314fe420234",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd5/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_012.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_7.onnx",
+    "original_sha256": "450b1521012ed66a719dfa27a3c5ee487e92a9b7c77e800f42bb207d3073bb4a",
+    "compatible_sha256": "6944cdfd76c7454d1d1f4f7557b844ad6180acf6ed8c2b3e7974e6c2b2f63420",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd6/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_014.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_8.onnx",
+    "original_sha256": "b0f898e8b85633f5178b3b36b14bd96e70079cb054a672896b201df99b6011b5",
+    "compatible_sha256": "22c33b3a6959d5a02138c3fb0fff4099c491bbc9b66aa79d157333587b456fa1",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd7/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_016.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_9.onnx",
+    "original_sha256": "ba96b118ad3feffa8cc142b962ff53f784d46ef762a4f1d947de0feb787214f5",
+    "compatible_sha256": "2d6fab6dd69e175beeed13689c4000e426dba49798e33a9c4fdd0ba86ab8303a",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd8/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_018.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_10.onnx",
+    "original_sha256": "f6f1430b2876a947aa9422edcaefd1024d4c1d3d2886c3a0019a65f3e90b1bbc",
+    "compatible_sha256": "35a4c71468f7a1bcb4e11c564833bde985d464632079d655326f35a9a64869f6",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd9/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_020.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_11.onnx",
+    "original_sha256": "68a553da4905af86f26a3a20c354fd08571fcf620ad8b33edbd75a57e3ae805c",
+    "compatible_sha256": "be167afdfa303f508205db18808ac6a7e640d81e1d8c3ca6a22558d6cee96580",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd10/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_022.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_12.onnx",
+    "original_sha256": "620fc3f20d1201416c4942f9b9a59064665f2f915c280dc1e2d24baa19253d50",
+    "compatible_sha256": "8d6ba0b276ed7e1c9a39a8626af564b4bdd6c1e47d71092bb6339ec79b5df83c",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd11/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_024.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_13.onnx",
+    "original_sha256": "9dfd05ef177b8237a3091da8f73fac61039a58498550e6ff44de0da15b73105a",
+    "compatible_sha256": "bc792fac97f59bc5e9cf3fc3b192140a6de29b78f489f4348e8623ccdb3102f9",
+    "changed_AveragePool_nodes": [
+      "/xvector/block1/tdnnd12/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_028.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_15.onnx",
+    "original_sha256": "47519f5b95e02c0f8bbc2b3c91f04ec457db56570bad51b2c7d2017ac3ac9dac",
+    "compatible_sha256": "81459c6d7ca5810397a2d7866d27aaa9b3b87e051bfe7c8cfe9acdd7f0c4fd05",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd1/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_030.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_16.onnx",
+    "original_sha256": "dc9862234357330d8bd731b3cd8d5ded1b9ad4c0dfd7dabacc2e9aa426f0b5c0",
+    "compatible_sha256": "ce85952f9db60f595a9684b6351a9593d9447466d54552e281347967e9a6decc",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd2/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_032.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_17.onnx",
+    "original_sha256": "1b6b497f5450351f4fd3bfc99a69851dcbd767de23e6c1cd8eaff595242a8b4a",
+    "compatible_sha256": "43c7744b3e8e672641e4d9a4f210a314ee4810458026333336017b7509392927",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd3/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_034.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_18.onnx",
+    "original_sha256": "3d738dfab1476c0fdfb1c9a558e27d8a952921870b978bb5b4e06f7d57289b34",
+    "compatible_sha256": "2c6744cd6a0b8d2405cceb615ca18eb12cac0fc4ff92bd79d379ddd7e703cd5f",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd4/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_036.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_19.onnx",
+    "original_sha256": "87b09466fe120e9804989b7e4586c27dd8b7d6c1dabebf175d0ba0faeb9ebb4f",
+    "compatible_sha256": "330ba4b2a5521cb31fb75f8ea8f17ce759b2c9115eebf6a418801d84912031f6",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd5/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_038.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_20.onnx",
+    "original_sha256": "a14f3e8f25de51e83a32a0f85f75487debad268d7adebf291581e11d118760af",
+    "compatible_sha256": "d9bb88331deb6a0245a75fd7010552aec8c13a3ed0ba5b9745028492ba46c355",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd6/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_040.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_21.onnx",
+    "original_sha256": "e39b8a3a4e87e8486a660e3650df7b7d54da93bc774f1cc4b2010bc46cbeb74a",
+    "compatible_sha256": "4e376e779cdbe683a4d2d39af83ca693fd0889a73d0664873eb1098c08078c07",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd7/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_042.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_22.onnx",
+    "original_sha256": "d4c22de79bf7217b4424e4de3da8fd3347f76a9d25768e173b75d03b8504c3f1",
+    "compatible_sha256": "e813a824d8f8ca9f0c29b8dc8e61ed57d0ae242d00d6976d1337d6cefd5db838",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd8/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_044.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_23.onnx",
+    "original_sha256": "827915feab3a0ae8b9f7c14f605dd304d6f60e34e6fb424235e414423e475cab",
+    "compatible_sha256": "f08d076256635f511c24f2b34dbab8dda6890c9e88d678d9a141b5173ddae82c",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd9/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_046.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_24.onnx",
+    "original_sha256": "c871a9b455d51ac78c44ef31f43cfa54161ce147f03682e27619b4cf581d65c3",
+    "compatible_sha256": "c998e6327292b91f6b55f8250de86b7786f024a22157870eef858a3cad923bcc",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd10/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_048.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_25.onnx",
+    "original_sha256": "c836140e8d1ac09c26116fc97df246c2595282973526b94a8ca4f22f289918f1",
+    "compatible_sha256": "9374a3f1c92d1f65aa073bc02198e15f6ee23d7218d0761ebd3287c7e263ba1d",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd11/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_050.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_26.onnx",
+    "original_sha256": "64e4b860666c783b943867882c574e870baa637c3e1180d29b0f03e81f9d9435",
+    "compatible_sha256": "e864d9a108abe49a98faead8bc7384ea486a41ffe5fc1c873cd2ae4a52855b2f",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd12/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_052.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_27.onnx",
+    "original_sha256": "dc80998b80e1327f3667ca7059164600c19b37c4d36803f308740f3a458a5f41",
+    "compatible_sha256": "067ad53001309a94c7e6bf6b78b056f8b8a6cf6c6ee44c310400182beaae1126",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd13/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_054.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_28.onnx",
+    "original_sha256": "c6b0ce1e9aa94fa8484901e231560a29d66894951425fc7a9da6554ec54ee0bf",
+    "compatible_sha256": "bd24838adc68fcac3deeb2fe512da8dccff42fade70e663b4d097b965d1ac493",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd14/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_056.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_29.onnx",
+    "original_sha256": "092f3a7dbc5a0fdc44fd6184478a55871ba25164cdfc78c1d5e3463016933ae5",
+    "compatible_sha256": "1cec05457ced22ac6ebd846937d40c384e127c2374be35bcd451a0524bb5d59b",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd15/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_058.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_30.onnx",
+    "original_sha256": "0ff81fb7bba6fdd4b0985e889ba840b705ce10307cda7744c49aa3ed6726f323",
+    "compatible_sha256": "d4cabf1fd1c6edf6668146454f3dd8db0748072c7f28620d43f5e644d9735a2f",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd16/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_060.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_31.onnx",
+    "original_sha256": "8a1b290dc6adbe679e0ff220859a4414c6a31b3e7dc97d1985b689d784b7a566",
+    "compatible_sha256": "0acd6d945754af88e88aad40ce1b629c0abe1056088499441dcb9e302a30c4da",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd17/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_062.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_32.onnx",
+    "original_sha256": "d32fdd1395a7cdce4a92ec6a8309256034ec05b4799394a797bc5484ddc37e4b",
+    "compatible_sha256": "48f00747edd6515cd7156df5f2851906a7ef56408c58a0212828e38da6840692",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd18/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_064.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_33.onnx",
+    "original_sha256": "b5db1687c249c090976be39742fa48b4e2ad2c87d863669fc670d89cfe2afba1",
+    "compatible_sha256": "8085aa16f3e4cb530bf0992e339b0a4135c7d1448581521a0bdf335140b919a2",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd19/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_066.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_34.onnx",
+    "original_sha256": "2557513840c06248dc091177f0865e90afb30f8bd65bc9ff7af1a81645acc189",
+    "compatible_sha256": "507febb7b2790f1b7b7b4e1e391431c24c4ac1b046604995784b2cda3f683152",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd20/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_068.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_35.onnx",
+    "original_sha256": "9539471c0e16206876917fe5d5c0b6129c67892e6cc6d9fc273e88471f1ec5d0",
+    "compatible_sha256": "cdcf3fe1c5c40a8c4d0b0212ad6f95a258b4c13a0461786ada158e2c5c6bfb63",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd21/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_070.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_36.onnx",
+    "original_sha256": "523bf7028eda4ebc5b06d905d6f59de859b52dfb7d00d596d0133e1034635a77",
+    "compatible_sha256": "1ee890c954bf46a5b71629cd4026c0e38f5eb159cf2cccd2bd7f8a9b937f70e9",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd22/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_072.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_37.onnx",
+    "original_sha256": "d16a1b98a765aabda7c8444de41a38eede0ca210db6b7a35e53291192aa9222c",
+    "compatible_sha256": "b87fb8ba7afc67056303e7b8f47187ad23db16313b55168172f80ac64d515d7e",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd23/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_074.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_38.onnx",
+    "original_sha256": "928d95a87b4389706865a17e366cc611420c095f9c2c6e94c9287a6cc89f9b2d",
+    "compatible_sha256": "fa6278c320d7a14c1c04adb9b17da7f93f0aa84040ab657263f67bec002028b2",
+    "changed_AveragePool_nodes": [
+      "/xvector/block2/tdnnd24/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_078.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_40.onnx",
+    "original_sha256": "ebe3c5df3f898dd37f74d255135d7e2385012939bc607d79b1bca73da5a59cf6",
+    "compatible_sha256": "3e2390a6bb885cca63d8a5381a79bf9d30f367822d27925c462a2c5634a79851",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd1/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_080.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_41.onnx",
+    "original_sha256": "1df5c7e32f88d63d69bec00301a42e1646a1ba0a21e5bd8e219f615f18ccc32d",
+    "compatible_sha256": "acda3a31fee71b9730088277914af98e0c194a90b359c393c6f714ceed35edbc",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd2/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_082.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_42.onnx",
+    "original_sha256": "15589e924beef2ebdee9b5661f68f8006019cddb0508c953d3e8ccefe80f4a79",
+    "compatible_sha256": "6adff91609d58c1faf4926db6151fd4917eab58a361a3a5677ea9b20f2fd6e9c",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd3/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_084.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_43.onnx",
+    "original_sha256": "2e4766eb5c19bc9b86b74e672755633a98aac72a8a785efedcd28fd4f8f09e26",
+    "compatible_sha256": "49b1e1cd0013c28d3dc22ae4d7c0847081a0df6231cfbdd0bc3e474d2f116a9c",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd4/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_086.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_44.onnx",
+    "original_sha256": "445f22ad1cd35fc417987773d54483ba73bc9b159b142c68b13e2f72d66a3651",
+    "compatible_sha256": "19792f37e3037a272a10b0de41de8348216eea9e7b09609a930277781db0b616",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd5/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_088.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_45.onnx",
+    "original_sha256": "19f15694aa3a9421ab58a4ed9b980bb8def47fcb0d55ab60a5f61a5c655aa3d7",
+    "compatible_sha256": "8243a69c995ca4fbe92b06e3f89dc9fadf0f16ac0424e086de7ce1d14cc63822",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd6/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_090.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_46.onnx",
+    "original_sha256": "a674601c973054d89143b8c2b546eb35e20cd096595f70855a6860093848fab7",
+    "compatible_sha256": "f19048029ca740b21b9c801a43b7fa70367555efc693334c1898788aa1e690db",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd7/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_092.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_47.onnx",
+    "original_sha256": "e063180ce5a9dcce835ccc9bec9019fd97ff068a6c1da3b90d56de93a0530954",
+    "compatible_sha256": "44e64511d4bce34b48c96ed234f422d0ab8e94574b1930608c4867f27c59937b",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd8/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_094.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_48.onnx",
+    "original_sha256": "044029e8b34ccb4398bf8d86f08029a285edb2c94b3885279c9f25d96ebc7fed",
+    "compatible_sha256": "590501026a6211eb0abdb64c24ef840ab1e495ee9a22395b150d24a9b9467f13",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd9/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_096.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_49.onnx",
+    "original_sha256": "5102f5180699dbf91fde813bd5c0493b27b44ae448dcd297cf42e6b63f5b836b",
+    "compatible_sha256": "c470fb395a0d09f20cf6e8e8e630ea59df66ead7a46d4188a450f3fe0c99e145",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd10/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_098.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_50.onnx",
+    "original_sha256": "53ec227ceb92633bb57c1b80d4492071398d3f4a996ae6aac6a2f771e8c300a8",
+    "compatible_sha256": "d43d6290ed81a5bbbfcd0816002d1b671b7ab95fdac21fef74495a415632ef1d",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd11/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_100.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_51.onnx",
+    "original_sha256": "4a09db3c669b0b579aad38be5d12599c7c1cac2a36eccd907bf54e621afde015",
+    "compatible_sha256": "db343f3d98cc94f621af7dd833ad726ddbff6756fa4d5b03d21b2f10ee6f91dc",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd12/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_102.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_52.onnx",
+    "original_sha256": "ce9698ef30a65e25f058f267a08f2161064f22baf59564daf3123747d27ca509",
+    "compatible_sha256": "37bd895e6132373261bbd0f62407c302d22ec8a68d46b52af4805ae233f3ce6e",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd13/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_104.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_53.onnx",
+    "original_sha256": "42c4a07d3c67d5d5eaf305ba2d19e60f33dffaf213e72bf12170d052f66aa941",
+    "compatible_sha256": "d18945cf58ed8eeef06f798f3d057ab87cb2dba293b80b3d0baf70e7854bfa6b",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd14/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_106.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_54.onnx",
+    "original_sha256": "95e881719fb224da574e92cf380bf5efe965431dc78d8d94cee96abe906b22eb",
+    "compatible_sha256": "35c40b5750bec852053d92cd01f5093aa270c6da4614e981a38e2a42889d8deb",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd15/cam_layer/AveragePool"
+    ]
+  },
+  "bundle/plans/all55/cpu_108.onnx": {
+    "compatible_file": "compatible_all55_assets/graph_55.onnx",
+    "original_sha256": "ef56324f6a03a3b726713970c3ec6ed72d474a9c167d5da77540d87f3c71dacd",
+    "compatible_sha256": "e82a9c87b7ea60400e208ea0b82a11cfc8e14bb2169817b99ca3eae7f8838ce1",
+    "changed_AveragePool_nodes": [
+      "/xvector/block3/tdnnd16/cam_layer/AveragePool"
+    ]
+  }
+}

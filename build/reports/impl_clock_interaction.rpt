@@ -1,0 +1,31 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Mon Nov  2 23:39:41 2026
+| Host         : LAPTOP-7NVKI3E9 running 64-bit major release  (build 9200)
+| Command      : report_clock_interaction -file S:/build/reports/impl_clock_interaction.rpt
+| Design       : system_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Interaction Report
+
+Clock Interaction Table
+-----------------------
+
+                                                                          WNS                            TNS Failing  TNS Total    WNS Path         Clock-Pair           Inter-Clock              
+From Clock                           To Clock                             Clock Edges  WNS(ns)  TNS(ns)    Endpoints    Endpoints  Requirement(ns)  Classification       Constraints              
+-----------------------------------  -----------------------------------  -----------  -------  -------  -----------  -----------  ---------------  -------------------  -----------------------  
+axi_dynclk_0_PXL_CLK_O               axi_dynclk_0_PXL_CLK_O               rise - rise     0.32     0.00            0         5429            10.00  Clean                Timed                    
+axi_dynclk_0_PXL_CLK_O               clk_fpga_0                           rise - rise     8.00     0.00            0           34            10.00  Ignored              Max Delay Datapath Only  
+axi_dynclk_0_PXL_CLK_O               clk_fpga_1                           rise - rise     8.44     0.00            0           25            10.00  Ignored              Max Delay Datapath Only  
+clk_fpga_0                           axi_dynclk_0_PXL_CLK_O               rise - rise     8.43     0.00            0           42            10.00  Ignored              Max Delay Datapath Only  
+clk_fpga_0                           clk_fpga_0                           rise - rise     0.44     0.00            0        69190            10.00  Clean                Partial False Path       
+clk_fpga_0                           clk_fpga_1                           rise - rise    19.41     0.00            0          125            21.00  Ignored              Max Delay Datapath Only  
+clk_fpga_1                           axi_dynclk_0_PXL_CLK_O               rise - rise     5.50     0.00            0           24             7.00  Ignored              Max Delay Datapath Only  
+clk_fpga_1                           clk_fpga_0                           rise - rise    28.33     0.00            0          127            30.00  Ignored              Max Delay Datapath Only  
+clk_fpga_1                           clk_fpga_1                           rise - rise     0.65     0.00            0         7675             7.00  Clean                Partial False Path       
+
+

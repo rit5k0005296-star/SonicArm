@@ -1,0 +1,60 @@
+{
+  "csim_pass": true,
+  "csim_real_cases": 48,
+  "csim_additional_synthetic_cases": 6,
+  "cosim_pass": true,
+  "cosim_real_cases": 5,
+  "cosim_real_frames": 5,
+  "cosim_synthetic_cases": 3,
+  "cosim_scope": "Full real channel counts and frequency sizes, shorter T; not all48 full-record RTL",
+  "hls_loop_constraints_pass": true,
+  "hls_estimate": {
+    "DSP": 73,
+    "BRAM18K": 60,
+    "LUT": 20031,
+    "FF": 16517,
+    "period_ns": 7.3
+  },
+  "routed_setup_hold_pass": true,
+  "drc_no_errors": true,
+  "bit_hwh_paired": true,
+  "routed": {
+    "wns_ns": 0.445,
+    "whs_ns": 0.007,
+    "drc_errors": 0,
+    "run_complete": true,
+    "clock_mhz": 100
+  },
+  "routed_total_dual_ip_resources": {
+    "Slice LUTs": 18818.0,
+    "Slice Registers": 23291.0,
+    "Block RAM Tile": 66.5,
+    "DSPs": 119.0
+  },
+  "actual_board_tested": false,
+  "complete_campp_integrated": false,
+  "speedup_measured": false,
+  "original_qdq_equivalence_claim": false,
+  "source_sha256": {
+    "fcm.cpp": "2080579ca15712a3b5dcebdfa7a5f7a99c355fe92f34dac7cdd807b96ea7da5a",
+    "fcm.h": "027c4b3ae56ef8310cda920d0b1f81b4f3ad39813c40bf3569b382e056cd6367",
+    "tb_fcm.cpp": "86b16f1384b85727df6d9ca78695d1fbedc0bbba5ae13405fc68778704d6e199",
+    "hls_config.cfg": "699ef6d9d8553be5c0bd5039dbfa90171a11b96cd2b62432083f9eb6bdc02da8"
+  },
+  "artifact_sha256": {
+    "fcm_v4.bit": "ef30d031c6ed427c7011189f3da2a7f4cf336f56db0415b1682a8365c9c478dc",
+    "fcm_v4.hwh": "fb0dfb082517e9c93376ebc0cb70b0e12b1b0a183ac7b3e22917bf2759e6633d"
+  },
+  "report_sha256": {
+    "hls_csim_console.log": "360c24be9858a0b81b395a7de74b081031329d9e994100c0777529dbbcb6f190",
+    "hls_synth_console.log": "b8f9703e4be1378729d6a26c3d3d11d16f6cec44e9796131cbc3b7a80bdb9b0a",
+    "hls_cosim_console.log": "8a2860e47c5c5ad5dadf27d197a417d15bd81cfe7cbb0453ea699586a532964f",
+    "hls_package_console.log": "b80c940b5935e63f11738f7d99a75da19b01f8ba8694f5e926487d7a33ecbd8d",
+    "vivado_build_console.log": "7f91ab901bbcf2ef9becc626991d7dc2ef58488f9c1e4c11927515b93bbc7de4",
+    "vivado_workspace/timing_routed.rpt": "b01663b43000b3166e1489c7d2547c5e5faf5e89714f286322a54b84105249ef",
+    "vivado_workspace/utilization_routed.rpt": "437c66353dff7880e8a214d7a9dfa37bb49c9e62a46bed6c7c92f615c8dd1b35",
+    "vivado_workspace/drc_routed.rpt": "b72175cf48dc3479f0f039f8384407cf06bf359079b6d0cde4ab626c3162203a"
+  },
+  "v3_packaged_ip_sha256": "18dcccc8e0d8a389c0a2fb4d520193a21a88bbdf5c9613295083becf680014ef",
+  "reference_report_sha256": "899d9e677c60d1ef89d6b9960485f1f80a58c854ddd0f6be270582c6510c3bb5"
+}

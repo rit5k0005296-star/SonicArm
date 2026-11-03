@@ -1,0 +1,14 @@
+{
+  "files": {
+    "benchmark.py": "a7f0015d658ec1ad99e9cf71eef075df2ba5d1ee5e9a62a22f0a6a05aee7aa5b",
+    "05_v3_model_latency.ipynb": "80d40e2aed001ddd274a6215845278032957943d51d24c6488f64628a31163b7",
+    "README.md": "07c1db3e1b53c0bca8a1577b130876f15c985965a951dfd3f51ccdd50abb1f33"
+  },
+  "notebook_cells": {
+    "05_v3_model_latency.ipynb": [
+      "from pathlib import Path\nimport os, platform, subprocess, sys, time, uuid\nsys.dont_write_bytecode=True\nWORK=Path.cwd().resolve()\nassert WORK.name=='benchmark_v3' and (WORK/'benchmark.py').is_file(), '\u8bf7\u6253\u5f00evaluation/benchmark_v3\u91cc\u7684Notebook'\nassert platform.system()=='Linux' and platform.machine().lower() in ('armv7l','armv8l')\nRUN=WORK/'results'/('run_'+uuid.uuid4().hex)\nRUN.mkdir(parents=True)\nprint('\u672c\u6b21\u7ed3\u679c\u76ee\u5f55:',RUN)\n",
+      "command=[sys.executable,'-u','-B',str(WORK/'benchmark.py'),'--output',str(RUN),'--repeats','20','--warmup','3']\nlogfile=RUN/'execution.log'\nwith logfile.open('w',encoding='utf-8') as writer:\n    proc=subprocess.Popen(command,cwd=str(WORK),text=True,stdout=writer,stderr=subprocess.STDOUT,\n        env={**os.environ,'PYTHONDONTWRITEBYTECODE':'1','PYTHONUNBUFFERED':'1'})\n    deadline=time.monotonic()+7200\n    try:\n        with logfile.open('r',encoding='utf-8',errors='replace') as reader:\n            while True:\n                chunk=reader.read()\n                if chunk: print(chunk,end='',flush=True)\n                returncode=proc.poll()\n                if returncode is not None:\n                    tail=reader.read()\n                    if tail: print(tail,end='',flush=True)\n                    break\n                if time.monotonic()>deadline:\n                    proc.kill();proc.wait();returncode=-1\n                    print('\\n\u603b\u65f6\u96507200\u79d2\u5df2\u5230\uff0c\u8bf7\u8fd4\u56de\u65e5\u5fd7\u3002\u82e5IP\u786c\u4ef6\u8d85\u65f6\u6216\u4ecd\u5fd9\uff0c\u91cd\u542f\u677f\u5361\u540e\u518d\u7ee7\u7eed\u3002')\n                    break\n                time.sleep(2)\n    finally:\n        if proc.poll() is None:\n            proc.kill();proc.wait()\nprint('\\n\u8fd4\u56de\u7801:',returncode,'\u7ed3\u679c\u76ee\u5f55:',RUN)\nassert returncode==0, '\u6d4b\u901f\u672a\u5b8c\u6210\uff0c\u8bf7\u8fd4\u56de\u65e5\u5fd7'\n"
+    ]
+  },
+  "scope": "manual diagnostic model latency only"
+}

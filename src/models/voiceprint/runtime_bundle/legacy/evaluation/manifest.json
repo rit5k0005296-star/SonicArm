@@ -1,0 +1,47 @@
+{
+  "files": {
+    "quality_pilot.py": "8cc32fdf3989c9ce013c727fcf5841f2ddee4f57878fc0629fb4ad2f96211156",
+    "04a_cnceleb_score_pilot.ipynb": "a880eed156d1b982992e28fb6150268e944eef030b594cfcd028201940cfe43b",
+    "README.md": "1a778d326a8ad467bc4d35237c7e9d02b2cba6f2180885faad2f3e430ef1b614",
+    "data/eval/enroll/id00800-enroll.flac": "3c94e03c2b1830f27c70247a30f7c81dc5c5aa7735570843825bf68641417109",
+    "data/eval/enroll/id00801-enroll.flac": "9c20f14db302a3f0455242b2748cf54cd8e8378c320e0e59a5faf6a4722d2abd",
+    "data/eval/enroll/id00802-enroll.flac": "cb4ce095c6ef752f7fd9ef9b7579507b7c660255a33905cf085b8c17eedf9ddd",
+    "data/eval/enroll/id00803-enroll.flac": "11881c3a45ee8d7634cf6c0cae3635e5c8891d8cd29abbe2d69dbb07dc9c9ee3",
+    "data/eval/lists/enroll.lst": "bbe8741bb1f86f9e65c8a689ad96b83100b05958ab60fb8623642e4a26245804",
+    "data/eval/lists/test.lst": "9f887506b256e35684e8b24a1001da14e3d3f874d0ec34b68b03b464c5ad4094",
+    "data/eval/lists/trials.lst": "ed0762ab28a597b02ee39b7faef1048293aad9bd71a97b6bc3b48f860b7ef384",
+    "data/eval/test/id00800-singing-01-001.flac": "eee55a7827f107b90ea009b47fdbf6460914d9597bd4e21a8cf54397aa2fdc5a",
+    "data/eval/test/id00800-singing-01-002.flac": "af574e5e4a9b28013b5754722e958899bfb1eeaefad5bd0ad351624e8c432f86",
+    "data/eval/test/id00801-drama-01-001.flac": "bb56ecb92ea697e000b0a7ee7a088222c431aab4af631cd970f2c6949fd2f5e5",
+    "data/eval/test/id00801-drama-02-001.flac": "2c05b8f2c91249dec36917c258158102ebc387f81086c0f0149e585dc83cff5c",
+    "data/eval/test/id00802-drama-02-001.flac": "51ec549dc40215b62d426b2fc08796cdd1fa4c0d7856419cd6b498934b97781f",
+    "data/eval/test/id00802-drama-02-002.flac": "24e619a7760a5143bf4c711efa94a78cdca8a66a4031b1099ff354e423f6b2df",
+    "data/eval/test/id00803-entertainment-01-002.flac": "a03bc34459de42de29f0411f684995fe276600b44e86daca82f7a92a8026de6a",
+    "data/eval/test/id00803-entertainment-01-003.flac": "7530db350b1a6911a1da36fdbf6d8c3c93c565d3db6dc13e921851d5fb53ce26",
+    "data/features/20e173a98e74172ba47b74faa62d38a6715adff5be3e6d235efb8fd1d935f9a5.npy": "692928b0b658956813962e80310a8acdcd4ab2b6bb3d891e0b24654b6948567f",
+    "data/features/245e4f503fbc239409bf06aeb50a937f0c248f66f5e704041c9e94a3c77ff7a3.npy": "fe822a57b142f4bef3a136e0061ff82b7c3710f72e8cc6c0b0249d22ae969f5c",
+    "data/features/2f69a04ba7349748b04f37109196876aa95c836dfa6ccd4c65ae4b01bc1b10d8.npy": "2a8673db1185363bcb7abb18a64adf6ec549ee3815ad5e3e605a99b5e9579c0a",
+    "data/features/2fb76fcef44d4b5c99af9623d6032876dbbef083a37d3e6f6b8a4dd9e5f85817.npy": "c64852e71ba658b9556d260ea9671b8100498c0333d494bb2ccd4a4dcf83967f",
+    "data/features/524377fc4424b429a68f56a032ddf3b874bd9c0fddd3c38d8afae1a2624131c8.npy": "6e0673ba0f44d3c75568ba2aed5ff07ec895f099c9f45a7272c7d824e9b69c8f",
+    "data/features/6f9ddb7a8f16112a9074477948a3952d9da89da8996c97deebc46b81ddeb9bd9.npy": "714518bb173146b6e9e297c3138cf2035b09d9907ce1ecf6f49af58ae7c5107b",
+    "data/features/8a8dee2ddc69a5e2e77e163d297e89c47e33164538e4efb4c46467e604332318.npy": "dffc494e3bf0a2fcb98981db9191996f236a09e0304d45fb6b753d6b31aa6e63",
+    "data/features/cbfc5bd2a21f810d8162aa94b8f665265aafaa888e5e11b2f5ea216e4ad405d7.npy": "7a2ce20055579da0a2f6a7ee885e2c36f1af19c0882b06bdb20007f0f77484a9",
+    "data/features/cdb7fa8dbf0cf72198854b807bcf8f4dc8f77860256fabd2c8d362e1c5d4453f.npy": "b3c7eed6c6f21cccbc28c732f179fc780fe1a53120b69aa0ba7d5b5aa7e301a1",
+    "data/features/d23224da9c3849b4bf5a8fff7ac3a4a515d95ff79f10db12cc6ba3c2fda8141d.npy": "a943fea3d5ce7afbb7d9e2584c09642f9a3e67811139fecf986a670a06da182d",
+    "data/features/d85fb30f4de6b533f87941e185abeacda1adf070a4d7fb8c576ac8d25c419812.npy": "c73bef529e9a82ebc2c337a54b383f1051508a146edc47fd2c66664fa84dff1b",
+    "data/features/f47197ee34fb6d51b3df1f0d1c57bc5571423e2814212835c55c9da51249209f.npy": "4c99f02d0adeaf8f44169e13e0762ac22fe5f85e41dfed92a9beb16cbc8d0c11",
+    "data/subset.json": "0dde9f9e6ac2ffcd56fda236fabe18d777838845131b52f73c2886893f244dcb"
+  },
+  "notebook_cells": {
+    "04a_cnceleb_score_pilot.ipynb": [
+      "from pathlib import Path\nimport hashlib, json, os, platform, shutil, subprocess, sys, time, uuid\nsys.dont_write_bytecode=True\nWORK=Path.cwd().resolve()\nassert WORK.name=='evaluation' and (WORK/'quality_pilot.py').is_file(), '\u8bf7\u6253\u5f00full_model_test/evaluation\u91cc\u7684Notebook'\nROOT=WORK.parent\nassert (ROOT/'runtime_core.py').is_file(), 'evaluation\u5fc5\u987b\u4f4d\u4e8e\u73b0\u6709full_model_test\u91cc\u9762'\nassert platform.system()=='Linux' and platform.machine().lower() in ('armv7l','armv8l')\n# \u6536\u62e2\u4ee5\u524d\u4e0a\u4f20\u5230\u6839\u76ee\u5f55\u7684\u672c\u6b21\u8bc4\u6d4b\u6587\u4ef6\uff1b\u53ea\u79fb\u52a8\u660e\u786e\u7684\u4e94\u9879\uff0c\u4fdd\u7559\u539f\u4ef6\u3002\nlegacy_names=('quality_pilot.py','04a_cnceleb_score_pilot.ipynb','quality_pilot_manifest.json','QUALITY_PILOT.md','quality_pilot_data')\nlegacy=None\nfor name in legacy_names:\n    source=ROOT/name\n    if source.exists():\n        assert not source.is_symlink() and source.resolve().parent==ROOT\n        if legacy is None:\n            legacy=WORK/'legacy_root_upload'/uuid.uuid4().hex\n            legacy.mkdir(parents=True)\n        target=legacy/name\n        assert target.resolve().is_relative_to(WORK) and not target.exists()\n        shutil.move(str(source),str(target))\nif legacy is not None:\n    print('\u4e4b\u524d\u6563\u843d\u7684\u8bc4\u6d4b\u6587\u4ef6\u5df2\u5f52\u6863\u5230:',legacy)\nRUN=WORK/'results'/('pilot_'+hashlib.sha256((WORK/'manifest.json').read_bytes()).hexdigest()[:16])\nRUN.mkdir(parents=True,exist_ok=True)\ndef execute_stage(stage):\n    destination=RUN/stage\n    destination.mkdir(exist_ok=True)\n    command=[sys.executable,'-u','-B',str(WORK/'quality_pilot.py'),'--stage',stage,'--output',str(destination)]\n    if stage=='fpga':\n        gate=RUN/'cpu/summary.json'\n        assert gate.is_file() and json.loads(gate.read_text()).get('completed'), '\u8bf7\u5148\u5b8c\u6210CPU\u683c'\n        command+=['--cpu-directory',str(RUN/'cpu')]\n    logfile=destination/'execution.log'\n    print('\u5f00\u59cb:',stage,'\u65e5\u5fd7:',logfile,flush=True)\n    with logfile.open('w',encoding='utf-8') as writer:\n        proc=subprocess.Popen(command,cwd=str(WORK),text=True,stdout=writer,stderr=subprocess.STDOUT,\n            env={**os.environ,'PYTHONDONTWRITEBYTECODE':'1','PYTHONUNBUFFERED':'1'})\n        deadline=time.monotonic()+7200\n        try:\n            with logfile.open('r',encoding='utf-8',errors='replace') as reader:\n                while True:\n                    chunk=reader.read()\n                    if chunk:\n                        print(chunk,end='',flush=True)\n                    returncode=proc.poll()\n                    if returncode is not None:\n                        tail=reader.read()\n                        if tail:\n                            print(tail,end='',flush=True)\n                        break\n                    if time.monotonic()>deadline:\n                        proc.kill()\n                        proc.wait()\n                        returncode=-1\n                        print('\\n\u672c\u9636\u6bb5\u8d85\u8fc77200\u79d2\uff0c\u5df2\u505c\u6b62\u3002\u8bf7\u8fd4\u56de\u65e5\u5fd7\u3002',flush=True)\n                        if stage=='fpga':\n                            print('\u82e5\u53d1\u751f\u786c\u4ef6\u8d85\u65f6\u6216IP\u4ecd\u5fd9\uff0c\u8bf7\u91cd\u542f\u677f\u5361\u540e\u518d\u7ee7\u7eed\u3002',flush=True)\n                        break\n                    time.sleep(2)\n        finally:\n            if proc.poll() is None:\n                proc.kill()\n                proc.wait()\n    print('\\n\u8fd4\u56de\u7801:',returncode,'\u7ed3\u679c\u76ee\u5f55:',destination,flush=True)\n    assert returncode==0, '\u672c\u9636\u6bb5\u672a\u5b8c\u6210\uff0c\u8bf7\u8fd4\u56de\u5b8c\u6574\u8f93\u51fa\uff0c\u4e0d\u7ee7\u7eed\u4e0b\u4e00\u683c'\nprint('\u8bc4\u6d4b\u7ed3\u679c\u76ee\u5f55:',RUN)\nprint('\u6bcf\u6761\u5b8c\u6210\u5373\u4fdd\u5b58\uff1b\u4e2d\u65ad\u540e\u91cd\u8dd1\u540c\u4e00\u683c\u53ef\u590d\u7528\u6821\u9a8c\u7f13\u5b58\u3002')\n",
+      "execute_stage('cpu')\n",
+      "execute_stage('fpga')\n"
+    ]
+  },
+  "audio_count": 12,
+  "trial_count": 32,
+  "subset_pilot_only": true,
+  "threshold": null,
+  "results_directory": "results"
+}

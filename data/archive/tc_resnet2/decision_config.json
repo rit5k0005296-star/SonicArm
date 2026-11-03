@@ -1,0 +1,6 @@
+{
+  "execution_enabled": false,
+  "threshold": 0.9,
+  "reason": "no_real_unknown_or_silence_validation; threshold_not_calibrated",
+  "note": "classification only; no motor action"
+}

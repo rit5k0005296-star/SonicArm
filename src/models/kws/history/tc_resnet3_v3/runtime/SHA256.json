@@ -1,0 +1,19 @@
+{
+  "audit.json": "4bc8882b5a03cd93a685f8ed8cac2a98088fb97e3aed7c05332c5dc6d8c23902",
+  "best_model.pth": "4e4841379c687af54e4f35d740a395c2e0a2b701e5af614f9c798af1c20ca84e",
+  "comparison.json": "c9a1e0967d3ef39f4c5cef448578f4463ec06f417fad2a1d76c6f9d04dbb54d2",
+  "decision_config.json": "128fb8459a181a69d98b66f7fbc21289405dc769833e86f2f4fb11642f901305",
+  "inference.py": "4a47c60baa96e18a12e5c91ec0d55ba1aa37b10da92c4b5b0616b6f47ff541f1",
+  "label_map.json": "130fa3079410a8f90957964f5bbbbd77186ff7f9e7d891356b66b5e5c46c6bff",
+  "metrics.json": "b0237a5c185959a32665bf5bba69b9701862a88aab98d445c596a956d44ac71e",
+  "model.py": "8dac9999be02e9530779d259030725dcdc903bfa086838fd6f9dea645bb3149f",
+  "model_weights.npz": "2642db50977d068543b8ae87cfb0e5ebc4e69347e54e8dd8412f752862be6ab0",
+  "new_splits.json": "5246f9c918bda486429b4f6affb5a5c296366b05b4f647fd80d3b96084c8bbbb",
+  "numpy_consistency.json": "4bee0cdf4ff6542d69696c42bf7dde6f67fa96e654905c6b85219ff223602fd8",
+  "preprocess.py": "fd16259d3f14056d5181396cc7c263e219a67b6d93f69ea4cd7d4d5647434417",
+  "preprocess_config.json": "43983e015a3b98910b04a1e792ed13e6f8c45ff15c7c397c5aedc116526fd365",
+  "prior_board_splits.json": "a551f2e066c4f61c3433e6bd648c4c5b46c69ab4f4375e7f2b3c490349bcb959",
+  "results.json": "b0237a5c185959a32665bf5bba69b9701862a88aab98d445c596a956d44ac71e",
+  "tc_resnet_infer_wav.py": "acdad0fcc94c105bcf3a7459da5f5a47ef44cb2a15706f8615dd211f4410f9b2",
+  "test_predictions.json": "f935f66908e71242a2f44011c4cd95d147c204898d0e6575ae59be65fde8c884"
+}

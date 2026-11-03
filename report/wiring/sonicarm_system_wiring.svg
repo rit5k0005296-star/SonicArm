@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1280" viewBox="0 0 1920 1280">
+  <defs>
+    <marker id="arrow-blue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#1779ba"/></marker>
+    <marker id="arrow-orange" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#e67e22"/></marker>
+    <marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#d64045"/></marker>
+    <marker id="arrow-green" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#2b9a66"/></marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#203040" flood-opacity="0.16"/></filter>
+    <style>
+      .title{font:700 38px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#17324d}
+      .subtitle{font:18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#61758a}
+      .node-title{font:700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#17324d}
+      .h2{font:700 20px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#17324d}
+      .body{font:17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2d4358}
+      .small{font:15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#53697d}
+      .tiny{font:13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#53697d}
+      .label{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#17324d}
+      .panel{fill:#fff;stroke:#9db5c9;stroke-width:2;rx:18;filter:url(#shadow)}
+      .verified{fill:#eaf8f1;stroke:#42a878;stroke-width:1.5;rx:12}
+      .planned{fill:#fff6e9;stroke:#e9963a;stroke-width:1.5;rx:12}
+      .signal{fill:none;stroke:#1779ba;stroke-width:3;marker-end:url(#arrow-blue)}
+      .signal-bi{fill:none;stroke:#1779ba;stroke-width:3;marker-start:url(#arrow-blue);marker-end:url(#arrow-blue)}
+      .planned-line{fill:none;stroke:#e67e22;stroke-width:3;stroke-dasharray:10 7;marker-end:url(#arrow-orange)}
+      .power{fill:none;stroke:#d64045;stroke-width:3;marker-end:url(#arrow-red)}
+      .ground{fill:none;stroke:#222;stroke-width:4;stroke-dasharray:9 7}
+      .internal{fill:none;stroke:#2b9a66;stroke-width:3;marker-end:url(#arrow-green)}
+      .tag{font:700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif}
+    </style>
+  </defs>
+
+  <rect width="1920" height="1280" fill="#f4f7fa"/>
+  <text x="960" y="58" text-anchor="middle" class="title">SonicArm 系统总体接线与通信示意图</text>
+  <text x="960" y="92" text-anchor="middle" class="subtitle">PYNQ-Z2 声纹鉴权 / 语音命令 / 触摸交互 / Arduino-UART 机械臂控制</text>
+
+  <!-- PC / development node -->
+  <rect x="55" y="160" width="430" height="300" class="panel"/>
+  <text x="80" y="198" class="node-title">1. 开发电脑（调试与维护）</text>
+  <rect x="115" y="225" width="305" height="160" rx="10" fill="#dfeaf3" stroke="#52728d" stroke-width="5"/>
+  <rect x="135" y="245" width="265" height="120" fill="#17324d"/>
+  <text x="268" y="300" text-anchor="middle" font-family="Microsoft YaHei" font-size="22" fill="#fff">Jupyter / Samba</text>
+  <text x="268" y="334" text-anchor="middle" font-family="Microsoft YaHei" font-size="17" fill="#bfe0f5">串口日志 / 文件部署</text>
+  <path d="M95 385 H440 L465 415 H70 Z" fill="#b8cbd9" stroke="#52728d" stroke-width="3"/>
+  <text x="80" y="438" class="small">• 网口：管理、Jupyter、Samba（192.168.2.99）</text>
+  <text x="80" y="458" class="small">• Micro-USB PROG/UART：启动日志与控制台</text>
+
+  <!-- Audio node -->
+  <rect x="55" y="540" width="430" height="285" class="panel"/>
+  <text x="80" y="578" class="node-title">2. 语音输入</text>
+  <rect x="85" y="595" width="170" height="180" rx="12" fill="#fff" stroke="#d7e1e9" stroke-width="1.5"/>
+  <image x="92" y="600" width="156" height="170" preserveAspectRatio="xMidYMid meet" xlink:href="assets/wired_earphones.png"/>
+  <text x="270" y="630" class="h2">有线耳机麦克风</text>
+  <text x="270" y="660" class="small">3.5 mm TRRS</text>
+  <text x="270" y="685" class="small">→ PYNQ HP/MIC</text>
+  <text x="270" y="713" class="small">ADAU1761 音频编解码器</text>
+  <text x="270" y="741" class="small">48 kHz → 16 kHz 模型输入</text>
+  <rect x="85" y="785" width="365" height="28" class="verified"/>
+  <text x="267" y="805" text-anchor="middle" class="tag" fill="#25835b">板端音频 / CAM++ / TC-ResNet3 运行链路</text>
+
+  <!-- PYNQ node -->
+  <rect x="550" y="145" width="760" height="715" class="panel"/>
+  <text x="575" y="185" class="node-title">3. PYNQ-Z2 主控与 FPGA-10 Overlay</text>
+  <text x="1275" y="185" text-anchor="end" class="small">xc7z020clg400-1 · PL 100 MHz</text>
+  <rect x="580" y="215" width="360" height="330" rx="14" fill="#fff7f7" stroke="#e2a5a5" stroke-width="2"/>
+  <svg x="595" y="232" width="330" height="275" viewBox="160 20 1180 700" preserveAspectRatio="xMidYMid slice">
+    <image x="0" y="0" width="1500" height="1500" xlink:href="assets/pynq_z2.jpg"/>
+  </svg>
+  <text x="760" y="530" text-anchor="middle" class="h2">PYNQ-Z2（中心控制节点）</text>
+
+  <rect x="970" y="225" width="305" height="225" rx="14" fill="#eaf5ff" stroke="#4d98cb" stroke-width="2"/>
+  <text x="1122" y="258" text-anchor="middle" class="h2">PS / ARM Linux</text>
+  <text x="992" y="292" class="body">• Ubuntu 22.04 / PYNQ 3.0.1</text>
+  <text x="992" y="323" class="body">• Python app.py / 状态机</text>
+  <text x="992" y="354" class="body">• TC-ResNet3 命令识别</text>
+  <text x="992" y="385" class="body">• 声纹判决、UI 与安全调度</text>
+  <text x="992" y="416" class="small">• Linux USB HID 触摸事件</text>
+
+  <rect x="970" y="485" width="305" height="245" rx="14" fill="#edf9f3" stroke="#42a878" stroke-width="2"/>
+  <text x="1122" y="520" text-anchor="middle" class="h2">PL / FPGA-10</text>
+  <text x="992" y="555" class="body">• CAM++ HLS 加速器</text>
+  <text x="992" y="587" class="body">• HDMI / VDMA 视频输出</text>
+  <text x="992" y="619" class="body">• ADAU1761 控制与音频通路</text>
+  <text x="992" y="651" class="body">• AXI-Lite / AXI HP / DDR</text>
+  <text x="992" y="687" class="small">逻辑 UI 800×480 → HDMI 1280×720@60</text>
+  <path d="M1122 452 V480" class="internal"/>
+  <text x="1142" y="473" class="tiny" fill="#2b9a66">AXI / DDR</text>
+
+  <rect x="585" y="575" width="340" height="155" rx="12" fill="#f8fafc" stroke="#9db5c9" stroke-width="2"/>
+  <text x="605" y="610" class="h2">单次语音处理主线</text>
+  <text x="605" y="642" class="body">采音 → CAM++ 声纹鉴权</text>
+  <text x="605" y="674" class="body">→ TC-ResNet3 命令识别</text>
+  <text x="605" y="706" class="body">→ 安全状态机 → UART 动作 ID</text>
+  <rect x="585" y="755" width="690" height="72" class="verified"/>
+  <text x="930" y="781" text-anchor="middle" class="tag" fill="#25835b">已验证：显示、触摸、英文软键盘、完整 app 初始化与推理运行</text>
+  <text x="930" y="807" text-anchor="middle" class="small">保持一个 Overlay；先启动 HDMI/VDMA，再初始化音频与模型</text>
+
+  <!-- Display node -->
+  <rect x="1390" y="145" width="475" height="400" class="panel"/>
+  <text x="1415" y="185" class="node-title">4. 5 英寸触摸显示屏</text>
+  <svg x="1465" y="210" width="325" height="215" viewBox="45 0 430 335" preserveAspectRatio="xMidYMid meet">
+    <image x="0" y="0" width="496" height="630" xlink:href="assets/display.png"/>
+  </svg>
+  <text x="1418" y="455" class="body">• HDMI：PYNQ 图像输出</text>
+  <text x="1418" y="486" class="body">• TOUCH USB-C：USB HID 触摸数据</text>
+  <text x="1418" y="517" class="body">• 5V2A USB-C：显示屏独立供电</text>
+
+  <!-- Arduino and robot node -->
+  <rect x="1370" y="625" width="495" height="500" class="panel"/>
+  <text x="1395" y="665" class="node-title">5. Arduino Nano 类控制板与机械臂</text>
+  <rect x="1395" y="725" width="215" height="130" rx="12" fill="#fff" stroke="#8aa9bb" stroke-width="2"/>
+  <image x="1402" y="737" width="201" height="105" preserveAspectRatio="xMidYMid meet" xlink:href="assets/arduino_nano_reference.png"/>
+  <image x="1605" y="690" width="235" height="220" preserveAspectRatio="xMidYMid meet" xlink:href="assets/robot_arm.png"/>
+  <path d="M1605 785 H1660" class="signal"/>
+  <rect x="1410" y="885" width="415" height="86" class="planned"/>
+  <text x="1618" y="913" text-anchor="middle" class="tag" fill="#b8610d">UART 控制链路（待接入现有 app.py）</text>
+  <text x="1618" y="940" text-anchor="middle" class="small">Arduino 解析短动作 ID，执行舵机动作组/限位/急停</text>
+  <text x="1618" y="963" text-anchor="middle" class="tiny">当前 dry_run=true，尚未发送机械臂命令</text>
+  <rect x="1410" y="990" width="415" height="105" rx="12" fill="#fff4f1" stroke="#d86b5f" stroke-width="1.5"/>
+  <text x="1618" y="1018" text-anchor="middle" class="tag" fill="#b4473c">电气注意</text>
+  <text x="1428" y="1045" class="small">PYNQ I/O 为 3.3V；Arduino 电平按型号确认</text>
+  <text x="1428" y="1071" class="small">必要时加双向电平转换；机械臂独立供电并共地</text>
+
+  <!-- Data connections -->
+  <path d="M485 280 H550" class="signal-bi"/>
+  <rect x="468" y="235" width="145" height="30" rx="8" fill="#fff" stroke="#1779ba"/>
+  <text x="540" y="256" text-anchor="middle" class="label">Ethernet / TCP-IP</text>
+  <path d="M485 400 H535 V390 H550" fill="none" stroke="#687e91" stroke-width="4" stroke-dasharray="9 7"/>
+  <text x="493" y="386" class="tiny">Micro-USB PROG/UART（控制台）</text>
+  <path d="M485 680 H550" class="signal"/>
+  <rect x="445" y="638" width="152" height="30" rx="8" fill="#fff" stroke="#1779ba"/>
+  <text x="521" y="659" text-anchor="middle" class="label">PCM 音频采集</text>
+
+  <path d="M1310 275 H1390" class="signal"/>
+  <rect x="1280" y="230" width="150" height="30" rx="8" fill="#fff" stroke="#1779ba"/>
+  <text x="1355" y="251" text-anchor="middle" class="label">HDMI OUT</text>
+  <path d="M1390 395 H1310" class="signal"/>
+  <rect x="1280" y="350" width="180" height="30" rx="8" fill="#fff" stroke="#1779ba"/>
+  <text x="1370" y="371" text-anchor="middle" class="label">USB HID 触摸 → PS</text>
+
+  <path d="M1310 785 H1395" class="planned-line"/>
+  <rect x="1248" y="735" width="185" height="35" rx="8" fill="#fff9f0" stroke="#e67e22"/>
+  <text x="1340" y="758" text-anchor="middle" class="label" fill="#b8610d">UART：TX / RX / GND</text>
+
+  <!-- Power panel -->
+  <rect x="55" y="910" width="1255" height="295" class="panel"/>
+  <text x="80" y="950" class="node-title">6. 供电与共地（电源线和数据线分开）</text>
+  <rect x="85" y="980" width="345" height="100" rx="12" fill="#fff3f3" stroke="#d64045" stroke-width="2"/>
+  <text x="257" y="1012" text-anchor="middle" class="h2">PYNQ-Z2 电源</text>
+  <text x="257" y="1043" text-anchor="middle" class="body">圆孔 DC 12V，J9 = REG</text>
+  <text x="257" y="1068" text-anchor="middle" class="small">板卡独立适配器供电</text>
+  <rect x="460" y="980" width="345" height="100" rx="12" fill="#fff3f3" stroke="#d64045" stroke-width="2"/>
+  <text x="632" y="1012" text-anchor="middle" class="h2">显示屏电源</text>
+  <text x="632" y="1043" text-anchor="middle" class="body">5V2A → 屏幕 5V2A 口</text>
+  <text x="632" y="1068" text-anchor="middle" class="small">TOUCH 口只承担 USB 数据链路</text>
+  <rect x="835" y="980" width="440" height="100" rx="12" fill="#fff3f3" stroke="#d64045" stroke-width="2"/>
+  <text x="1055" y="1012" text-anchor="middle" class="h2">Arduino Nano / 舵机独立电源</text>
+  <text x="1055" y="1043" text-anchor="middle" class="body">电压与电流按机械臂/舵机规格确认</text>
+  <text x="1055" y="1068" text-anchor="middle" class="small">不得由 PYNQ I/O 或 USB 直接给舵机供电</text>
+  <path d="M85 1115 H1275" class="ground"/>
+  <text x="680" y="1142" text-anchor="middle" class="body">信号通信时：PYNQ ↔ 电平转换 ↔ Arduino 共地；舵机动力电源地与控制地按控制板规范连接</text>
+  <g transform="translate(90 1170)"><line x1="0" y1="0" x2="65" y2="0" stroke="#1779ba" stroke-width="5"/><text x="78" y="6" class="small">数据/通信（已实现或已验证）</text><line x1="335" y1="0" x2="400" y2="0" stroke="#e67e22" stroke-width="5" stroke-dasharray="13 9"/><text x="415" y="6" class="small">计划/待接入链路</text><line x1="650" y1="0" x2="715" y2="0" stroke="#d64045" stroke-width="5"/><text x="730" y="6" class="small">独立供电</text><line x1="905" y1="0" x2="970" y2="0" stroke="#222" stroke-width="4" stroke-dasharray="9 7"/><text x="985" y="6" class="small">共地</text></g>
+
+  <text x="960" y="1250" text-anchor="middle" class="tiny">依据：FPGA-10 当前实现、PYNQ/UI 交接文档、板端显示与触摸验证、Arduino-UART 机械臂方案；未确认的电平/引脚/舵机电源参数已显式标注。</text>
+</svg>

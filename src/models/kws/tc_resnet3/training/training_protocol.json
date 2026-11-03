@@ -1,0 +1,34 @@
+{
+  "seed": 20261026,
+  "all_new_recordings_train_only": true,
+  "learning_rates": [
+    0.0001,
+    0.0003,
+    3e-05,
+    5e-05
+  ],
+  "freeze_batchnorm": [
+    true,
+    false
+  ],
+  "candidates": 6,
+  "additional_low_lr_reason": "First four candidates trade new training fit against historical validation correctness. Add frozen-BN 3e-5 and 5e-5 based only on those training/validation results.",
+  "max_epochs": 80,
+  "early_stopping": 18,
+  "sampled_per_epoch": 1280,
+  "batch_size": 32,
+  "domain_mass": {
+    "new_board": 0.35,
+    "prior_board": 0.2,
+    "prior_other": 0.25,
+    "synthetic": 0.2
+  },
+  "distillation_weight": 0.15,
+  "distillation_temperature_train_only": 2,
+  "inference_temperature": 1,
+  "ranking": "Historical validation weighted correctness penalizing increased synthetic noncommand errors, then new TRAIN correctness, then historical validation CE + 0.4 new TRAIN CE. No new validation/test provided.",
+  "historical_train_recordings": 437,
+  "new_train_recordings": 40,
+  "excluded_prior_duplicate_indices": [],
+  "no_test_based_selection": true
+}

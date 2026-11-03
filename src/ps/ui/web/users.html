@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>SonicArm 用户管理</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/users.css">
+</head>
+<body>
+  <main class="management-screen">
+    <section class="users-panel" aria-labelledby="users-title">
+      <header class="section-head"><h1 id="users-title">用户管理</h1></header>
+      <div class="users-body">
+        <form class="search-bar" id="search-form" role="search">
+          <label><span aria-hidden="true">⌕</span><input id="search-input" type="search" autocomplete="off" placeholder="请输入用户编号或姓名进行搜索" aria-label="搜索用户"></label>
+          <button type="submit">搜索</button>
+        </form>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>用户编号</th><th>姓名</th><th>声纹</th><th>注册时间</th></tr></thead>
+            <tbody id="users-table-body"></tbody>
+          </table>
+          <div class="empty-state" id="empty-state" hidden>未找到匹配用户</div>
+        </div>
+        <div class="list-footer">
+          <span id="record-count">共 3 条记录</span>
+          <nav class="pagination" aria-label="用户列表分页">
+            <button type="button" disabled aria-label="上一页">‹</button><strong>1</strong><button type="button" disabled aria-label="下一页">›</button>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-panel" aria-labelledby="detail-title">
+      <header class="section-head"><h2 id="detail-title">用户详情</h2></header>
+      <div class="detail-body" id="detail-body">
+        <div class="detail-avatar" id="detail-avatar"><img id="detail-photo" alt="用户头像" hidden><span id="detail-initial">张</span></div>
+        <strong class="detail-name" id="detail-name">张同学</strong>
+        <dl><div><dt>用户编号</dt><dd id="detail-id">SA-002</dd></div><div><dt>注册时间</dt><dd id="detail-time">2024-05-20 14:36</dd></div></dl>
+      </div>
+      <div class="detail-actions">
+        <button class="secondary" id="delete-user" type="button" disabled>删除用户</button>
+        <button class="primary" id="refresh-users" type="button">刷新列表</button>
+      </div>
+    </section>
+  </main>
+  <nav class="page-nav" aria-label="页面导航">
+    <a class="secondary" href="/index.html">‹&nbsp; 返回注册页</a>
+    <a class="primary" href="/auth.html">返回识别页 &nbsp;›</a>
+  </nav>
+  <script src="/users.js" defer></script>
+</body>
+</html>

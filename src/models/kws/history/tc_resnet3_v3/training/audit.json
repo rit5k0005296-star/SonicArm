@@ -1,0 +1,32 @@
+{
+  "zip_files": 68,
+  "unique_new": 68,
+  "excluded_duplicates": 0,
+  "durations": [
+    4.0
+  ],
+  "class_counts": {
+    "抓取第一行第一列": {
+      "test": 3,
+      "validation": 3,
+      "train": 11
+    },
+    "抓取第二行第一列": {
+      "test": 3,
+      "train": 10,
+      "validation": 3
+    },
+    "抓取第二行第二列": {
+      "validation": 4,
+      "train": 14,
+      "test": 4
+    },
+    "复位": {
+      "validation": 3,
+      "train": 7,
+      "test": 3
+    }
+  },
+  "no_new_1_2": true,
+  "window_seconds": 5.2
+}

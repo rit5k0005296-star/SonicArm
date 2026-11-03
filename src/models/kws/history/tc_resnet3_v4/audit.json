@@ -1,0 +1,134 @@
+{
+  "unique_decoded": 755,
+  "labeled_usable": 735,
+  "unlabeled_excluded": 20,
+  "preprocess_failures": 0,
+  "duplicate_files": 1029,
+  "splits": {
+    "test": 149,
+    "validation": 149,
+    "train": 437
+  },
+  "domains": {
+    "board": {
+      "train": 75,
+      "test": 26,
+      "validation": 26
+    },
+    "old_real": {
+      "test": 78,
+      "validation": 78,
+      "train": 234
+    },
+    "phone_new": {
+      "train": 128,
+      "validation": 45,
+      "test": 45
+    }
+  },
+  "sources": {
+    "board_4s": {
+      "test": 13,
+      "validation": 13,
+      "train": 42
+    },
+    "board_first": {
+      "train": 33,
+      "test": 13,
+      "validation": 13
+    },
+    "声音男": {
+      "train": 78,
+      "test": 26,
+      "validation": 26
+    },
+    "女声1": {
+      "train": 50,
+      "validation": 19,
+      "test": 19
+    },
+    "女声2": {
+      "train": 78,
+      "test": 26,
+      "validation": 26
+    },
+    "录音": {
+      "test": 26,
+      "validation": 26,
+      "train": 78
+    },
+    "录音女": {
+      "train": 78,
+      "test": 26,
+      "validation": 26
+    }
+  },
+  "class_splits": {
+    "抓取第一行第一列": {
+      "test": 13,
+      "validation": 13,
+      "train": 41
+    },
+    "抓取第一行第二列": {
+      "test": 13,
+      "train": 37,
+      "validation": 13
+    },
+    "抓取第一行第三列": {
+      "train": 30,
+      "test": 10,
+      "validation": 10
+    },
+    "抓取第二行第一列": {
+      "train": 40,
+      "test": 13,
+      "validation": 13
+    },
+    "抓取第二行第二列": {
+      "validation": 13,
+      "train": 40,
+      "test": 13
+    },
+    "抓取第二行第三列": {
+      "train": 25,
+      "validation": 9,
+      "test": 9
+    },
+    "抓取第三行第一列": {
+      "validation": 10,
+      "train": 26,
+      "test": 10
+    },
+    "抓取第三行第二列": {
+      "test": 9,
+      "validation": 9,
+      "train": 25
+    },
+    "抓取第三行第三列": {
+      "train": 26,
+      "test": 9,
+      "validation": 9
+    },
+    "抓握": {
+      "validation": 12,
+      "train": 37,
+      "test": 12
+    },
+    "松开": {
+      "train": 37,
+      "validation": 13,
+      "test": 13
+    },
+    "急停": {
+      "validation": 8,
+      "train": 25,
+      "test": 8
+    },
+    "复位": {
+      "train": 48,
+      "test": 17,
+      "validation": 17
+    }
+  },
+  "limitation": "All supplied labeled source collections included; historical holdouts preserved. Recording-level split, not unseen-speaker/session evaluation. Female recordings previously audited; all test scores are historical regression evidence."
+}

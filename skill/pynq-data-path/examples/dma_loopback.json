@@ -1,0 +1,1 @@
+{"kind":"axi_dma","length_bytes":4096,"alignment_bytes":64,"cache_policy":"flush_before_send_invalidate_after_receive","timeout_seconds":2.0}
